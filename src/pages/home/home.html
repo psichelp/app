@@ -9,65 +9,84 @@
 <ion-content class="card-background-page conteudo">
 
   <!-- Cartao indivial -->
-  
-  <ion-card (click)="listar('Terapia individual')">
-    <img src="assets/imgs/individual.jpg" />
-    <div class="card-subtitle">Atendimento presencial</div>
-    <div class="card-title">Individualizado</div>
-  </ion-card>
-  
-  <ion-card (click)="listar('Online')">
-    <img src="assets/imgs/online.jpg" />
-    <div class="card-subtitle">Atendimento</div>
-    <div class="card-title">Online</div>
-  </ion-card>
-
-  <ion-card (click)="listar('Terapia de Grupo')">
-    <img src="assets/imgs/grupal.jpg" />
-    <div class="card-subtitle">Terapia com</div>
-    <div class="card-title">Grupos de ajuda</div>
-  </ion-card>
-
-  <ion-card (click)="listar('Terapia Familiar')">
-    <img src="assets/imgs/familiar.jpg" />
-    <div class="card-subtitle">Terapia em</div>
-    <div class="card-title">Família</div>
-  </ion-card>
-
-  <ion-card (click)="listar('Terapia Conjugal')">
-    <img src="assets/imgs/casal.jpg" />
-    <div class="card-subtitle">Terapia para</div>
-    <div class="card-title">Casais</div>
-  </ion-card>
-
-  <ion-card (click)="listar('Orientação Profissional')">
-    <img src="assets/imgs/profissional.jpg" />
-    <div class="card-subtitle">Orientação</div>
-    <div class="card-title">Profissional</div>
-  </ion-card>
-
-  <ion-card (click)="listar('LGBT')">
-    <img src="assets/imgs/lgbt.jpg" />
-    <div class="card-subtitle">Suporte emocional e legal para</div>
-    <div class="card-title">LGBT</div>
-  </ion-card>
-
-  <ion-card (click)="listar('Drogas')">
-    <img src="assets/imgs/drogas.jpg" />
-    <div class="card-subtitle">Grupos de ajuda e clínicas</div>
-    <div class="card-title">Álcool e outras drogas</div>
-  </ion-card>
-
-  <ion-card (click)="listar('CAPS')">
-    <img src="assets/imgs/caps.jpg" />
-    <div class="card-subtitle">Centros de atenção</div>
-    <div class="card-title">Psicossocial</div>
-  </ion-card>
- 
-  <ion-card (click)="listar('Planos de saúde - Psicologos')">
-    <img src="assets/imgs/planos-de-saude.jpg" />
-    <div class="card-subtitle">Psicólogos que atendem por</div>
-    <div class="card-title">Planos de Saúde</div>
-  </ion-card>
-
+  <ion-grid no-padding fixed="md">
+    <ion-row>
+      <ion-col no-padding col-12 col-md-6>
+        <ion-card (click)="listar('Terapia individual')" style="background-image: url(assets/imgs/individual.jpg)">
+          <!-- <img src="assets/imgs/individual.jpg" /> -->
+          <div class="card-subtitle">Atendimento presencial</div>
+          <div class="card-title">Individualizado</div>
+        </ion-card>
+      </ion-col>
+      <ion-col no-padding col-12 col-md-6>
+        <ion-card (click)="listar('Online')" style="background-image: url(assets/imgs/online.jpg)">
+          <!-- <img src="assets/imgs/online.jpg" /> -->
+          <div class="card-subtitle">Atendimento</div>
+          <div class="card-title">Online</div>
+        </ion-card>
+      </ion-col>
+      <ion-col no-padding col-12 col-md-6>
+        <ion-card (click)="listar('Terapia de Grupo')" style="background-image: url(assets/imgs/grupal.jpg)">
+          <!-- <img src="assets/imgs/grupal.jpg" /> -->
+          <div class="card-subtitle">Terapia com</div>
+          <div class="card-title">Grupos de ajuda</div>
+        </ion-card>
+      </ion-col>
+      <ion-col no-padding col-12 col-md-6>
+        <ion-card (click)="listar('Terapia Familiar')" style="background-image: url(assets/imgs/familiar.jpg)">
+          <!-- <img src="assets/imgs/familiar.jpg" /> -->
+          <div class="card-subtitle">Terapia em</div>
+          <div class="card-title">Família</div>
+        </ion-card>
+      </ion-col>
+      <ion-col no-padding col-12 col-md-6>
+        <ion-card (click)="listar('Terapia Conjugal')" style="background-image: url(assets/imgs/casal.jpg)">
+          <!-- <img src="assets/imgs/casal.jpg" /> -->
+          <div class="card-subtitle">Terapia para</div>
+          <div class="card-title">Casais</div>
+        </ion-card>
+      </ion-col>
+      <ion-col no-padding col-12 col-md-6>
+        <ion-card (click)="listar('Orientação Profissional')" style="background-image: url(assets/imgs/profissional.jpg)">
+          <!-- <img src="assets/imgs/profissional.jpg" /> -->
+          <div class="card-subtitle">Orientação</div>
+          <div class="card-title">Profissional</div>
+        </ion-card>
+      </ion-col>
+      <ion-col no-padding col-12 col-md-6>
+        <ion-card (click)="listar('LGBT')" style="background-image: url(assets/imgs/lgbt.jpg)">
+          <!-- <img src="assets/imgs/lgbt.jpg" /> -->
+          <div class="card-subtitle">Suporte emocional e legal para</div>
+          <div class="card-title">LGBT</div>
+        </ion-card>
+      </ion-col>
+      <ion-col no-padding col-12 col-md-6>
+        <ion-card (click)="listar('Drogas')" style="background-image: url(assets/imgs/drogas.jpg)">
+          <!-- <img src="assets/imgs/drogas.jpg" /> -->
+          <div class="card-subtitle">Grupos de ajuda e clínicas</div>
+          <div class="card-title">Álcool e outras drogas</div>
+        </ion-card>
+      </ion-col>
+      <ion-col no-padding col-12 col-md-6>
+        <ion-card (click)="listar('CAPS')" style="background-image: url(assets/imgs/caps.jpg)">
+          <!-- <img src="assets/imgs/caps.jpg" /> -->
+          <div class="card-subtitle">Centros de atenção</div>
+          <div class="card-title">Psicossocial</div>
+        </ion-card>
+      </ion-col>
+      <ion-col no-padding col-12 col-md-6>
+        <ion-card (click)="listar('Planos de saúde - Psicologos')" style="background-image: url(assets/imgs/planos-de-saude.jpg)">
+          <!-- <img src="assets/imgs/planos-de-saude.jpg" /> -->
+          <div class="card-subtitle">Psicólogos que atendem por</div>
+          <div class="card-title">Planos de Saúde</div>
+        </ion-card>
+      </ion-col>
+      <ion-col no-padding col-12 col-md-6>
+      </ion-col>
+      <ion-col no-padding col-12 col-md-6>
+      </ion-col>
+      <ion-col no-padding col-12 col-md-6>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>
