@@ -18,6 +18,12 @@ page-home {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
+
+      // Melhor responsividade em telas pequenas (<=sm)
+      @media (max-width: map-get($map: $grid-breakpoints, $key: sm)) {
+        height: calc(100vw * 9/16); // matém a proporção da imagem "widescreen"
+        font-size: 4vw;
+      }
     }
 
     .card-title {
