@@ -3,19 +3,24 @@
     <ion-title class="titulo">
       PsicHelp
     </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="goToSearch()">
+        <ion-icon name="search"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
 <ion-content class="card-background-page conteudo">
 
   <!-- Cartao indivial -->
-  
+
   <ion-card (click)="listar('Terapia individual')">
     <img src="assets/imgs/individual.jpg" />
     <div class="card-subtitle">Atendimento presencial</div>
     <div class="card-title">Individualizado</div>
   </ion-card>
-  
+
   <ion-card (click)="listar('Online')">
     <img src="assets/imgs/online.jpg" />
     <div class="card-subtitle">Atendimento</div>
@@ -63,7 +68,7 @@
     <div class="card-subtitle">Centros de atenção</div>
     <div class="card-title">Psicossocial</div>
   </ion-card>
- 
+
   <ion-card (click)="listar('Planos de saúde - Psicologos')">
     <img src="assets/imgs/planos-de-saude.jpg" />
     <div class="card-subtitle">Psicólogos que atendem por</div>

@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Buscar</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+  <div padding>
+    <label for="search">Buscar por:</label>
+    <input id="search" type="text" #searchBox (keyup)="search(searchBox.value)" />
+    <!-- <p *ngIf="!searchBox.value">Comece a digitar</p> -->
+  </div>
+
+  <ion-list class="search-result">
+    <ion-item *ngFor="let estabelecimento of estabelecimentos$ | async"  (click)="mostrarDetalhes(estabelecimento)">
+      {{estabelecimento?.nome}}
+    </ion-item>
+  </ion-list>
+</ion-content>
