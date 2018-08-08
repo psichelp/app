@@ -17,9 +17,9 @@ export class Estabelecimento {
   whatsapp?: string;
   email?: string;
   valor?: string;
-  servicos?: Array<string>;
+  servicos?: string[];
   descricao_servicos?: string;
   mapa?: string;
   video?: string;
-  bairros_atendidos?: Array<string>;
+  bairros_atendidos?: string;
 }

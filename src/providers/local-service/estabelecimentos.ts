@@ -2,7 +2,7 @@ import { Estabelecimento } from './estabelecimento';
 import { SERVICO } from './tipos-de-servico';
 
 // Tipos de serviço psicologia
-export const ESTABELECIMENTOS: Array<Estabelecimento> = [
+export const ESTABELECIMENTOS: Estabelecimento[] = [
   {
     video:
       '<iframe width="100%" height="315" src="https://www.youtube.com/embed/1rNueM-JqCQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
@@ -699,7 +699,7 @@ export const ESTABELECIMENTOS: Array<Estabelecimento> = [
     nome: 'Narcóticos Anônimos',
     end: 'Praça da Matriz, 04 - São Cristóvão, Salvador - BA, 41510-090',
     tel: '(71) 3322-7757',
-    valor: 'contribuição voluntária',
+    valor: 'Contribuição voluntária',
     servicos: [SERVICO.DROGAS],
     descricao_servicos:
       'Auxílio ao indivíduo com problemas relativos as drogas',
@@ -710,7 +710,7 @@ export const ESTABELECIMENTOS: Array<Estabelecimento> = [
     nome: 'Narcoticos Anonimos',
     end: 'D, R. J St. H Mussurunga I, 1 - Mussurunga II, Salvador - BA',
     tel: '(71) 98213-1953',
-    valor: 'contribuição voluntária',
+    valor: 'Contribuição voluntária',
     servicos: [SERVICO.DROGAS],
     descricao_servicos:
       'Auxílio ao indivíduo com problemas relativos as drogas',
@@ -721,7 +721,7 @@ export const ESTABELECIMENTOS: Array<Estabelecimento> = [
     nome: 'Grupo Esperança de Narcóticos Anônimos',
     end: 'R. Esperança, 290 - Stiep, Salvador - BA',
     tel: '(71) 98213-1953',
-    valor: 'contribuição voluntária',
+    valor: 'Contribuição voluntária',
     servicos: [SERVICO.DROGAS],
     descricao_servicos:
       'Auxílio ao indivíduo com problemas relativos as drogas',
@@ -732,7 +732,7 @@ export const ESTABELECIMENTOS: Array<Estabelecimento> = [
     nome: 'Grupo Milagres de Narcóticos Anônimos',
     end: 'Água de Meninos, Salvador - State of Bahia, 40301-155',
     tel: '(71) 98213-1953',
-    valor: 'contribuição voluntária',
+    valor: 'Contribuição voluntária',
     servicos: [SERVICO.DROGAS],
     descricao_servicos:
       'Auxílio ao indivíduo com problemas relativos as drogas',
@@ -743,7 +743,7 @@ export const ESTABELECIMENTOS: Array<Estabelecimento> = [
     nome: 'Grupo Lapa de Praça Conselheiro Almeida Couto',
     end: 'Praça Conselheiro Almeida Couto - Nazaré, Salvador - BA, 40025-390',
     tel: '(71) 98213-1953',
-    valor: 'contribuição voluntária',
+    valor: 'Contribuição voluntária',
     servicos: [SERVICO.DROGAS],
     descricao_servicos:
       'Auxílio ao indivíduo com problemas relativos as drogas',
@@ -754,7 +754,7 @@ export const ESTABELECIMENTOS: Array<Estabelecimento> = [
     nome: 'Grupo Narcoticos Anonimos Itapua',
     end: 'R. do Céu, 12 - Itapuã, Salvador - BA, 41610-450',
     tel: '(71) 98213-1953',
-    valor: 'contribuição voluntária',
+    valor: 'Contribuição voluntária',
     servicos: [SERVICO.DROGAS],
     descricao_servicos:
       'Auxílio ao indivíduo com problemas relativos as drogas',
@@ -765,7 +765,7 @@ export const ESTABELECIMENTOS: Array<Estabelecimento> = [
     nome: 'Grupo Brotas de Narcoticos Anonimos',
     end: 'Av. Dom João VI, 423 - Brotas, Salvador - BA, 40285-000',
     tel: '(71) 98213-1953',
-    valor: 'contribuição voluntária',
+    valor: 'Contribuição voluntária',
     servicos: [SERVICO.DROGAS],
     descricao_servicos:
       'Auxílio ao indivíduo com problemas relativos as drogas',
@@ -776,7 +776,7 @@ export const ESTABELECIMENTOS: Array<Estabelecimento> = [
     nome: 'Grupo Itapuã Narcóticos Anônimos',
     end: 'R. Ivana, s/n - Itapuã, Salvador - BA, 40610-450',
     tel: '(71) 98213-1953',
-    valor: 'contribuição voluntária',
+    valor: 'Contribuição voluntária',
     servicos: [SERVICO.DROGAS],
     descricao_servicos:
       'Auxílio ao indivíduo com problemas relativos as drogas',
