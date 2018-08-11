@@ -11,5 +11,6 @@ export const SERVICO = {
   LGBT: 'LGBT',
   DROGAS: 'Drogas',
   ONLINE: 'Online',
-  PLANO: 'Planos de saúde - Psicologos'
+  PLANO: 'Planos de saúde - Psicologos',
+  CRIANCAS_E_ADOLESCENTES: 'Crianças e adolescentes'
 };

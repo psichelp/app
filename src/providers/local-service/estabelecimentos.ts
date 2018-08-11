@@ -1,12 +1,40 @@
 import { Estabelecimento } from './estabelecimento';
 import { SERVICO } from './tipos-de-servico';
 
+
+// {
+//   nome: '',
+//   end: '',
+//   tel: '',
+//   whatsapp: '',
+//   valor: 'Valor social (valor acessível)',
+//   servicos: [SERVICO.CRIANCAS_E_ADOLESCENTES],
+//   descricao_servicos: '',
+//   email: '',
+//   mapa:
+//     ''
+// },
+
+
+
 // Tipos de serviço psicologia
 export const ESTABELECIMENTOS: Estabelecimento[] = [
   {
     video:
       '<iframe width="100%" height="315" src="https://www.youtube.com/embed/1rNueM-JqCQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
     servicos: [SERVICO.CAPS]
+  },
+  {
+    nome: 'Lilliana Sobrinho',
+    end: 'Avenida ACM, 772, Torre do Parque Sala 1810 - Ao lado do Fiesta – Salvador – Bahia',
+    tel: '(71) 993807286',
+    whatsapp: '(71) 993807286',
+    valor: 'Valor social (valor acessível)',
+    servicos: [SERVICO.CRIANCAS_E_ADOLESCENTES],
+    descricao_servicos: 'Psicologia infantil e Educação',
+    email: 'lilianasobrinho@hotmail.com',
+    mapa:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.6021339730855!2d-38.467779385177636!3d-12.997280290838983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b69db9a041d%3A0x693fb409a27011cb!2sCondom%C3%ADnio+Empresarial+Torre+do+Parque!5e0!3m2!1spt-BR!2sbr!4v1534021524647" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
   },
   {
     nome: 'Marcos Alves',
@@ -21,12 +49,103 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     mapa:
       '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.350434873425!2d-38.488727285177596!3d-13.013341890828519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160352df193b6b%3A0xaab13c28afd0e554!2sShopping+Rio+Vermelho!5e0!3m2!1spt-BR!2sbr!4v1532734618033" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
   },
+  // Da mensagem do whatapp que deu origem ao app!
+  {
+    nome: 'PROJETO GIRASSOL',
+    end: 'Rua Bahia, 450 Pituba Sala 304. Salvador',
+    tel: '(71) 99982-1414',
+    whatsapp: '+5571999821414',
+    email: 'psicologianodiva@bol.com.br',
+    valor: 'Valor social (valor acessível)',
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.CONJUGAL, SERVICO.FAMILIAR, SERVICO.CRIANCAS_E_ADOLESCENTES],
+    descricao_servicos:
+      'Psicoterapia para adultos, adolescentes e idosos.',
+    mapa:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.5344329878353!2d-38.45785228517772!3d-13.001602390836199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b6f86f421e9%3A0x5f9dfd65a5168da8!2sR.+Bahia%2C+450+-+Pituba%2C+Salvador+-+BA%2C+41830-151!5e0!3m2!1spt-BR!2sbr!4v1534023139013" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+  {
+    nome: 'NAPSI (Núcleo de Atendimento Psicológico)',
+    end: 'Rua Senador Theotônio Vilela, 225, Edf. Cidadela Center III, sala 408 Próximo à Av. ACM',
+    tel: '(71)3491-5940',
+    valor: 'Valor social (valor acessível)',
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.PROFISSIONAL, SERVICO.CRIANCAS_E_ADOLESCENTES],
+    descricao_servicos:
+      'Atendimento Psicológico, Psicopedagogia, Orientação Profissional',
+    mapa:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.9564073535!2d-38.4723455!3d-12.9885318!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5fef53266bddc1c0!2sNAPSI+-+Forma%C3%A7%C3%A3o+em+Psican%C3%A1lise!5e0!3m2!1spt-BR!2sbr!4v1534024029409" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+  {
+    nome: 'CECOM-Centro Comunitário Batista Clériston Andrade',
+    end: 'Praça Lord Cochrane - Garcia, Salvador - BA, 40210-255',
+    tel: ' (71) 3194-7777 e 3235-8114',
+    // whatsapp: '',
+    valor: 'Gratuito ou Valor social (valor acessível)',
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.GRUPO],
+    descricao_servicos: 'Atendimento individual e em grupo.',
+    email: '',
+    mapa:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.652841417435!2d-38.5069492!3d-12.9933799!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe83e600405e6a2b2!2sCECOM-Centro+Comunit%C3%A1rio+Batista+Cl%C3%A9riston+Andrade!5e0!3m2!1spt-BR!2sbr!4v1534025193528" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+
+
+  {
+    nome: 'CPB - Círculo',
+    end: 'Rua Adhemar de Barros, 1156/101 - Edifício Máster Center - Ondina  40170-110 – SALVADOR - BA',
+    tel: '(71)3245-6015',
+    // whatsapp: '',
+    valor: 'Valor social (valor acessível)',
+    servicos: [SERVICO.INDIVIDUAL],
+    descricao_servicos: 'Psicoterapia',
+    email: 'circulo.bahia@gmail.com',
+    mapa:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31100.248691675588!2d-38.505747!3d-13.001816!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604a01eb05865%3A0xa4e443e1ff634dcd!2sAv.+Adhemar+de+Barros%2C+1156+-+Ondina%2C+Salvador+-+BA%2C+40170-110!5e0!3m2!1spt-BR!2sbr!4v1534025531681" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+  {
+    nome: 'CCVP – Complexo Comunitário Vida Plena',
+    end: 'Rua Dr. Arthur Gonzalez, nº 186, Pau da Lima',
+    tel: '(71) 3213-7836',
+    whatsapp: '',
+    valor: 'Gratuito ou Valor social (valor acessível)',
+    servicos: [SERVICO.INDIVIDUAL],
+    descricao_servicos: 'Atendimento em psicologia',
+    email: 'complexocvidaplena@yahoo.com.br',
+    mapa:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.769523588307!2d-38.44751828517841!3d-12.922529490888094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161061d355602f%3A0xbff8b2ef332ce076!2sComplexo+Comunit%C3%A1rio+Vida+Plena!5e0!3m2!1spt-BR!2sbr!4v1534025916217" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+  {
+    nome: 'Lar Harmonia',
+    end: 'Rua Dep. Paulo Jacson n° 560 – Piatã. Tel.: 3286-7796, ramal 11',
+    tel: '(71)3286-7796',
+    valor: 'Não cobra taxa',
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.GRUPO, SERVICO.FAMILIAR, SERVICO.PROFISSIONAL],
+    descricao_servicos: 'Psicoterapia individual, em grupo, familiar e orientação profissional',
+    mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.4235619897922!2d-38.382633085178405!3d-12.944726490873519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716175e3cc0ac43%3A0x78de7c67a7796e13!2sR.+Dep.+Paulo+Jackson%2C+560+-+Jardim+Placaford%2C+Salvador+-+BA!5e0!3m2!1spt-BR!2sbr!4v1534026579928" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+
+
+  {
+  nome: 'Centro de Valorização da Vida',
+  end: 'R. Luis Gama n° 47 – Nazaré',
+  tel: '3322-4111; 3244-6936',
+  valor: 'Valor social (valor acessível)',
+  servicos: [SERVICO.CRIANCAS_E_ADOLESCENTES],
+  descricao_servicos: 'Atendimento por telefone 24 horas e pessoalmente das 7h às 18h.',
+  email: '',
+  mapa:
+    '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.669693086946!2d-38.48412338517853!3d-12.928938490883931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161000f3f0bd5d%3A0x5eda4fbb4f6bf7ee!2sRua+Luiz+Gama%2C+47+-+Capelinha+de+S%C3%A3o+Caetano%2C+Salvador+-+BA%2C+40393-040!5e0!3m2!1spt-BR!2sbr!4v1534026530666" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+},
+
+  
+  
+  
+
+
   {
     nome: 'CAPS AD - Centro de Atenção Psicossocial Álcool e Drogas',
     end: 'Rua Conde Pereira Carneiro, 271, Pernambués',
     tel: '3238-2847',
     valor: 'Gratuito',
-    servicos: [SERVICO.INDIVIDUAL, SERVICO.GRUPO, SERVICO.DROGAS, SERVICO.CAPS],
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.GRUPO, SERVICO.DROGAS, SERVICO.CAPS, SERVICO.CRIANCAS_E_ADOLESCENTES],
     descricao_servicos:
       'Atendimento psiquiátrico e psicoterapia de adultos ou crianças e adolescentes com necessidades decorrentes do uso de crack, álcool e outras drogas, grupos e oficinas. Compreende o território do distrito Cabula Beirú, Boca do Rio, Liberdade e Itapuã.',
     mapa:
@@ -105,7 +224,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     end: 'Rua Raul Leite, 93, Vila Laura, Matatu de Brotas.',
     tel: '3021-0500',
     valor: 'Gratuito',
-    servicos: [SERVICO.INDIVIDUAL],
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.CRIANCAS_E_ADOLESCENTES],
     descricao_servicos:
       'Reabilitação, Habilitação e educação de crianças e adolescentes portadores de deficiência mental, Serviço Social, Neurologia, Fonoaudiologia, Psiquiatria, Psicoterapia e Psicopedagogia.',
     mapa:
@@ -117,7 +236,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     end: 'Rua Alberto Fiúza, no 500, Imbuí.',
     tel: '3231-1502',
     valor: 'Gratuito',
-    servicos: [SERVICO.INDIVIDUAL],
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.CRIANCAS_E_ADOLESCENTES],
     descricao_servicos:
       'Avaliação psicológica, pedagógica e psiquiátrica. Grupos pedagógicos e terapêuticos.',
     mapa:
@@ -154,7 +273,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     end: 'Rua Frederico Costa, n 93, Brotas.',
     tel: '3244-1142',
     valor: 'Gratuito',
-    servicos: [SERVICO.FAMILIAR, SERVICO.GRUPO],
+    servicos: [SERVICO.FAMILIAR, SERVICO.GRUPO, SERVICO.CRIANCAS_E_ADOLESCENTES],
     descricao_servicos:
       ' Reabilitação, habilitação, educação e tratamento de crianças, adolescentes e adultos portadores de deficiência mental e transtornos nas áreas emocional, psicomotora e neurológica.',
     mapa:
@@ -179,7 +298,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     end: 'Rua do Corte Grande, 160, Alto de Ondina',
     tel: '3611-2902',
     valor: 'Gratuito',
-    servicos: [SERVICO.INDIVIDUAL, SERVICO.FAMILIAR],
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.FAMILIAR, SERVICO.CRIANCAS_E_ADOLESCENTES],
     descricao_servicos:
       'Acompanhamento psicológico a crianças com paralisia cerebral e seus familiares.',
     mapa:
@@ -234,7 +353,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     end: 'Rua Professor Aristides Novais, 197, Federação (São Lázaro)',
     tel: '3235-4589',
     valor: 'Gratuito ou Preço Negociado',
-    servicos: [SERVICO.INDIVIDUAL, SERVICO.PROFISSIONAL],
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.PROFISSIONAL, SERVICO.CRIANCAS_E_ADOLESCENTES],
     descricao_servicos:
       'Atendimento psicológico individual (adolescente, adulto psicodiagnóstico e orientação profissional e idoso)',
     mapa:
@@ -270,7 +389,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     end: 'Av. Estados Unidos, 37, 3° andar, Comércio',
     tel: '3254-6916/6943',
     valor: 'Gratuito ou Preço Negociado',
-    servicos: [SERVICO.INDIVIDUAL, SERVICO.GRUPO],
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.GRUPO, SERVICO.CRIANCAS_E_ADOLESCENTES],
     descricao_servicos:
       'Psicoterapia individual e em grupo para crianças, adolescentes e adultos.',
     mapa:
@@ -284,7 +403,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     end: 'Rua Rubem Berta, 128, Pituba',
     tel: '3033-0009',
     valor: 'Gratuito',
-    servicos: [SERVICO.INDIVIDUAL],
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.CRIANCAS_E_ADOLESCENTES],
     descricao_servicos:
       'Psicoterapia individual para crianças, adolescentes e adultos',
     mapa:
@@ -305,7 +424,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     end: 'Rua Jairo Simões, 3172, Imbuí',
     tel: '3879-9155',
     valor: 'Gratuito',
-    servicos: [SERVICO.INDIVIDUAL, SERVICO.PROFISSIONAL],
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.PROFISSIONAL, SERVICO.CRIANCAS_E_ADOLESCENTES],
     descricao_servicos:
       'Atendimento psicológico individual(criança, adolescente, adulto e idoso) grupos terapêuticos, orientação para pais, orientação profissional(carreira / coaching, inserção no mercado de trabalho, qualidade de vida no trabalho e saúde mental do/a trabalhador/a)',
     mapa:
@@ -340,7 +459,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     tel: '3242-5959',
     valor:
       'Acordado  entre  terapeuta  e  atendido  de  acordo  com  condição socioeconômica  do  mesmo',
-    servicos: [SERVICO.INDIVIDUAL, SERVICO.GRUPO, SERVICO.FAMILIAR],
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.GRUPO, SERVICO.FAMILIAR, SERVICO.CRIANCAS_E_ADOLESCENTES],
     descricao_servicos:
       'Psicoterapia  de  família,  casal,  adolescente,  individual e  em  grupo.',
     mapa:
@@ -351,8 +470,8 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     end: 'Parque  Lucaia,  n  281,  Edf.  WM,  Sala  404,  Horto  Florestal.',
     tel: '3022-3149',
     valor: 'Triagem  gratuita. Valor  do  atendimento  gratuito ou negociado.',
-    servicos: [SERVICO.INDIVIDUAL, SERVICO.GRUPO],
-    descricao_servicos: 'Psicoterapia  individual, de  família  e  casal.',
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.GRUPO, SERVICO.CONJUGAL, SERVICO.FAMILIAR],
+    descricao_servicos: 'Às terças-feiras das 8h às 12h. Psicoterapia  individual, de  família  e  casal.',
     mapa:
       '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.461910601058!2d-38.49029245753272!3d-13.00623072811388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71603560859f611%3A0xd6b7ca8e618b7557!2sR.+Lucaia%2C+281+-+Rio+Vermelho%2C+Salvador+-+BA%2C+41940-660!5e0!3m2!1spt-BR!2sbr!4v1531318996417" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
   },
@@ -794,5 +913,15 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     descricao_servicos: 'Psicologia',
     mapa:
       '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4958240792207!2d-38.504465385177646!3d-13.004066590834594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716035f68fd4fa5%3A0xcc461d33a2edf719!2sCl%C3%ADnica+SEMDOR!5e0!3m2!1spt-BR!2sbr!4v1532249067082" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
-  }
+  },
+  {
+    nome: 'Clínica Viterbo',
+    end: 'SALVADOR TRADE, BOULEVARD SIDE, COMÉRCIO, HANGAR - PARALELA, ITAIGARA, CALÇADA e SALVADOR NORTE SHOPPING',
+    tel: '(71) 3016-3015',
+    whatsapp: '(71) 99991-5525',
+    valor: 'Planos de saúde ou particular',
+    servicos: [SERVICO.PLANO, SERVICO.INDIVIDUAL],
+    descricao_servicos: 'Psicologia',
+  },
+
 ];
