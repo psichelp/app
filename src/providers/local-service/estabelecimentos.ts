@@ -122,23 +122,51 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.4235619897922!2d-38.382633085178405!3d-12.944726490873519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716175e3cc0ac43%3A0x78de7c67a7796e13!2sR.+Dep.+Paulo+Jackson%2C+560+-+Jardim+Placaford%2C+Salvador+-+BA!5e0!3m2!1spt-BR!2sbr!4v1534026579928" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
   },
 
+  // Não atendeu ao telefone
+  //   {
+  //   nome: 'Centro de Valorização da Vida',
+  //   end: 'R. Luis Gama n° 47 – Nazaré',
+  //   tel: '3322-4111; 3244-6936',
+  //   valor: 'Valor social (valor acessível)',
+  //   servicos: [SERVICO.CRIANCAS_E_ADOLESCENTES],
+  //   descricao_servicos: 'Atendimento por telefone 24 horas e pessoalmente das 7h às 18h.',
+  //   email: '',
+  //   mapa:
+  //     '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.669693086946!2d-38.48412338517853!3d-12.928938490883931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161000f3f0bd5d%3A0x5eda4fbb4f6bf7ee!2sRua+Luiz+Gama%2C+47+-+Capelinha+de+S%C3%A3o+Caetano%2C+Salvador+-+BA%2C+40393-040!5e0!3m2!1spt-BR!2sbr!4v1534026530666" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  // },
 
   {
-  nome: 'Centro de Valorização da Vida',
-  end: 'R. Luis Gama n° 47 – Nazaré',
-  tel: '3322-4111; 3244-6936',
-  valor: 'Valor social (valor acessível)',
-  servicos: [SERVICO.CRIANCAS_E_ADOLESCENTES],
-  descricao_servicos: 'Atendimento por telefone 24 horas e pessoalmente das 7h às 18h.',
-  email: '',
-  mapa:
-    '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.669693086946!2d-38.48412338517853!3d-12.928938490883931!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161000f3f0bd5d%3A0x5eda4fbb4f6bf7ee!2sRua+Luiz+Gama%2C+47+-+Capelinha+de+S%C3%A3o+Caetano%2C+Salvador+-+BA%2C+40393-040!5e0!3m2!1spt-BR!2sbr!4v1534026530666" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
-},
+    nome: 'Núcleo de Psicologia Pablo Duram',
+    end: 'Centro Espírita Cavaleiros da Luz, Pituaçu.',
+    tel: '3363-5538/5161',
+    valor: 'Valor social (valor acessível)',
+    servicos: [SERVICO.CRIANCAS_E_ADOLESCENTES],
+    descricao_servicos: 'Atendimento para as pessoas de Pituaçu e Boca do Rio',
+  },
 
-  
-  
-  
+  {
+    nome: 'IJBA - Instituto Junguiano da Bahia',
+    end: 'Alameda Bons Ares, 15, Candeal Salvador - Bahia - Brasil​',
+    tel: '3356 6811',
+    whatsapp: '+55(71) 9 9927-8183',
+    valor: 'Valor social (valor acessível)',
+    servicos: [SERVICO.INDIVIDUAL],
+    descricao_servicos: 'Psicoterapia',
+    email: 'instituto@ijba.com.br',
+    mapa:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.652894020108!2d-38.48621588517776!3d-12.994038790841161!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b4cdb537f53%3A0x81048a165e9dd897!2sAlameda+Bons+Ares%2C+15+-+Candeal%2C+Salvador+-+BA%2C+40296-360!5e0!3m2!1spt-BR!2sbr!4v1534027694420" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+  {
+    nome: 'ESPAÇO DÁLIA DESENVOLVIMETO INTEGRAL',
+    end: ' Av Praia de Itapoan, quadra 03, lote 03- Vilas do Atlântico- Lauro de Freitas , Ba. (terceira casa á direita na Portaria principal de Vilas do Atlântico)',
+    tel: '(71) 3024-1306',
+    whatsapp: '+557198372 – 8787',
+    valor: 'Valor social (valor acessível)',
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.CRIANCAS_E_ADOLESCENTES, SERVICO.CONJUGAL, SERVICO.FAMILIAR],
+    descricao_servicos: ' Individual (adolescente, adulto), casal e família.',
+  },
 
+  //Fim dos cadastros do whatapp
 
   {
     nome: 'CAPS AD - Centro de Atenção Psicossocial Álcool e Drogas',
