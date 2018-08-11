@@ -28,7 +28,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     nome: 'Lilliana Sobrinho',
     end: 'Avenida ACM, 772, Torre do Parque Sala 1810 - Ao lado do Fiesta – Salvador – Bahia',
     tel: '(71) 993807286',
-    whatsapp: '(71) 993807286',
+    whatsapp: '+5571993807286',
     valor: 'Valor social (valor acessível)',
     servicos: [SERVICO.CRIANCAS_E_ADOLESCENTES],
     descricao_servicos: 'Psicologia infantil e Educação',
@@ -40,7 +40,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     nome: 'Marcos Alves',
     end: 'Shopping Rio Vermelho sala 210',
     tel: '(71) 99259-8121 / (71) 988620991',
-    whatsapp: '(71) 99259-8121',
+    whatsapp: '+557199259-8121',
     email: 'psicologianodiva@bol.com.br',
     valor: 'Valor social (valor acessível)',
     servicos: [SERVICO.INDIVIDUAL, SERVICO.CONJUGAL, SERVICO.FAMILIAR],
@@ -49,6 +49,20 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     mapa:
       '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.350434873425!2d-38.488727285177596!3d-13.013341890828519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160352df193b6b%3A0xaab13c28afd0e554!2sShopping+Rio+Vermelho!5e0!3m2!1spt-BR!2sbr!4v1532734618033" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
   },
+
+  {
+    nome: 'Ariane Casé ',
+    end: 'Rua Alceu Amoroso, 470, Edifício Empresarial Niemeyer sala 411.',
+    tel: '071987274633 ',
+    whatsapp: '+5571987274633',
+    valor: 'Valor social (valor acessível)',
+    servicos: [SERVICO.CRIANCAS_E_ADOLESCENTES, SERVICO.INDIVIDUAL],
+    descricao_servicos: ' Atendimento clínico psicólogico de crianças, adolescentes, adultos e idosos.',
+    email: 'arianecase@hotmail.com',
+    mapa:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15551.461060392776!2d-38.454933!3d-12.9804683!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1cd11a03cf792bce!2sEdif%C3%ADcio+Empresarial+Niemeyer!5e0!3m2!1spt-BR!2sbr!4v1534029200873" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+
   // Da mensagem do whatapp que deu origem ao app!
   {
     nome: 'PROJETO GIRASSOL',
@@ -851,7 +865,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     descricao_servicos:
       'Auxílio ao indivíduo com problemas relativos as drogas',
     mapa:
-      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.9381034876596!2d-38.355463449559345!3d-12.911699762062517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161653897e6229%3A0x9700805773f10ead!2zTmFyY8OzdGljb3MgQW7DtG5pbW9z!5e0!3m2!1spt-BR!2sbr!4v1532092895985" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.9381034876596!2d-38.355463449559345!3d-12.911699762062517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161653897e6229%3A0x9700805773f10ead!2zTmFyY8OzdGljb3MgQW7DtG5pbW9z!5e0!3m2!1spt-BR!2sbr!4v1532092895985" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
   },
   {
     nome: 'Narcoticos Anonimos',
@@ -862,7 +876,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     descricao_servicos:
       'Auxílio ao indivíduo com problemas relativos as drogas',
     mapa:
-      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8465945110356!2d-38.36755058517858!3d-12.917579490891352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71617038abed2cb%3A0xdf544489cf7478bd!2sNarcoticos+Anonimos!5e0!3m2!1spt-BR!2sbr!4v1532093692247" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8465945110356!2d-38.36755058517858!3d-12.917579490891352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71617038abed2cb%3A0xdf544489cf7478bd!2sNarcoticos+Anonimos!5e0!3m2!1spt-BR!2sbr!4v1532093692247" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
   },
   {
     nome: 'Grupo Esperança de Narcóticos Anônimos',
@@ -873,7 +887,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     descricao_servicos:
       'Auxílio ao indivíduo com problemas relativos as drogas',
     mapa:
-      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4848399690122!2d-38.48514394955811!3d-13.004767563955092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b55052101cb%3A0xa0bd6ed35077e916!2sGrupo+Esperan%C3%A7a+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532093797118" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4848399690122!2d-38.48514394955811!3d-13.004767563955092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b55052101cb%3A0xa0bd6ed35077e916!2sGrupo+Esperan%C3%A7a+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532093797118" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
   },
   {
     nome: 'Grupo Milagres de Narcóticos Anônimos',
@@ -884,7 +898,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     descricao_servicos:
       'Auxílio ao indivíduo com problemas relativos as drogas',
     mapa:
-      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.179616175057!2d-38.50529104955855!3d-12.960355663050233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160523d5fa6d35%3A0x57cfd50aadf2391a!2sGrupo+Milagres+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532093874593" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.179616175057!2d-38.50529104955855!3d-12.960355663050233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160523d5fa6d35%3A0x57cfd50aadf2391a!2sGrupo+Milagres+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532093874593" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
   },
   {
     nome: 'Grupo Lapa de Praça Conselheiro Almeida Couto',
@@ -895,7 +909,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     descricao_servicos:
       'Auxílio ao indivíduo com problemas relativos as drogas',
     mapa:
-      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9576108583824!2d-38.504350949558464!3d-12.974563063339346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604dcca3df9f7%3A0x907abba08694ca0d!2sGrupo+Lapa+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532093992414" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9576108583824!2d-38.504350949558464!3d-12.974563063339346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604dcca3df9f7%3A0x907abba08694ca0d!2sGrupo+Lapa+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532093992414" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
   },
   {
     nome: 'Grupo Narcoticos Anonimos Itapua',
@@ -906,7 +920,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     descricao_servicos:
       'Auxílio ao indivíduo com problemas relativos as drogas',
     mapa:
-      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31108.947797914814!2d-38.41002564142727!3d-12.932225436343277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716177dd266c1ed%3A0x9d82981de3fb46a2!2sGrupo+Narcoticos+Anonimos+Itapua!5e0!3m2!1spt-BR!2sbr!4v1532094051294" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31108.947797914814!2d-38.41002564142727!3d-12.932225436343277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716177dd266c1ed%3A0x9d82981de3fb46a2!2sGrupo+Narcoticos+Anonimos+Itapua!5e0!3m2!1spt-BR!2sbr!4v1532094051294" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
   },
   {
     nome: 'Grupo Brotas de Narcoticos Anonimos',
@@ -917,7 +931,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     descricao_servicos:
       'Auxílio ao indivíduo com problemas relativos as drogas',
     mapa:
-      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7324287176093!2d-38.48421094955817!3d-12.988958163632601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b4a674c07a7%3A0x4951edf977d21e07!2sGrupo+Brotas+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532094184290" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7324287176093!2d-38.48421094955817!3d-12.988958163632601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b4a674c07a7%3A0x4951edf977d21e07!2sGrupo+Brotas+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532094184290" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
   },
   {
     nome: 'Grupo Itapuã Narcóticos Anônimos',
@@ -928,7 +942,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     descricao_servicos:
       'Auxílio ao indivíduo com problemas relativos as drogas',
     mapa:
-      '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d124407.5288544306!2d-38.5522398!3d-12.9887762!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71610e9a3d16a29%3A0x72190debbf1ec98f!2sGrupo+Itapu%C3%A3+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532094341184" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d124407.5288544306!2d-38.5522398!3d-12.9887762!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71610e9a3d16a29%3A0x72190debbf1ec98f!2sGrupo+Itapu%C3%A3+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532094341184" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
   },
 
   // Evandro
