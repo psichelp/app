@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Locais
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content padding class="conteudo">
+  <ion-grid no-padding fixed="md">
+    <ion-row justify-content-center>
+      <ion-col col-12 col-md-8 no-padding>
+        <ion-list>
+          <div *ngFor="let local of locais;">
+            <ion-card *ngIf="local.video">
+              <div iframe-block-center [innerHtml]="local.video | sanitizeHtml"></div>
+            </ion-card>
+            <ion-item (click)="goToDetails(local)">
+              <ion-button slot="start" shape="round" color="primary" fill="outline">Ver</ion-button>
+              <ion-label>
+                <h2 *ngIf="local.nome">{{local.nome}}</h2>
+                <h3>{{local.valor}}</h3>
+              </ion-label>
+            </ion-item>
+          </div>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
