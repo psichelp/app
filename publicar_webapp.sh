@@ -27,14 +27,16 @@ else
 fi
 cd ..
 
-acp Publicando o webApp no raciocínio computacional 
+acp Publicando o webApp no site do psichelp.com.br/ 
 
 cd ../site
 git pull
-rm -rf ios 
+rm -rf ios
+rm -rf web 
 cp ../app/www ios -r
+cp ../app/www web -r
 
-acp Publicando o webApp no psicweb/ios 
+acp Publicando o webApp no endereço: https://raciocinio-computacional.github.io/PsicHelp/ 
 
 echo teste agora em https://bit.ly/psichelpweb funcionou?
 read answer

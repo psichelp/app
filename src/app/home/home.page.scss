@@ -23,10 +23,10 @@
     }
     
     // Melhor responsividade em telas pequenas (<=sm)
-    @media (max-width: 700px) {
+    // @media (max-width: 700px) {
       height: calc(100vw * 9/16); // matém a proporção da imagem "widescreen"
       font-size: 4vw;
-    }
+    // }
     .card-title {
         position: absolute;
         bottom: .6em;
