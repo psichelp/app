@@ -1,8 +1,8 @@
 {
-  "name": "psicHelp",
-  "version": "0.0.1",
-  "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
+  "name": "PsicHelp",
+  "version": "0.0.21",
+  "author": "Equipe PsicHelp",
+  "homepage": "https://psichelp.com.br/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
