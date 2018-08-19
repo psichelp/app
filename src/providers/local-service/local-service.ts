@@ -1,17 +1,14 @@
 import { Injectable } from '@angular/core';
 import { ESTABELECIMENTOS } from './estabelecimentos';
 import * as Fuse from 'fuse.js';
-import { Observable } from 'rxjs/Observable';
-import { of } from 'rxjs/observable/of';
+import { Observable, of } from 'rxjs';
 import { Estabelecimento } from './estabelecimento';
 
 @Injectable()
 export class LocalServiceProvider {
   private fuseInstance;
 
-  constructor() {
-    console.log('Hello LocalServiceProvider Provider');
-  }
+  constructor() { }
 
   public estabelicimentoCache: any;
 

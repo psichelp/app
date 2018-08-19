@@ -45,7 +45,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     valor: 'Valor social (valor acessível)',
     servicos: [SERVICO.INDIVIDUAL, SERVICO.CONJUGAL, SERVICO.FAMILIAR],
     descricao_servicos:
-      'Especialista em terapia cognitiva e comportamental especialista em terapia de casais e família. Atende todos os tipos de público.',
+      'Especialista em terapia cognitiva, comportamental e terapia de casais e família. Atende todos os tipos de público.',
     mapa:
       '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.350434873425!2d-38.488727285177596!3d-13.013341890828519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160352df193b6b%3A0xaab13c28afd0e554!2sShopping+Rio+Vermelho!5e0!3m2!1spt-BR!2sbr!4v1532734618033" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
   },

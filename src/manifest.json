@@ -1,13 +1,14 @@
 {
-  "name": "PsicHelp - Locais de Atendimento GRATUITO em Saúde Mental em Salvador",
-  "short_name": "PsicHelp",
-  "start_url": "index.html",
-  "display": "standalone",
-  "icons": [{
-    "src": "assets/imgs/logo.png",
-    "sizes": "512x512",
-    "type": "image/png"
-  }],
-  "background_color": "#4e8ef7",
-  "theme_color": "#4e8ef7"
+    "name": "PsicHelp - Locais de Atendimento GRATUITO em Saúde Mental em Salvador",
+    "short_name": "PsicHelp",
+    "start_url": "index.html",
+    "icons": [
+        {
+            "src": "assets/icon/logo.png",
+            "type": "image/png",
+            "sizes": "48x48"
+        }
+    ],
+    "background_color": "#4e8ef7",
+    "theme_color": "#4e8ef7"
 }

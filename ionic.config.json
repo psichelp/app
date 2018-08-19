@@ -1,8 +1,7 @@
 {
-  "name": "psichelp",
-  "app_id": "",
-  "type": "ionic-angular",
+  "name": "psicHelp",
   "integrations": {
     "cordova": {}
-  }
+  },
+  "type": "angular"
 }

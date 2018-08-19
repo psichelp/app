@@ -1,34 +1,31 @@
-import { ErrorHandler, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { SplashScreen } from '@ionic-native/splash-screen';
-import { StatusBar } from '@ionic-native/status-bar';
-import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
-import { DetalhePageModule } from '../pages/detalhe/detalhe.module';
-import { HomePage } from '../pages/home/home';
-import { LocaisPageModule } from '../pages/locais/locais.module';
-import { SearchPageModule } from '../pages/search/search.module';
-import { PipesModule } from '../pipes/pipes.module';
+import { RouterModule, RouteReuseStrategy, Routes } from '@angular/router';
+
+import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
+import { SplashScreen } from '@ionic-native/splash-screen/ngx';
+import { StatusBar } from '@ionic-native/status-bar/ngx';
+
+import { AppComponent } from './app.component';
+import { AppRoutingModule } from './app-routing.module';
 import { LocalServiceProvider } from '../providers/local-service/local-service';
-import { MyApp } from './app.component';
+import { PipesModule } from '../pipes/pipes.module';
 
 @NgModule({
-  declarations: [MyApp, HomePage],
+  declarations: [AppComponent],
+  entryComponents: [],
   imports: [
-    BrowserModule,
-    LocaisPageModule,
-    DetalhePageModule,
-    SearchPageModule,
     PipesModule.forRoot(),
-    IonicModule.forRoot(MyApp)
+    BrowserModule,
+    IonicModule.forRoot(),
+    AppRoutingModule,
   ],
-  bootstrap: [IonicApp],
-  entryComponents: [MyApp, HomePage],
-  exports: [],
   providers: [
     StatusBar,
     SplashScreen,
-    { provide: ErrorHandler, useClass: IonicErrorHandler },
-    LocalServiceProvider
-  ]
+    LocalServiceProvider,
+    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
+  ],
+  bootstrap: [AppComponent]
 })
 export class AppModule {}
