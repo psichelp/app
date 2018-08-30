@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.gmail.appsdmtech.psichelp" version="0.0.20" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.gmail.appsdmtech.psichelp" version="0.0.21" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>PsicHelp</name>
     <description>Aplicativo para ajudar pessoas buscando tratamento psicoterapêutico em Salvador</description>
     <author email="evandrojr@gmail.com" href="">Turma de Raciocicínio Computacional 2018</author>
@@ -85,5 +85,5 @@
     <plugin name="cordova-plugin-ionic-webview" spec="1.1.19" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="2.0.5" />
     <engine name="android" spec="7.1.1" />
-    <engine name="browser" spec="5.0.3" />
+    <engine name="browser" spec="5.0.4" />
 </widget>
