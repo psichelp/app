@@ -1,7 +1,6 @@
 import { Estabelecimento } from './estabelecimento';
 import { SERVICO } from './tipos-de-servico';
 
-
 // {
 //   nome: '',
 //   end: '',
@@ -15,14 +14,61 @@ import { SERVICO } from './tipos-de-servico';
 //     ''
 // },
 
-
-
 // Tipos de serviço psicologia
 export const ESTABELECIMENTOS: Estabelecimento[] = [
   {
     video:
       '<iframe width="100%" height="315" src="https://www.youtube.com/embed/1rNueM-JqCQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>',
     servicos: [SERVICO.CAPS]
+  },
+  {
+    nome: 'Associação de Pais e Amigos dos Excepcionais (Apae) Salvador',
+    end: 'Rua Rio Grande do Sul, 545, Pituba,Salvador - Ba, Brasil CEP: 41.830-141',
+    tel: '(71) 3270-8300',
+    // whatsapp: '',
+    valor: 'Plano de saúde e talvez valor social (valor acessível), ligue para confirmar.',
+    servicos: [SERVICO.PLANO],
+    descricao_servicos: 'Atendimento pelo plano Sul América e outros',
+    email: 'apae@apaesalvador.org.br',
+    mapa:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15550.166641139314!2d-38.46562169252954!3d-13.00114106014606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b6611d9de9d%3A0xc8e5d590764725cd!2sApae+Laborat%C3%B3rio+de+An%C3%A1lises+Cl%C3%ADnicas!5e0!3m2!1spt-BR!2sbr!4v1535588226182" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+  {
+    nome: 'Daiana Sá Teles',
+    end: 'Edifício Fernandez, Av. 7 de Setembro, 302, 8° andar, Sala 815, Salvador/BA',
+    tel: '(71) 99718-2866',
+    whatsapp: '+5571997182866',
+    valor: 'Valor social (valor acessível)',
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.CRIANCAS_E_ADOLESCENTES, SERVICO.GRUPO],
+    descricao_servicos: 'Psicoterapia individual (criança, adolescente, adulto e idoso) & grupos (max. 5 pessoas) de bate-papo sobre temas relevantes no contexto da Psicologia.',
+    email: 'contatodaianapsicologia@gmail.com',
+    mapa:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1943.942745436484!2d-38.515709091933424!3d-12.979175147712732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sEdif%C3%ADcio+Fernandez%2C+Av.+7+de+Setembro%2C+302%2C+8%C2%B0+andar%2C+Sala+815%2C+Salvador%2FBa!5e0!3m2!1spt-BR!2sbr!4v1535587271294" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+  {
+    nome: 'Amat Associacao Multidisciplinar De Atendimentos Terapeuticos',
+    end: 'Rua São Paulo, 434 Pituba, Salvador/BA 41830-181',
+    tel: '(71) 3248-2025',
+    // whatsapp: '',
+    valor: 'Atendimento pelo plano Sul América e outros',
+    servicos: [SERVICO.PLANO],
+    descricao_servicos: 'Amat Associacao Multidisciplinar De Atendimentos Terapeuticos tem como foco a atividade Terapias Alternativas.',
+    // email: '',
+    mapa:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4971873114287!2d-38.458573385177786!3d-13.003979590834618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b65a9514935%3A0xce6c515a2b535be2!2sR.+S%C3%A3o+Paulo%2C+434+-+Pituba%2C+Salvador+-+BA%2C+41830-180!5e0!3m2!1spt-BR!2sbr!4v1535589639236" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+
+  {
+    nome: 'Clínica Cardiológica',
+    end: 'R. Mato Grosso, 184 - Pituba, Salvador - BA, 41830-150  ',
+    tel: '(71) 3248-0622',
+    // whatsapp: '',
+    valor: 'Atendimento pelo plano Sul América e outros',
+    servicos: [SERVICO.PLANO],
+    descricao_servicos: 'Psicoterapia individual',
+    email: '',
+    mapa:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31099.703899527653!2d-38.46745950842312!3d-13.006162016645721!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x50dcccf1a04b1195!2sCl%C3%ADnica+Cardiol%C3%B3gica!5e0!3m2!1spt-BR!2sbr!4v1535589755713" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
   },
   {
     nome: 'Lilliana Sobrinho',
