@@ -1,34 +1,47 @@
-import { ErrorHandler, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { SplashScreen } from '@ionic-native/splash-screen';
-import { StatusBar } from '@ionic-native/status-bar';
-import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
-import { DetalhePageModule } from '../pages/detalhe/detalhe.module';
-import { HomePage } from '../pages/home/home';
-import { LocaisPageModule } from '../pages/locais/locais.module';
-import { SearchPageModule } from '../pages/search/search.module';
-import { PipesModule } from '../pipes/pipes.module';
-import { LocalServiceProvider } from '../providers/local-service/local-service';
-import { MyApp } from './app.component';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule } from '@angular/material';
+
+import { AppComponent } from './app.component';
+import { LayoutModule } from '@angular/cdk/layout';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { ListPageComponent } from './list-page/list-page.component';
+import { LocalService } from './services/local/local.service';
+import { PipesModule } from './pipes/pipes.module';
+
+
+const appRoutes: Routes = [
+  { path: 'inicio', component: HomePageComponent},
+  { path: '',   redirectTo: '/inicio', pathMatch: 'full' },
+  { path: 'listar', component: ListPageComponent},
+  { path: 'third-page', component: AppComponent}
+];
 
 @NgModule({
-  declarations: [MyApp, HomePage],
+  declarations: [
+    AppComponent,
+    SidebarComponent,
+    HomePageComponent,
+    ListPageComponent
+  ],
   imports: [
     BrowserModule,
-    LocaisPageModule,
-    DetalhePageModule,
-    SearchPageModule,
+    BrowserAnimationsModule,
+    LayoutModule,
+    RouterModule.forRoot(appRoutes,
+      { enableTracing: true } ),
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatIconModule,
+    MatListModule,
+    MatCardModule,
     PipesModule.forRoot(),
-    IonicModule.forRoot(MyApp)
-  ],
-  bootstrap: [IonicApp],
-  entryComponents: [MyApp, HomePage],
-  exports: [],
-  providers: [
-    StatusBar,
-    SplashScreen,
-    { provide: ErrorHandler, useClass: IonicErrorHandler },
-    LocalServiceProvider
-  ]
+  ], providers: [LocalService],
+  bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }
