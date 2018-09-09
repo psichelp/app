@@ -8,17 +8,14 @@ APP="PsicHelp"
     git push
 }
 
-
-ng build --prod  --base-href=/webapp/
-
+ng build --prod --base-href /webapp/
 rm -rf docs
 mkdir -p docs/webapp
 cp dist/PsicHelp/* docs/webapp -r
 cd docs
-# php -S 0.0.0.0:8015
+php -S 0.0.0.0:8015
 
-
-echo Teste primeiro localmente, funcionou http://0.0.0.0:8015/webapp/?
+echo Teste primeiro localmente, funcionou? http://0.0.0.0:8015/webapp/
 read answer
 if [ "$answer" != "${answer#[SsYy]}" ] ;then
     echo OK, continuando
@@ -29,8 +26,6 @@ fi
 
 cd ..
 acp Publicando o webApp no http://psichelp.github.io/app/webapp 
-
-
 cd ../site
 
 git checkout master

@@ -36,7 +36,7 @@ const appRoutes: Routes = [
     BrowserAnimationsModule,
     LayoutModule,
     RouterModule.forRoot(appRoutes,
-      { enableTracing: true } ),
+      { useHash: true, enableTracing: true } ),
     MatToolbarModule,
     MatButtonModule,
     MatSidenavModule,
