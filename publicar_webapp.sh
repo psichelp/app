@@ -9,7 +9,7 @@ APP="PsicHelp"
 }
 
 
-ng build --prod  --base-href=/webapp
+ng build --prod  --base-href=/webapp/
 
 rm -rf docs
 mkdir -p docs/webapp
@@ -18,7 +18,7 @@ cd docs
 php -S 0.0.0.0:8015
 
 
-echo Teste primeiro localmente, funcionou?
+echo Teste primeiro localmente, funcionou http://0.0.0.0:8015/webapp/?
 read answer
 if [ "$answer" != "${answer#[SsYy]}" ] ;then
     echo OK, continuando
@@ -32,7 +32,9 @@ acp Publicando o webApp no http://psichelp.github.io/app/webapp
 
 
 cd ../site
-git pull
+
+git checkout master
+git pull origin master
 rm -rf ios
 rm -rf webapp
 
