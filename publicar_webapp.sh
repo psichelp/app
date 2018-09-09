@@ -9,11 +9,10 @@ APP="PsicHelp"
 }
 
 
-ionic cordova platform add browser
-ionic cordova build browser --prod --release
+ng build --prod
 
 rm -rf docs
-cp www docs -r
+cp dist/PsicHelp docs -r
 cd docs
 php -S 0.0.0.0:8015
 
