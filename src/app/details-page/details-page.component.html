@@ -1,0 +1,66 @@
+<mat-card *ngIf="estabelecimento" class="example-card">
+  <mat-card-header>
+    <h2 *ngIf="estabelecimento.nome">
+      {{estabelecimento.nome}}
+    </h2>
+  </mat-card-header>
+  <mat-card-content>
+    <p *ngIf="estabelecimento.end">
+      {{estabelecimento.end}}
+    </p>
+    <p *ngIf="estabelecimento.tel">
+      <span light>
+        <mat-icon>phone</mat-icon>
+        <a light href="tel:{{estabelecimento.tel}}">{{estabelecimento.tel}}</a>
+      </span>
+    </p>
+    <p *ngIf="estabelecimento.whatsapp">
+      <span light>
+        <mat-icon>whatsapp</mat-icon>
+        <a light href="whatsapp:{{estabelecimento.whatsapp}}">{{estabelecimento.whatsapp}}</a>
+      </span>
+    </p>
+
+
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>LIGAR</button>
+    <button mat-button>WhatsApp</button>
+  </mat-card-actions>
+</mat-card>
+
+<!-- 
+<div bg-secondary *ngIf="estabelecimento.whatsapp" text-wrap>
+  <span light>
+    <ion-icon name="logo-whatsapp" item-start></ion-icon>
+    <a light href="tel:{{estabelecimento.whatsapp}}">{{estabelecimento.whatsapp}}</a>
+  </span>
+</div>
+<div bg-secondary *ngIf="estabelecimento.email" text-wrap>
+  <span light>
+    <ion-icon name="md-mail" item-start></ion-icon>
+    <a light href="mailto:{{estabelecimento.email}}">{{estabelecimento.email}}</a>
+  </span>
+</div>
+<div bg-secondary *ngIf="estabelecimento.valor" text-wrap>
+  <span light>
+    <ion-icon name="md-cash" item-start></ion-icon>
+    {{estabelecimento.valor}}
+  </span>
+</div>
+<div light *ngIf="estabelecimento.descricao_servicos" text-wrap bg-secondary>
+  <div>
+    <span primary>Serviço:</span>
+    <span light>
+      {{estabelecimento.descricao_servicos}}
+    </span>
+  </div>
+</div>
+<div light *ngIf="estabelecimento.bairros_atendidos" text-wrap bg-secondary>
+  <span primary>Bairros de Abrangência:</span>
+  <span light>
+    {{estabelecimento.bairros_atendidos}}
+  </span>
+</div> -->
+<div iframe-block-center *ngIf="estabelecimento.mapa" [innerHtml]="estabelecimento.mapa | sanitizeHtml">
+</div>
