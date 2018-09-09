@@ -1,38 +1,10 @@
-<!-- <mat-grid-list padding class="conteudo">
-    <div no-padding fixed="md">
-      <mat-row justify-content-center>
-        <mat-col col-12 col-md-8 no-padding>
-          <mat-list> -->
-
-<mat-list>
-  <mat-list-item *ngFor="let local of locais;">
-      <div *ngIf="local.nome">{{local.nome}}</div>
-      <!-- <div>{{local.valor}}</div> -->
-  
-      <button (click)="goToDetails(local)" mat-raised-button color="primary">Ver</button>
-  
-  </mat-list-item>
-</mat-list>
-
-
-
-<!-- <mat-card *ngFor="let local of locais;">
-  <mat-card *ngIf="local.video">
-    <div iframe-block-center [innerHtml]="local.video | sanitizeHtml"></div>
+<ng-container *ngFor="let local of locais">
+  <mat-card *ngIf="local.video" class="example-card">
+    <mat-card-content>
+      <div iframe-block-center [innerHtml]="local.video | sanitizeHtml"></div>
+    </mat-card-content>
   </mat-card>
-  <mat-card (click)="goToDetails(local)">
-    <div>
-      <div *ngIf="local.nome">{{local.nome}}</div>
-      <div>{{local.valor}}</div>
-      <button mat-raised-button color="primary">Ver</button>
-    </div>
-    
+  <mat-card *ngIf="local.nome">
+      <mat-card-title *ngIf="local.nome">{{local.nome}}</mat-card-title>
   </mat-card>
-</mat-card>
- -->
-<!-- </div>
-          </mat-list>
-        </mat-col>
-      </mat-row>
-    </div>
-  </mat-grid-list> -->
+</ng-container>

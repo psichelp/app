@@ -4,6 +4,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule } from '@angular/material';
+import { MatGridListModule } from '@angular/material';
+
+
 
 import { AppComponent } from './app.component';
 import { LayoutModule } from '@angular/cdk/layout';
@@ -40,6 +43,7 @@ const appRoutes: Routes = [
     MatIconModule,
     MatListModule,
     MatCardModule,
+    MatGridListModule,
     PipesModule.forRoot(),
   ], providers: [LocalService],
   bootstrap: [AppComponent]
