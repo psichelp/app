@@ -15,7 +15,7 @@ rm -rf docs
 mkdir -p docs/webapp
 cp dist/PsicHelp/* docs/webapp -r
 cd docs
-php -S 0.0.0.0:8015
+# php -S 0.0.0.0:8015
 
 
 echo Teste primeiro localmente, funcionou http://0.0.0.0:8015/webapp/?
