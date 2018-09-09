@@ -3,24 +3,27 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule, MatIconRegistry } from '@angular/material';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule, MatIconRegistry, MatInputModule } from '@angular/material';
 import { MatGridListModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { LayoutModule } from '@angular/cdk/layout';
+import { HttpClientModule } from '@angular/common/http';
+
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { ListPageComponent } from './list-page/list-page.component';
 import { LocalService } from './services/local/local.service';
 import { PipesModule } from './pipes/pipes.module';
 import { DetailsPageComponent } from './details-page/details-page.component';
-import { HttpClientModule } from '@angular/common/http';
+import { SearchPageComponent } from './search-page/search-page.component';
 
 const appRoutes: Routes = [
   { path: 'inicio', component: HomePageComponent},
   { path: '',   redirectTo: '/inicio', pathMatch: 'full' },
   { path: 'listar', component: ListPageComponent},
-  { path: 'detalhes', component: DetailsPageComponent}
+  { path: 'detalhes', component: DetailsPageComponent},
+  { path: 'buscar', component: SearchPageComponent},
 ];
 
 @NgModule({
@@ -29,7 +32,8 @@ const appRoutes: Routes = [
     SidebarComponent,
     HomePageComponent,
     ListPageComponent,
-    DetailsPageComponent
+    DetailsPageComponent,
+    SearchPageComponent
   ],
   imports: [
     BrowserModule,
@@ -44,6 +48,7 @@ const appRoutes: Routes = [
     MatListModule,
     MatCardModule,
     MatGridListModule,
+    MatInputModule,
     HttpClientModule,
     PipesModule.forRoot(),
   ], providers: [LocalService],

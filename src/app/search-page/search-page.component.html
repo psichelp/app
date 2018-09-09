@@ -1,0 +1,39 @@
+<div style="padding: 10px">
+
+  <mat-form-field class="example-full-width">
+    <input matInput type="text" value="" #searchBox placeholder="Buscar" (keyup)="search(searchBox.value)">
+  </mat-form-field>
+
+
+  <ng-container *ngFor="let estabelecimento of estabelecimentos$ | async">
+    <!-- Template 1 - INÍCIO -->
+    <!-- <button mat-item (click)="mostrarDetalhes(estabelecimento)">
+      {{ estabelecimento?.nome }} -
+      <b color="primary">{{ estabelecimento?.valor }}</b>
+    </button> -->
+    <!-- Template 1 - FIM -->
+
+    <div margin-vertical>
+      <div padding>
+        <h2 text-wrap>{{ estabelecimento?.nome }}</h2>
+        <div text-wrap>{{ estabelecimento?.end }}</div>
+        <div text-wrap primary>{{ estabelecimento?.valor }}</div>
+
+      </div>
+      <div side="right">
+        <button mat-raised-button (click)="mostrarDetalhes(estabelecimento)">Ver</button>
+        <button mat-button outline color="primary" *ngIf="estabelecimento.whatsapp" (click)="onClickWhatsApp(estabelecimento)">
+          <mat-icon svgIcon="whatsapp" style="color: green"></mat-icon>
+          WhatsApp
+        </button>
+        <button mat-button color="secondary" *ngIf="estabelecimento.tel" (click)="onClickCall(estabelecimento)">
+          <mat-icon svgIcon="phone"></mat-icon>
+          Ligar
+        </button>
+      </div>
+      <mat-divider></mat-divider>
+    </div>
+
+  </ng-container>
+
+</div>
