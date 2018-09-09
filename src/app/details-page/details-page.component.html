@@ -7,25 +7,25 @@
       {{estabelecimento.end}}
     </p>
     <p *ngIf="estabelecimento.tel">
-      <span light>
+      <span center-vertical light>
         <mat-icon svgIcon="phone"></mat-icon>
         <a light href="tel:{{estabelecimento.tel}}">{{estabelecimento.tel}}</a>
       </span>
     </p>
     <p *ngIf="estabelecimento.whatsapp">
-      <span light>
+      <span center-vertical light>
         <mat-icon svgIcon="whatsapp" style="color: green"></mat-icon>
         <a light href="whatsapp:{{estabelecimento.whatsapp}}">{{estabelecimento.whatsapp}}</a>
       </span>
     </p>
     <p *ngIf="estabelecimento.valor">
-      <span light>
+      <span center-vertical light>
         <mat-icon svgIcon="cash" style="color: green"></mat-icon>
         {{estabelecimento.valor}}
       </span>
     </p>
     <p *ngIf="estabelecimento.descricao_servicos">
-      <span light>
+      <span wlight>
         {{estabelecimento.descricao_servicos}}
       </span>
     </p>
