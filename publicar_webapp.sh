@@ -9,12 +9,14 @@ APP="PsicHelp"
 }
 
 
-ng build --prod
+ng build --prod  --base-href=/webapp
 
 rm -rf docs
-cp dist/PsicHelp docs -r
+mkdir -p docs/webapp
+cp dist/PsicHelp/* docs/webapp -r
 cd docs
 php -S 0.0.0.0:8015
+
 
 echo Teste primeiro localmente, funcionou?
 read answer
@@ -24,19 +26,21 @@ else
     echo Saindo!
     exit
 fi
-cd ..
 
-acp Publicando o webApp no raciocínio computacional 
+cd ..
+acp Publicando o webApp no http://psichelp.github.io/app/webapp 
+
 
 cd ../site
 git pull
 rm -rf ios
- 
-cp ../app/dist/PsicHelp ios -r
+rm -rf webapp
 
-acp Publicando o webApp no psicweb/ios 
+cp ../app/dist/PsicHelp webapp -r
 
-echo teste agora em https://bit.ly/psichelpweb funcionou?
+acp Publicando o webApp no psichelp.com.br/webapp 
+
+echo teste agora em psichelp.com.br/webapp funcionou?
 read answer
 if [ "$answer" != "${answer#[SsYy]}" ] ;then
     echo OK, Parabéns!
