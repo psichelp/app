@@ -30,8 +30,9 @@ acp Publicando o webApp no raciocínio computacional
 
 cd ../site
 git pull
-rm -rf ios 
-cp ../app/www ios -r
+rm -rf ios
+ 
+cp ../app/dist/PsicHelp ios -r
 
 acp Publicando o webApp no psicweb/ios 
 
