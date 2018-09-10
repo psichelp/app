@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { BreakpointObserver, Breakpoints, BreakpointState } from '@angular/cdk/layout';
 import { Observable } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { Location } from '@angular/common';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-sidebar',
@@ -14,7 +16,26 @@ export class SidebarComponent {
     .pipe(
       map(result => result.matches)
     );
-    
-  constructor(private breakpointObserver: BreakpointObserver) {}
-  
+
+  constructor(
+    private breakpointObserver: BreakpointObserver,
+    private _location: Location,
+    private router: Router) { }
+
+  backClicked() {
+    this._location.back();
   }
+
+  isHome(): Boolean{
+    let path = this._location.path(true);
+    return path === "/inicio";   
+  }
+
+  search() {
+    this.router.navigate(['/buscar' ]);
+  }
+
+
+
+
+}

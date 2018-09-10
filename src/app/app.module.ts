@@ -19,11 +19,11 @@ import { DetailsPageComponent } from './details-page/details-page.component';
 import { SearchPageComponent } from './search-page/search-page.component';
 
 const appRoutes: Routes = [
-  { path: 'inicio', component: HomePageComponent},
-  { path: '',   redirectTo: '/inicio', pathMatch: 'full' },
-  { path: 'listar', component: ListPageComponent},
-  { path: 'detalhes', component: DetailsPageComponent},
-  { path: 'buscar', component: SearchPageComponent},
+  { path: 'inicio', component: HomePageComponent },
+  { path: '', redirectTo: '/inicio', pathMatch: 'full' },
+  { path: 'listar', component: ListPageComponent },
+  { path: 'detalhes', component: DetailsPageComponent },
+  { path: 'buscar', component: SearchPageComponent },
 ];
 
 @NgModule({
@@ -40,7 +40,10 @@ const appRoutes: Routes = [
     BrowserAnimationsModule,
     LayoutModule,
     RouterModule.forRoot(appRoutes,
-      { useHash: true, enableTracing: true } ),
+      {
+        useHash: true,
+        // enableTracing: true
+      }),
     MatToolbarModule,
     MatButtonModule,
     MatSidenavModule,
@@ -56,8 +59,8 @@ const appRoutes: Routes = [
 })
 export class AppModule {
 
-  constructor(matIconRegistry: MatIconRegistry, domSanitizer: DomSanitizer){
+  constructor(matIconRegistry: MatIconRegistry, domSanitizer: DomSanitizer) {
     matIconRegistry.addSvgIconSet(domSanitizer.bypassSecurityTrustResourceUrl('./assets/mdi.svg')); // Or whatever path you placed mdi.svg at
   }
 
- }
+}

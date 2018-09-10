@@ -35,7 +35,7 @@ export class ListPageComponent implements OnInit {
   }
   
   goToDetails(local: any) {
-    this.router.navigate(['/detalhes', {local:  JSON.stringify(local)} ]);
+    this.router.navigate(['/details', {local:  JSON.stringify(local)} ]);
   }
 
 
