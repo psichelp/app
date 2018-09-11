@@ -37,7 +37,7 @@ cp ../app/dist/PsicHelp webapp -r
 
 acp Publicando o webApp no psichelp.com.br/webapp 
 
-echo teste agora em psichelp.com.br/webapp funcionou?
+echo teste agora em https://psichelp.com.br/webapp funcionou?
 read answer
 if [ "$answer" != "${answer#[SsYy]}" ] ;then
     echo OK, Parabéns!
@@ -45,5 +45,3 @@ else
     echo Eita pau!!!
     exit
 fi
-
-
