@@ -11,8 +11,15 @@ else
     exit
 fi
 
+ng build --prod
+rm -rf cordova/www
+cp dist/PsicHelp cordova/www -r
+
+cd cordova
 echo "Gerando versão de Release para $APP"
-ionic cordova build android --prod --release
+
+
+cordova build android --prod --release
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk alias_name
 rm -f $APP.apk
 ~/Android/Sdk/build-tools/26.0.2/zipalign -v 4 platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk $APP.apk
