@@ -1,6 +1,8 @@
 #!/bin/bash
 
-APP="PsicHelp"
+export APP="PsicHelp"
+
+emulator @`emulator -list-avds | tail` &
 
 echo "Lembrou de atualizar a version no config.xml?"
 read answer
@@ -28,3 +30,4 @@ else
     echo Erro saindo!
     exit
 fi
+
