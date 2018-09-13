@@ -1,8 +1,10 @@
 #!/bin/bash
 
-APP="PsicHelp"
+export APP="PsicHelp"
 
-echo "Lembrou de atualizar a version no config.xml?"
+emulator @`emulator -list-avds | tail` &
+
+echo "Lembrou de parar a execução local (cordova run) e de atualizar a versão no config.xml?"
 read answer
 if [ "$answer" != "${answer#[SsYy]}" ] ;then
     echo OK, continuando
@@ -11,15 +13,8 @@ else
     exit
 fi
 
-ng build --prod
-rm -rf cordova/www
-cp dist/PsicHelp cordova/www -r
-
-cd cordova
 echo "Gerando versão de Release para $APP"
-
-
-cordova build android --prod --release
+ionic cordova build android --prod --release
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk alias_name
 rm -f $APP.apk
 ~/Android/Sdk/build-tools/26.0.2/zipalign -v 4 platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk $APP.apk
@@ -35,3 +30,4 @@ else
     echo Erro saindo!
     exit
 fi
+
