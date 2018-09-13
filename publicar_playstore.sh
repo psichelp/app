@@ -4,7 +4,7 @@ export APP="PsicHelp"
 
 emulator @`emulator -list-avds | tail` &
 
-echo "Lembrou de atualizar a version no config.xml?"
+echo "Lembrou de parar a execução local (cordova run) e de atualizar a versão no config.xml?"
 read answer
 if [ "$answer" != "${answer#[SsYy]}" ] ;then
     echo OK, continuando
