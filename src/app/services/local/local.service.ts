@@ -56,8 +56,9 @@ export class LocalService {
         // id: 'nome'
         shouldSort: true,
         includeMatches: true,
-        threshold: 0.5,
+        threshold: 0.3,
         findAllMatches: true,
+        tokenize: true,
         // location: 0,
         // distance: 100,
         // maxPatternLength: 32,
