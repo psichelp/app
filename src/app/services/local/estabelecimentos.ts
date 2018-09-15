@@ -25,6 +25,29 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     servicos: [SERVICO.CAPS]
   },
   {
+    nome: 'COFAM - Centro de  Orientação Familiar.',
+    end:
+      'Av.  Joana  Angélica,  n°124,  Nazaré  (Próximo  ao  colégio  central  e  curso opção).',
+    tel: '3242-5959',
+    valor:
+      'Acordado  entre  terapeuta  e  atendido  de  acordo  com  condição socioeconômica  do  mesmo',
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.GRUPO, SERVICO.FAMILIAR, SERVICO.CRIANCAS_E_ADOLESCENTES],
+    descricao_servicos:
+      'Psicoterapia  de  família,  casal,  adolescente,  individual e  em  grupo.',
+    mapa:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.861241087727!2d-38.51263624930484!3d-12.980725563465388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604eb76dc1d9b%3A0x8d29f926c01e5948!2sAv.+Joana+Ang%C3%A9lica%2C+124+-+Nazar%C3%A9%2C+Salvador+-+BA%2C+40050-003!5e0!3m2!1spt-BR!2sbr!4v1531318273919" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+  {
+    nome: 'CEFAC - Centro de  Estudos  de  Família  e  Casal',
+    end: 'Parque  Lucaia,  n  281,  Edf.  WM,  Sala  404,  Horto  Florestal.',
+    tel: '3022-3149',
+    valor: 'Triagem  gratuita. Valor  do  atendimento  gratuito ou negociado.',
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.GRUPO, SERVICO.CONJUGAL, SERVICO.FAMILIAR],
+    descricao_servicos: 'Às terças-feiras das 8h às 12h. Psicoterapia  individual, de  família  e  casal.',
+    mapa:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.461910601058!2d-38.49029245753272!3d-13.00623072811388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71603560859f611%3A0xd6b7ca8e618b7557!2sR.+Lucaia%2C+281+-+Rio+Vermelho%2C+Salvador+-+BA%2C+41940-660!5e0!3m2!1spt-BR!2sbr!4v1531318996417" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+  {
     nome: 'Lilliana Sobrinho',
     end: 'Avenida ACM, 772, Torre do Parque Sala 1810 - Ao lado do Fiesta – Salvador – Bahia',
     tel: '(71) 993807286',
@@ -221,7 +244,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     end: 'Rua São Francisco, s/n, Monte Serrat',
     tel: '3316-3084',
     valor: 'Gratuito',
-    servicos: [SERVICO.INDIVIDUAL, SERVICO.FAMILIAR],
+    servicos: [SERVICO.INDIVIDUAL],
     descricao_servicos:
       'Neurologia e acompanhamento psicológico a pacientes com hanseníase e familiares',
     mapa:
@@ -315,7 +338,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     end: 'Rua Frederico Costa, n 93, Brotas.',
     tel: '3244-1142',
     valor: 'Gratuito',
-    servicos: [SERVICO.FAMILIAR, SERVICO.GRUPO, SERVICO.CRIANCAS_E_ADOLESCENTES],
+    servicos: [SERVICO.GRUPO, SERVICO.CRIANCAS_E_ADOLESCENTES],
     descricao_servicos:
       ' Reabilitação, habilitação, educação e tratamento de crianças, adolescentes e adultos portadores de deficiência mental e transtornos nas áreas emocional, psicomotora e neurológica.',
     mapa:
@@ -494,30 +517,6 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     mapa:
       '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.318776205092!2d-38.46079249843412!3d-12.951442199999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71612308d8d0ea7%3A0xdddaf66ca849c879!2sUniversidade+do+Estado+da+Bahia!5e0!3m2!1spt-BR!2sbr!4v1530883300079" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
   },
-  {
-    nome: 'COFAM - Centro de  Orientação Familiar.',
-    end:
-      'Av.  Joana  Angélica,  n°124,  Nazaré  (Próximo  ao  colégio  central  e  curso opção).',
-    tel: '3242-5959',
-    valor:
-      'Acordado  entre  terapeuta  e  atendido  de  acordo  com  condição socioeconômica  do  mesmo',
-    servicos: [SERVICO.INDIVIDUAL, SERVICO.GRUPO, SERVICO.FAMILIAR, SERVICO.CRIANCAS_E_ADOLESCENTES],
-    descricao_servicos:
-      'Psicoterapia  de  família,  casal,  adolescente,  individual e  em  grupo.',
-    mapa:
-      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.861241087727!2d-38.51263624930484!3d-12.980725563465388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604eb76dc1d9b%3A0x8d29f926c01e5948!2sAv.+Joana+Ang%C3%A9lica%2C+124+-+Nazar%C3%A9%2C+Salvador+-+BA%2C+40050-003!5e0!3m2!1spt-BR!2sbr!4v1531318273919" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
-  },
-  {
-    nome: 'CEFAC - Centro de  Estudos  de  Família  e  Casal',
-    end: 'Parque  Lucaia,  n  281,  Edf.  WM,  Sala  404,  Horto  Florestal.',
-    tel: '3022-3149',
-    valor: 'Triagem  gratuita. Valor  do  atendimento  gratuito ou negociado.',
-    servicos: [SERVICO.INDIVIDUAL, SERVICO.GRUPO, SERVICO.CONJUGAL, SERVICO.FAMILIAR],
-    descricao_servicos: 'Às terças-feiras das 8h às 12h. Psicoterapia  individual, de  família  e  casal.',
-    mapa:
-      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.461910601058!2d-38.49029245753272!3d-13.00623072811388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71603560859f611%3A0xd6b7ca8e618b7557!2sR.+Lucaia%2C+281+-+Rio+Vermelho%2C+Salvador+-+BA%2C+41940-660!5e0!3m2!1spt-BR!2sbr!4v1531318996417" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
-  },
-
   // Flávia
   {
     nome: 'CAPS II GARCIA/UFBA',
