@@ -1012,5 +1012,15 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     servicos: [SERVICO.PLANO, SERVICO.INDIVIDUAL],
     descricao_servicos: 'Psicologia',
   },
-
+  
+{
+    nome: 'Roqueleide Batista de Jesus',
+    end:'Rua, Avenida, Alameda: Avenida Antônio Carlos Magalhães, 3213,Em frente a MC Donald\'s,Salvador, Cep: 40280000',
+    tel: '(71) 984073911',
+    whatsapp: '(71) 984073911',
+    valor: 'Valor social',
+    email:'psicologaleide2014@hotmail.com',
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.CRIANCAS_E_ADOLESCENTES],
+    descricao_servicos: 'Especialista em terapia cognitivo comportamental. Atendimento infantil, adulto e idoso',
+  },
 ];
