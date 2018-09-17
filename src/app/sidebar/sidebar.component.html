@@ -13,19 +13,19 @@
   </mat-sidenav>
   <mat-sidenav-content>
     <mat-toolbar title-bar color="primary">
-      <!-- Este botão só será necessário quando for gerado o aplicativo cordova para iOS 
-        <button *ngIf="!isHome()" mat-icon-button (click)="backClicked()">
-        <mat-icon svgIcon="chevron-left" aria-label="back icon"></mat-icon>
-      </button> -->
-      <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()" *ngIf="isHandset$ | async">
-        <mat-icon svgIcon="menu" aria-label="Side nav toggle icon"></mat-icon>
+      <button *ngIf="!isHome()" mat-icon-button (click)="backClicked()">
+        <mat-icon svgIcon="arrow-left" aria-label="back icon"></mat-icon>
       </button>
-      <!-- Este span só será necessário quando for gerado o aplicativo cordova para iOS
-        <span *ngIf="isHome()" style="width: 40px"></span> -->
+      <button *ngIf="isHome() && (isHandset$ | async)" type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()" >
+          <mat-icon svgIcon="menu" aria-label="Side nav toggle icon"></mat-icon>
+      </button>
+      <!-- <span *ngIf="isHome()" style="width: 40px"></span> -->
       <span>PsicHelp</span>
-      <button mat-icon-button (click)="search()">
-        <mat-icon svgIcon="magnify" aria-label="search icon"></mat-icon>
-      </button>
+      <div>
+        <button mat-icon-button (click)="search()">
+          <mat-icon svgIcon="magnify" aria-label="search icon"></mat-icon>
+        </button>
+      </div>
     </mat-toolbar>
     <router-outlet></router-outlet>
   </mat-sidenav-content>
