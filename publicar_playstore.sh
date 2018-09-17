@@ -2,7 +2,12 @@
 
 export APP="PsicHelp"
 
-emulator @`emulator -list-avds | tail` &
+function acp {
+    git add -A .
+    git commit -m "$*"
+    git push
+}
+
 
 echo "Lembrou de parar a execução local (cordova run) e de atualizar a versão no config.xml?"
 read answer
@@ -13,8 +18,15 @@ else
     exit
 fi
 
+emulator @`emulator -list-avds | tail` &
+ng build --prod 
+
+rm -rf cordova/www
+mkdir -p cordova/www
+cp dist/PsicHelp/* cordova/www -r
 echo "Gerando versão de Release para $APP"
-ionic cordova build android --prod --release
+cd cordova
+cordova build android --prod --release
 jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk alias_name
 rm -f $APP.apk
 ~/Android/Sdk/build-tools/26.0.2/zipalign -v 4 platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk $APP.apk
