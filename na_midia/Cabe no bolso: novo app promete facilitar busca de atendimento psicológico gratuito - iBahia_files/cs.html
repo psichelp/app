@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"></head>
+<body>
+<script>
+  var channels = getChannels();
+  var protocol = window.location.protocol;
+
+  for (var i = 0; i < channels.length; i++) {
+    var channel = channels[i];
+    var seedtagCSUrl = '';
+
+    if (channel.redirect) {
+      seedtagCSUrl = encodeURIComponent(getCSyncURL(protocol, channel.name, channel.uid));
+    }
+    var finalUrl = protocol + channel.url + seedtagCSUrl;
+
+    switch (channel.format) {
+      case 'script':
+        insertScript(finalUrl);
+        break;
+      case 'img':
+        insertImg(finalUrl);
+        break;
+      case 'iframe':
+        insertIframe(finalUrl);
+        break;
+    }
+  }
+
+  window.addEventListener('message', function (event) {
+    if (event.data.indexOf('sas_csync_') != -1) {
+      var cookieSyncData = event.data.slice(10);
+
+      if (cookieSyncData) {
+        let cookiesyncUrl = this.getCSyncURL(protocol, 'smart', cookieSyncData);
+        insertImg(cookiesyncUrl);
+      }
+    }
+  }, true);
+
+  function insertScript (url) {
+    var channelScript = document.createElement('script');
+    channelScript.setAttribute('src', url);
+    channelScript.setAttribute('type', 'text/javascript');
+
+    document.body.appendChild(channelScript);
+  }
+
+  function insertImg (url) {
+    var channelImg = new Image(1, 1);
+    channelImg.src = url;
+
+    document.body.appendChild(channelImg);
+  }
+
+  function insertIframe (url) {
+    var channelIframe = document.createElement('iframe');
+    channelIframe.src = url;
+    channelIframe.scrolling = 'no';
+    channelIframe.frameBorder = 0;
+    channelIframe.width = 0;
+    channelIframe.height = 0;
+    channelIframe.style.margin = 0;
+    channelIframe.style.padding = 0;
+    channelIframe.style.display = 'none';
+    channelIframe.style.width = '0px';
+    channelIframe.style.height = '0px';
+
+    document.body.appendChild(channelIframe);
+  }
+
+  function getCSyncURL (protocol, channel, channeluid) {
+    return protocol + '//cs.api.seedtag.com/cookiesync/' + channel + '?channeluid=' + channeluid;
+  }
+
+  function getChannels () {
+    return [
+      { name: 'Bidswitch', url: '//x.bidswitch.net/sync?ssp=Seedtag', format: 'img', redirect: false },
+      {
+        name: 'outbrain',
+        url: '//b1sync.zemanta.com/usersync/seedtag/?cb=',
+        uid: '__ZUID__',
+        format: 'img',
+        redirect: true
+        // },
+        // {
+        //   name: 'Rubicon',
+        //   url: '//secure-assets.rubiconproject.com/utils/xapi/multi-sync.html?p=seedtag&endpoint=eu',
+        //   format: 'iframe',
+        //   redirect: false
+      }
+    ];
+  }
+
+</script><img src="cs_data/sync.gif" width="1" height="1"><img src="cs_data/a.asc" width="1" height="1">
+<script type="text/javascript" src="cs_data/ac.js"></script>
+
+
+</body></html>

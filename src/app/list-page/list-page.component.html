@@ -1,0 +1,10 @@
+<ng-container *ngFor="let local of locais">
+  <mat-card *ngIf="local.video" class="example-card">
+    <mat-card-content>
+      <div iframe-block-center [innerHtml]="local.video | sanitizeHtml"></div>
+    </mat-card-content>
+  </mat-card>
+  <mat-card *ngIf="local.nome" (click)="goToDetails(local)">
+      <mat-card-title *ngIf="local.nome">{{local.nome}}</mat-card-title>
+  </mat-card>
+</ng-container>
