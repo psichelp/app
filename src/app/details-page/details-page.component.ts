@@ -4,8 +4,7 @@ import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-details-page',
-  templateUrl: './details-page.component.html',
-  styleUrls: ['./details-page.component.css']
+  templateUrl: './details-page.component.html'
 })
 export class DetailsPageComponent implements OnInit {
 
