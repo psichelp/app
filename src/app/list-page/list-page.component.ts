@@ -6,8 +6,7 @@ import { LocalService } from '../services/local/local.service';
 
 @Component({
   selector: 'app-list-page',
-  templateUrl: './list-page.component.html',
-  styleUrls: ['./list-page.component.css']
+  templateUrl: './list-page.component.html'
 })
 export class ListPageComponent implements OnInit {
 
@@ -33,7 +32,7 @@ export class ListPageComponent implements OnInit {
         }
       );
   }
-  
+
   goToDetails(local: any) {
     this.router.navigate(['/detalhes', {local:  JSON.stringify(local)} ]);
   }
