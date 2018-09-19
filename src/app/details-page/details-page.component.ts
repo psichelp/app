@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { Subscription } from 'rxjs';
+import { WhatsAppService } from '../services/whatsapp/whats-app.service';
 
 @Component({
   selector: 'app-details-page',
@@ -10,7 +11,10 @@ export class DetailsPageComponent implements OnInit {
   estabelecimento: any;
   paramsSubscription: Subscription;
 
-  constructor(private router: Router, private route: ActivatedRoute) {}
+  constructor(
+    private router: Router,
+    private route: ActivatedRoute,
+    private whatsapp: WhatsAppService) { }
 
   ngOnInit() {
     this.estabelecimento = null;
@@ -26,7 +30,6 @@ export class DetailsPageComponent implements OnInit {
   }
 
   onClickWhatsApp() {
-    const whatsapp = this.estabelecimento.whatsapp;
-    window.open(`whatsapp:${whatsapp}`);
+    this.whatsapp.message(this.estabelecimento.whatsapp);
   }
 }

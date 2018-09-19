@@ -17,6 +17,7 @@ import { LocalService } from './services/local/local.service';
 import { PipesModule } from './pipes/pipes.module';
 import { DetailsPageComponent } from './details-page/details-page.component';
 import { SearchPageComponent } from './search-page/search-page.component';
+import { WhatsAppService } from './services/whatsapp/whats-app.service';
 
 const appRoutes: Routes = [
   { path: 'inicio', component: HomePageComponent },
@@ -54,7 +55,10 @@ const appRoutes: Routes = [
     MatInputModule,
     HttpClientModule,
     PipesModule.forRoot(),
-  ], providers: [LocalService],
+  ], providers: [
+    LocalService,
+    WhatsAppService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule {
