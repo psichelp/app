@@ -22,6 +22,15 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     servicos: [SERVICO.CAPS]
   },
   {
+    nome: 'CVV - Centro de Valorização da Vida',
+    end: 'Apenas online em Salvador',
+    tel: '188',
+    valor: 'Gratúito',
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.ONLINE],
+    descricao_servicos:
+      'O CVV – Centro de Valorização da Vida realiza apoio emocional e prevenção do suicídio, atendendo voluntária e gratuitamente todas as pessoas que querem e precisam conversar, sob total sigilo por telefone, email e chat 24 horas todos os dias.',
+  },
+  {
     nome: 'COFAM - Centro de  Orientação Familiar.',
     end:
       'Av.  Joana  Angélica,  n°124,  Nazaré  (Próximo  ao  colégio  central  e  curso opção).',
@@ -43,6 +52,17 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     descricao_servicos: 'Às terças-feiras das 8h às 12h. Psicoterapia  individual, de  família  e  casal.',
     mapa:
       '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.461910601058!2d-38.49029245753272!3d-13.00623072811388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71603560859f611%3A0xd6b7ca8e618b7557!2sR.+Lucaia%2C+281+-+Rio+Vermelho%2C+Salvador+-+BA%2C+41940-660!5e0!3m2!1spt-BR!2sbr!4v1531318996417" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+  {
+    nome: 'Graça - Suporte a família de alcoólicos',
+    tel: '(71) 991044172',
+    whatsapp: '(71) 991044172',
+    valor:
+      'Gratúito',
+    servicos: [SERVICO.FAMILIAR, SERVICO.DROGAS],
+    email: 'alanonbaresponde@gmail.com',
+    descricao_servicos:
+      'Através do e-mail ou WhatsApp informamos os grupos que atendem familiares e amigos de alcoólicos, que sofrem com a maneira de beber dessa pessoa.',
   },
   {
     nome: 'Associação de Pais e Amigos dos Excepcionais (Apae) Salvador',
@@ -1012,14 +1032,14 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     servicos: [SERVICO.PLANO, SERVICO.INDIVIDUAL],
     descricao_servicos: 'Psicologia',
   },
-  
-{
+
+  {
     nome: 'Roqueleide Batista de Jesus',
-    end:'Rua, Avenida, Alameda: Avenida Antônio Carlos Magalhães, 3213,Em frente a MC Donald\'s,Salvador, Cep: 40280000',
+    end: 'Rua, Avenida, Alameda: Avenida Antônio Carlos Magalhães, 3213,Em frente a MC Donald\'s,Salvador, Cep: 40280000',
     tel: '(71) 984073911',
     whatsapp: '(71) 984073911',
     valor: 'Valor social',
-    email:'psicologaleide2014@hotmail.com',
+    email: 'psicologaleide2014@hotmail.com',
     servicos: [SERVICO.INDIVIDUAL, SERVICO.CRIANCAS_E_ADOLESCENTES],
     descricao_servicos: 'Especialista em terapia cognitivo comportamental. Atendimento infantil, adulto e idoso',
   },

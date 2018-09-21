@@ -9,24 +9,19 @@
     <p *ngIf="estabelecimento.tel">
       <span center-vertical light>
         <mat-icon svgIcon="phone"></mat-icon>
-        <a light href="tel:{{estabelecimento.tel}}">{{estabelecimento.tel}}</a>
+        &nbsp;<a light href="tel:{{estabelecimento.tel}}">{{estabelecimento.tel}}</a>
       </span>
     </p>
     <p *ngIf="estabelecimento.whatsapp">
       <span center-vertical light>
         <mat-icon svgIcon="whatsapp" style="color: green"></mat-icon>
-        <a light (click)="onClickWhatsApp()" href="#">{{estabelecimento.whatsapp}}</a>
+        &nbsp;<a light (click)="onClickWhatsApp()" href="#">{{estabelecimento.whatsapp}}</a>
       </span>
     </p>
     <p *ngIf="estabelecimento.valor">
       <span center-vertical light>
         <mat-icon svgIcon="cash" style="color: green"></mat-icon>
-        {{estabelecimento.valor}}
-      </span>
-    </p>
-    <p *ngIf="estabelecimento.descricao_servicos">
-      <span wlight>
-        {{estabelecimento.descricao_servicos}}
+        &nbsp;{{estabelecimento.valor}}
       </span>
     </p>
     <p *ngIf="estabelecimento.descricao_servicos">
@@ -45,8 +40,14 @@
 
   </mat-card-content>
   <mat-card-actions>
-    <button *ngIf="estabelecimento.tel" mat-button (click)="onClickLigar()">LIGAR</button>
-    <button *ngIf="estabelecimento.whatsapp" mat-button (click)="onClickWhatsApp()" >WhatsApp</button>
+    <button *ngIf="estabelecimento.tel" mat-button (click)="onClickLigar()">
+      <mat-icon svgIcon="phone"></mat-icon>
+      LIGAR
+    </button>
+    <button *ngIf="estabelecimento.whatsapp" mat-button (click)="onClickWhatsApp()">
+      <mat-icon svgIcon="whatsapp" style="color: green"></mat-icon>
+      WhatsApp
+    </button>
   </mat-card-actions>
 </mat-card>
 
