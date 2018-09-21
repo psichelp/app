@@ -4,7 +4,27 @@
       <div iframe-block-center [innerHtml]="local.video | sanitizeHtml"></div>
     </mat-card-content>
   </mat-card>
-  <mat-card *ngIf="local.nome" (click)="goToDetails(local)">
-      <mat-card-content *ngIf="local.nome">{{local.nome}} - <span primary>{{local.valor}}</span>  </mat-card-content>
-  </mat-card>
 </ng-container>
+
+<mat-nav-list>
+  <mat-list-item *ngFor="let local of locais">
+    <a matLine *ngIf="local.nome" (click)="goToDetails(local)">
+      {{local.nome}} - <span primary>{{local.valor}}</span>
+        <!-- <button mat-button>
+          <mat-icon svgIcon="eye-plus-outline"></mat-icon>
+        </button> -->
+    </a>
+  </mat-list-item>
+</mat-nav-list>
+
+
+<!-- <mat-card *ngIf="local.nome" (click)="goToDetails(local)">
+      <mat-card-content *ngIf="local.nome">{{local.nome}} - <span primary>{{local.valor}}</span>
+
+        <button mat-button >
+          <mat-icon svgIcon="eye-plus-outline"></mat-icon>
+        </button>
+    
+
+        </mat-card-content>
+  </mat-card> -->
