@@ -54,6 +54,29 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
       '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.461910601058!2d-38.49029245753272!3d-13.00623072811388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71603560859f611%3A0xd6b7ca8e618b7557!2sR.+Lucaia%2C+281+-+Rio+Vermelho%2C+Salvador+-+BA%2C+41940-660!5e0!3m2!1spt-BR!2sbr!4v1531318996417" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
   },
   {
+    nome: 'MARGARETE ARAUJO DONIN',
+    end: 'Av. Prof. Magalhães Neto, 1450 sala 406, Pituba, Salvador, Bahia. Brasil',
+    tel: '(71) 982325329',
+    whatsapp: '(71) 982325329',
+    valor: 'Valor social (valor acessível)',
+    servicos: [SERVICO.INDIVIDUAL],
+    descricao_servicos: 'Especialista em Psicologia Clinica, psicoterapia Focal, Consultora em Saúde. E Educação Sexual (Abrasex) Atendimento adulto',
+    email: 'marga.araujo@gmail.com',
+    mapa:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7542202858!2d-38.45155258517778!3d-12.987565790845363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b0e9511d30f%3A0x1708013b12b438f!2sAv.+Prof.+Magalh%C3%A3es+Neto%2C+1450+-+Pituba%2C+Salvador+-+BA%2C+41810-011!5e0!3m2!1spt-BR!2sbr!4v1537598149991" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+  {
+    nome: 'Roqueleide Batista de Jesus',
+    end: 'Avenida Antônio Carlos Magalhães, 3213, Em frente a MC Donald\'s,Salvador, Cep: 40280000',
+    tel: '(71) 984073911',
+    whatsapp: '(71) 984073911',
+    valor: 'Valor social',
+    email: 'psicologaleide2014@hotmail.com',
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.CRIANCAS_E_ADOLESCENTES],
+    descricao_servicos: 'Especialista em terapia cognitivo comportamental. Atendimento infantil, adulto e idoso',
+    mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7593850970497!2d-38.47014905007476!3d-12.987235763596246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b3ec283d77f%3A0x43df1707df68661e!2sAv.+Ant%C3%B4nio+Carlos+Magalh%C3%A3es%2C+3213+-+Parque+Bela+Vista%2C+Salvador+-+BA%2C+40279-030!5e0!3m2!1spt-BR!2sbr!4v1537598375367" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+  {
     nome: 'Graça - Suporte a família de alcoólicos',
     tel: '(71) 991044172',
     whatsapp: '(71) 991044172',
@@ -1033,14 +1056,4 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     descricao_servicos: 'Psicologia',
   },
 
-  {
-    nome: 'Roqueleide Batista de Jesus',
-    end: 'Rua, Avenida, Alameda: Avenida Antônio Carlos Magalhães, 3213,Em frente a MC Donald\'s,Salvador, Cep: 40280000',
-    tel: '(71) 984073911',
-    whatsapp: '(71) 984073911',
-    valor: 'Valor social',
-    email: 'psicologaleide2014@hotmail.com',
-    servicos: [SERVICO.INDIVIDUAL, SERVICO.CRIANCAS_E_ADOLESCENTES],
-    descricao_servicos: 'Especialista em terapia cognitivo comportamental. Atendimento infantil, adulto e idoso',
-  },
 ];
