@@ -1065,5 +1065,35 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     mapa:
       '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4381307725484!2d-38.49429658517754!3d-13.007747990832177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160356f731022b%3A0xe01610742ab37e21!2sCentro+de+Saude+Mental+Oswaldo+Camargo!5e0!3m2!1spt-BR!2sbr!4v1531406263467" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>',
   },
+  {
+    nome: 'Centro de Saúde Mental Alvaro Rubin de Pinho',
+    end: 'R. Itabuna S/N, Rio Vermelho Prox. Antiga Coca-Cola',
+    tel: '3611-5600',
+    valor: 'Gratuito',
+    servicos: [SERVICO.MEDICAMENTOS],
+    descricao_servicos: 'Fornece Medicamentos Psiquiátricos. Neurologia (a partir de 13 anos) Psiquiatria Psicologia: Psicoterapia individual/ Psicoterapia de Grupo/ Psicoterapia Familiar Serviço Social e Enfermagem',
+    mapa:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4381307725484!2d-38.49429658517754!3d-13.007747990832177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160356f731022b%3A0xe01610742ab37e21!2sCentro+de+Saude+Mental+Oswaldo+Camargo!5e0!3m2!1spt-BR!2sbr!4v1531406263467" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>',
+  },
+  {
+    nome: 'Hospital Juliano Moreira',
+    end: 'Rua Prof. Edgar Santos, s/n, Narandiba (próximo ao Cabula VI).',
+    tel: '3231-6644 / 3231-2359 3256-0869 / 3386-4385/3386-0696',
+    valor: 'Gratuito',
+    servicos: [SERVICO.EMERGENCIA, SERVICO.INDIVIDUAL, SERVICO.GRUPO],
+    descricao_servicos: 'Psiquiatria, Emergência Psiquiátrica, Psicoterapia individual e em grupo',
+    mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15553.19070998105!2d-38.4495004!3d-12.952794!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x91e90b3e71a74c92!2sHospital+Juliano+Moreira!5e0!3m2!1spt-BR!2sbr!4v1538154861244" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>', 
+  },
 
+  {
+    nome: 'Hospital Especializado Mário Leal',
+    end: 'Rua Conde de Porto Alegre, no 11, IAPI.',
+    tel: '3256-0869 / 3386-4385/0696',
+    valor: 'Gratuito',
+    servicos: [SERVICO.EMERGENCIA, SERVICO.INDIVIDUAL, SERVICO.GRUPO],
+    descricao_servicos: 'Atendimento psiquiátrico e psicológico em regime de internamento e ambulatorial, psicoterapia individual e em grupo para adultos, terapia ocupacional.',
+    mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15552.87331840325!2d-38.4880311!3d-12.9578766!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd7122a7ad270df35!2sHospital+Especializado+Mario+Leal!5e0!3m2!1spt-BR!2sbr!4v1538155176605" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>' 
+  },
+
+  
 ];

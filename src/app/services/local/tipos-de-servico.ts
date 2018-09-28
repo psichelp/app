@@ -14,4 +14,5 @@ export const SERVICO = {
   PLANO: 'Planos de saúde - Psicologos',
   CRIANCAS_E_ADOLESCENTES: 'Crianças e adolescentes',
   MEDICAMENTOS: 'Medicamentos gratúitos',
+  EMERGENCIA: 'Emergência Psiquiátrica',
 };
