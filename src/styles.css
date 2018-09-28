@@ -10,6 +10,11 @@ body {
   color: #488aff;
 }
 
+[secondary] {
+  color: green;
+}
+
+
 [center-vertical] {
   display: flex;
   align-items: center;

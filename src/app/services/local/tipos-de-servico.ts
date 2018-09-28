@@ -12,5 +12,7 @@ export const SERVICO = {
   DROGAS: 'Drogas',
   ONLINE: 'Online',
   PLANO: 'Planos de saúde - Psicologos',
-  CRIANCAS_E_ADOLESCENTES: 'Crianças e adolescentes'
+  CRIANCAS_E_ADOLESCENTES: 'Crianças e adolescentes',
+  MEDICAMENTOS: 'Medicamentos gratúitos',
+  EMERGENCIA: 'Emergência Psiquiátrica',
 };

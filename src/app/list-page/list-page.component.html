@@ -5,6 +5,8 @@
     </mat-card-content>
   </mat-card>
   <mat-card *ngIf="local.nome" (click)="goToDetails(local)">
-      <mat-card-title *ngIf="local.nome">{{local.nome}}</mat-card-title>
+    <mat-card-content *ngIf="local.nome">
+      {{local.nome}} - <span primary>{{local.valor}}</span>
+    </mat-card-content>
   </mat-card>
 </ng-container>

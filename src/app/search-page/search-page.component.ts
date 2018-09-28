@@ -4,6 +4,7 @@ import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operato
 import { Estabelecimento } from '../services/local/estabelecimento';
 import { LocalService } from '../services/local/local.service';
 import { Router } from '@angular/router';
+import { WhatsAppService } from '../services/whatsapp/whats-app.service';
 
 @Component({
   selector: 'app-search-page',
@@ -15,10 +16,10 @@ export class SearchPageComponent implements OnInit {
   estabelecimentos$: Observable<Estabelecimento[]>;
   private searchQuery = new Subject<string>();
 
-
   constructor(
     private localService: LocalService,
-    private router: Router
+    private router: Router,
+    private whatsapp: WhatsAppService
 
   ) { }
 
@@ -49,23 +50,7 @@ export class SearchPageComponent implements OnInit {
       alert('Este contato não possui whatsapp.');
       return;
     }
-
-    const phone = estabelecimento.whatsapp.split('/')[0].replace(/\D/g, ''); // only numbers
-    const message = 'Olá, gostaria de ...';
-    let url;
-
-    // if (this.platform.is('cordova')) {
-    //   url = `whatsapp://send?text=${message}&phone=${phone}`;
-    // } else {
-    //   // OPÇÃO 1 - com mensagem pré definida
-      // const encodedText = encodeURI(message);
-      // url = `https://wa.me/55${phone}?text=${encodedText}`;
-
-      // OPÇÃO 2 - sem mensagem pré-definida
-      const prefix = '55';
-      url = `https://wa.me/${prefix}${phone}`;
-    // }
-    window.open(url, '_system', 'location=yes');
+    this.whatsapp.message(estabelecimento.whatsapp);
   }
 
   onClickCall(estabelecimento: Estabelecimento) {

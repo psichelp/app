@@ -10,6 +10,16 @@
         <div class="card-title">Crianças e Adolescentes</div>
         <button class="sr-only sr-only-focusable" (click)="listar('Crianças e adolescentes')">Ir para categoria: crianças e adolescentes</button>
       </div>
+      <div card (click)="listar('Medicamentos gratúitos')" style="cursor: pointer; background-image: url(assets/imgs/medicamentos.jpg)">
+        <div class="card-subtitle">Medicamentos</div>
+        <div class="card-title">Sem custo</div>
+        <button class="sr-only sr-only-focusable" (click)="listar('Medicamentos gratúitos')">Ir para categoria: Obter medicamentos gratúitos</button>
+      </div>
+      <div card (click)="listar('Emergência Psiquiátrica')" style="cursor: pointer; background-image: url(assets/imgs/samu.jpg)">
+        <div class="card-subtitle">Emergência</div>
+        <div class="card-title">Psiquiátrica</div>
+        <button class="sr-only sr-only-focusable" (click)="listar('Emergência Psiquiátrica')">Ir para categoria: Atendimento de emergência psiquiátrica</button>
+      </div>
       <div card (click)="listar('Online')" style="cursor: pointer; background-image: url(assets/imgs/online.jpg)">
         <div class="card-subtitle">Atendimento</div>
         <div class="card-title">Online</div>

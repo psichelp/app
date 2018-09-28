@@ -34,7 +34,6 @@ Estamos buscando patrocínio e parceiros para ajudar na divulgação do aplicati
 
 - Beatriz Rocha: +55 (71) 983001071
 - Evandro Jr.: +55 (71) 982864766
-- Naiara Suyane: +55 (71) 986381251
 
 ## Referências
 

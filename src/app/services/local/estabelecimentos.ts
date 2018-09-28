@@ -22,6 +22,15 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     servicos: [SERVICO.CAPS]
   },
   {
+    nome: 'CVV - Centro de Valorização da Vida',
+    end: 'Apenas online em Salvador',
+    tel: '188',
+    valor: 'Gratúito',
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.ONLINE],
+    descricao_servicos:
+      'O CVV – Centro de Valorização da Vida realiza apoio emocional e prevenção do suicídio, atendendo voluntária e gratuitamente todas as pessoas que querem e precisam conversar, sob total sigilo por telefone, email e chat 24 horas todos os dias.',
+  },
+  {
     nome: 'COFAM - Centro de  Orientação Familiar.',
     end:
       'Av.  Joana  Angélica,  n°124,  Nazaré  (Próximo  ao  colégio  central  e  curso opção).',
@@ -43,6 +52,40 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     descricao_servicos: 'Às terças-feiras das 8h às 12h. Psicoterapia  individual, de  família  e  casal.',
     mapa:
       '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.461910601058!2d-38.49029245753272!3d-13.00623072811388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71603560859f611%3A0xd6b7ca8e618b7557!2sR.+Lucaia%2C+281+-+Rio+Vermelho%2C+Salvador+-+BA%2C+41940-660!5e0!3m2!1spt-BR!2sbr!4v1531318996417" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+  {
+    nome: 'MARGARETE ARAUJO DONIN',
+    end: 'Av. Prof. Magalhães Neto, 1450 sala 406, Pituba, Salvador, Bahia. Brasil',
+    tel: '(71) 982325329',
+    whatsapp: '(71) 982325329',
+    valor: 'Valor social (valor acessível)',
+    servicos: [SERVICO.INDIVIDUAL],
+    descricao_servicos: 'Especialista em Psicologia Clinica, psicoterapia Focal, Consultora em Saúde. E Educação Sexual (Abrasex) Atendimento adulto',
+    email: 'marga.araujo@gmail.com',
+    mapa:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7542202858!2d-38.45155258517778!3d-12.987565790845363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b0e9511d30f%3A0x1708013b12b438f!2sAv.+Prof.+Magalh%C3%A3es+Neto%2C+1450+-+Pituba%2C+Salvador+-+BA%2C+41810-011!5e0!3m2!1spt-BR!2sbr!4v1537598149991" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+  {
+    nome: 'Roqueleide Batista de Jesus',
+    end: 'Avenida Antônio Carlos Magalhães, 3213, Em frente a MC Donald\'s,Salvador, Cep: 40280000',
+    tel: '(71) 984073911',
+    whatsapp: '(71) 984073911',
+    valor: 'Valor social',
+    email: 'psicologaleide2014@hotmail.com',
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.CRIANCAS_E_ADOLESCENTES],
+    descricao_servicos: 'Especialista em terapia cognitivo comportamental. Atendimento infantil, adulto e idoso',
+    mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7593850970497!2d-38.47014905007476!3d-12.987235763596246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b3ec283d77f%3A0x43df1707df68661e!2sAv.+Ant%C3%B4nio+Carlos+Magalh%C3%A3es%2C+3213+-+Parque+Bela+Vista%2C+Salvador+-+BA%2C+40279-030!5e0!3m2!1spt-BR!2sbr!4v1537598375367" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+  {
+    nome: 'Graça - Suporte a família de alcoólicos',
+    tel: '(71) 991044172',
+    whatsapp: '(71) 991044172',
+    valor:
+      'Gratúito',
+    servicos: [SERVICO.FAMILIAR, SERVICO.DROGAS],
+    email: 'alanonbaresponde@gmail.com',
+    descricao_servicos:
+      'Através do e-mail ou WhatsApp informamos os grupos que atendem familiares e amigos de alcoólicos, que sofrem com a maneira de beber dessa pessoa.',
   },
   {
     nome: 'Associação de Pais e Amigos dos Excepcionais (Apae) Salvador',
@@ -1012,15 +1055,45 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     servicos: [SERVICO.PLANO, SERVICO.INDIVIDUAL],
     descricao_servicos: 'Psicologia',
   },
-  
-{
-    nome: 'Roqueleide Batista de Jesus',
-    end:'Rua, Avenida, Alameda: Avenida Antônio Carlos Magalhães, 3213,Em frente a MC Donald\'s,Salvador, Cep: 40280000',
-    tel: '(71) 984073911',
-    whatsapp: '(71) 984073911',
-    valor: 'Valor social',
-    email:'psicologaleide2014@hotmail.com',
-    servicos: [SERVICO.INDIVIDUAL, SERVICO.CRIANCAS_E_ADOLESCENTES],
-    descricao_servicos: 'Especialista em terapia cognitivo comportamental. Atendimento infantil, adulto e idoso',
+  {
+    nome: 'Ambulatório Oswaldo Camargo',
+    end: 'R. Itabuna S/N, Rio Vermelho Prox. Antiga Coca-Cola',
+    tel: '3611-5600',
+    valor: 'Gratuito',
+    servicos: [SERVICO.MEDICAMENTOS],
+    descricao_servicos: 'Fornece Medicamentos Psiquiátricos. Neurologia (a partir de 13 anos) Psiquiatria Psicologia: Psicoterapia individual/ Psicoterapia de Grupo/ Psicoterapia Familiar Serviço Social e Enfermagem',
+    mapa:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4381307725484!2d-38.49429658517754!3d-13.007747990832177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160356f731022b%3A0xe01610742ab37e21!2sCentro+de+Saude+Mental+Oswaldo+Camargo!5e0!3m2!1spt-BR!2sbr!4v1531406263467" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>',
   },
+  {
+    nome: 'Centro de Saúde Mental Alvaro Rubin de Pinho',
+    end: 'R. Itabuna S/N, Rio Vermelho Prox. Antiga Coca-Cola',
+    tel: '3611-5600',
+    valor: 'Gratuito',
+    servicos: [SERVICO.MEDICAMENTOS],
+    descricao_servicos: 'Fornece Medicamentos Psiquiátricos. Neurologia (a partir de 13 anos) Psiquiatria Psicologia: Psicoterapia individual/ Psicoterapia de Grupo/ Psicoterapia Familiar Serviço Social e Enfermagem',
+    mapa:
+      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4381307725484!2d-38.49429658517754!3d-13.007747990832177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160356f731022b%3A0xe01610742ab37e21!2sCentro+de+Saude+Mental+Oswaldo+Camargo!5e0!3m2!1spt-BR!2sbr!4v1531406263467" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>',
+  },
+  {
+    nome: 'Hospital Juliano Moreira',
+    end: 'Rua Prof. Edgar Santos, s/n, Narandiba (próximo ao Cabula VI).',
+    tel: '3231-6644 / 3231-2359 3256-0869 / 3386-4385/3386-0696',
+    valor: 'Gratuito',
+    servicos: [SERVICO.EMERGENCIA, SERVICO.INDIVIDUAL, SERVICO.GRUPO],
+    descricao_servicos: 'Psiquiatria, Emergência Psiquiátrica, Psicoterapia individual e em grupo',
+    mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15553.19070998105!2d-38.4495004!3d-12.952794!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x91e90b3e71a74c92!2sHospital+Juliano+Moreira!5e0!3m2!1spt-BR!2sbr!4v1538154861244" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>', 
+  },
+
+  {
+    nome: 'Hospital Especializado Mário Leal',
+    end: 'Rua Conde de Porto Alegre, no 11, IAPI.',
+    tel: '3256-0869 / 3386-4385/0696',
+    valor: 'Gratuito',
+    servicos: [SERVICO.EMERGENCIA, SERVICO.INDIVIDUAL, SERVICO.GRUPO],
+    descricao_servicos: 'Atendimento psiquiátrico e psicológico em regime de internamento e ambulatorial, psicoterapia individual e em grupo para adultos, terapia ocupacional.',
+    mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15552.87331840325!2d-38.4880311!3d-12.9578766!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd7122a7ad270df35!2sHospital+Especializado+Mario+Leal!5e0!3m2!1spt-BR!2sbr!4v1538155176605" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>' 
+  },
+
+  
 ];
