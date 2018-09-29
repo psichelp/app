@@ -38,12 +38,15 @@ platform :android do
 #      keystore_alias: 'prod',
       keystore_password: ENV['KEYSTORE_PASSWORD']
     )
-    upload_to_play_stores
+    upload_to_play_store
   end
 
-#  lane :deploy do
-#    gradle(task: "clean assembleRelease")
-#    upload_to_play_store
+#  lane :playstore do
+#    upload_to_play_store(
+#      changelog: 'Melhorias e correções de bugs'
+#    )
 #  end
+
 end
+
 

@@ -43,3 +43,4 @@ else
     exit
 fi
 
+fastlane deploy
