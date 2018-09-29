@@ -11,7 +11,6 @@ log.txt
 *.sublime-workspace
 .vscode/
 npm-debug.log*
-
 .idea/
 .sourcemaps/
 .sass-cache/
@@ -29,12 +28,9 @@ plugins/android.json
 plugins/ios.json
 www/
 $RECYCLE.BIN/
-
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
-
 my-release-key.keystore
 PsicHelp.apk
-
-na_midia/
+api-6854067923819860823-725894-97e20ebc6987.json
