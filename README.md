@@ -13,10 +13,11 @@ App criado pela turma de raciocínio computacional com empreendedorismo social. 
 
 Projeto idealizado e liderado pelas alunas: **Beatriz Rocha** e **Naiara Suyane**.
 
-Instrutor e desenvolvedor: **Evandro Jr**
+Instrutor: **Evandro Jr**
 
-Desenvolvedores: **Leonardo Merlin**, **Luis Augusto Oliveira da Silva**
+Desenvolvedores: **Evandro Jr**, **Leonardo Merlin** e **Luis Augusto Oliveira da Silva**.
 
+Mídias Sociais: **Beatriz Rocha**, **Evandro Jr** e **Karla Prazeres**.
 
 Alunos que contribuíram diretamente na criação do app: **Adryan**, **Ester**, **Gabriel**, **Vanessa**, **Williams**, **Thaiane**, **Márcio**, **Flávia**, **Cleiton** e **Felipe**.
 
