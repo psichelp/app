@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, UrlHandlingStrategy } from '@angular/router';
+import { Url } from 'url';
 
 @Component({
   selector: 'app-home-page',
@@ -15,6 +16,10 @@ export class HomePageComponent implements OnInit {
 
   listar(servico: String) {
     this.router.navigate(['/listar', { servico: servico }])
+  }
+
+  irPara(url: string){
+    window.open(url);
   }
 
 }

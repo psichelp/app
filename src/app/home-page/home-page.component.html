@@ -1,76 +1,81 @@
 <div class="card-background-page conteudo">
-    <div image-menu no-padding>
-      <div card (click)="listar('Terapia individual')" style="cursor: pointer; background-image: url(assets/imgs/individual.jpg)">
-        <div class="card-subtitle">Atendimento Presencial</div>
-        <div class="card-title">Individualizado</div>
-        <button class="sr-only sr-only-focusable" (click)="listar('Terapia individual')">Ir para categoria: Atendimento presencial e individualizado</button>
-      </div>
-      <div card (click)="listar('Crianças e adolescentes')" style="cursor: pointer; background-image: url(assets/imgs/criancas-e-adolescentes.jpg)">
-        <!-- <div class="card-subtitle">Terapia para</div> -->
-        <div class="card-title">Crianças e Adolescentes</div>
-        <button class="sr-only sr-only-focusable" (click)="listar('Crianças e adolescentes')">Ir para categoria: crianças e adolescentes</button>
-      </div>
-      <div card (click)="listar('Medicamentos gratúitos')" style="cursor: pointer; background-image: url(assets/imgs/medicamentos.jpg)">
-        <div class="card-subtitle">Medicamentos</div>
-        <div class="card-title">Sem custo</div>
-        <button class="sr-only sr-only-focusable" (click)="listar('Medicamentos gratúitos')">Ir para categoria: Obter medicamentos gratúitos</button>
-      </div>
-      <div card (click)="listar('Emergência Psiquiátrica')" style="cursor: pointer; background-image: url(assets/imgs/samu.jpg)">
-        <div class="card-subtitle">Emergência</div>
-        <div class="card-title">Psiquiátrica</div>
-        <button class="sr-only sr-only-focusable" (click)="listar('Emergência Psiquiátrica')">Ir para categoria: Atendimento de emergência psiquiátrica</button>
-      </div>
-      <div card (click)="listar('Online')" style="cursor: pointer; background-image: url(assets/imgs/online.jpg)">
-        <div class="card-subtitle">Atendimento</div>
-        <div class="card-title">Online</div>
-        <button class="sr-only sr-only-focusable" (click)="listar('Online')">Ir para categoria: atendimento online</button>
-      </div>
-      <div card (click)="listar('Terapia de Grupo')" style="cursor: pointer; background-image: url(assets/imgs/grupal.jpg)">
-        <div class="card-subtitle">Terapia com</div>
-        <div class="card-title">Grupos de Ajuda</div>
-        <button class="sr-only sr-only-focusable" (click)="listar('Terapia de Grupo')">Ir para categoria: grupos de ajuda</button>
-      </div>
-      <div card (click)="listar('Terapia Familiar')" style="cursor: pointer; background-image: url(assets/imgs/familiar.jpg)">
-        <div class="card-subtitle">Terapia em</div>
-        <div class="card-title">Família</div>
-        <button class="sr-only sr-only-focusable" (click)="listar('Terapia Familiar')">Ir para categoria: terapia em família</button>
-      </div>
-      <div card (click)="listar('Terapia Conjugal')" style="cursor: pointer; background-image: url(assets/imgs/casal.jpg)">
-        <div class="card-subtitle">Terapia para</div>
-        <div class="card-title">Casais</div>
-        <button class="sr-only sr-only-focusable" (click)="listar('Terapia Conjugal')">Ir para categoria: terapia para casais</button>
-      </div>
-      <div card (click)="listar('Orientação Profissional')" style="cursor: pointer; background-image: url(assets/imgs/profissional.jpg)">
-        <div class="card-subtitle">Orientação</div>
-        <div class="card-title">Profissional</div>
-        <button class="sr-only sr-only-focusable" (click)="listar('Orientação Profissional')">Ir para categoria: orientação profissional</button>
-      </div>
-      <div card (click)="listar('LGBT')" style="cursor: pointer; background-image: url(assets/imgs/lgbt.jpg)">
-        <div class="card-subtitle">Suporte emocional e legal para</div>
-        <div class="card-title">LGBT</div>
-        <button class="sr-only sr-only-focusable" (click)="listar('LGBT')">Ir para categoria: LGBT</button>
-      </div>
-      <div card (click)="listar('Drogas')" style="cursor: pointer; background-image: url(assets/imgs/drogas.jpg)">
-        <div class="card-subtitle">Grupos de ajuda e clínicas</div>
-        <div class="card-title">Álcool e outras drogas</div>
-        <button class="sr-only sr-only-focusable" (click)="listar('Drogas')">Ir para categoria: Álcool e outras drogas</button>
-      </div>
-      <div card (click)="listar('CAPS')" style="cursor: pointer; background-image: url(assets/imgs/caps.jpg)">
-        <div class="card-subtitle">Centros de Atenção</div>
-        <div class="card-title">Psicossocial</div>
-        <button class="sr-only sr-only-focusable" (click)="listar('CAPS')">Ir para categoria: Psicossocial</button>
-      </div>
-      <div card (click)="listar('Planos de saúde - Psicologos')" style="cursor: pointer; background-image: url(assets/imgs/planos-de-saude.jpg)">
-        <div class="card-subtitle">Psicólogos que atendem por</div>
-        <div class="card-title">Planos de Saúde</div>
-        <button class="sr-only sr-only-focusable" (click)="listar('Planos de saúde - Psicologos')">Ir para categoria: Psicólogos que atendem por Planos de Saúde</button>
-      </div>
-      <div card style="cursor: pointer; background-image: url(assets/imgs/faleconosco.jpg)">
+  <div image-menu no-padding>
+    <div card (click)="listar('Terapia individual')" style="background-image: url(assets/imgs/individual.jpg)">
+      <div class="card-subtitle">Atendimento Presencial</div>
+      <div class="card-title">Individualizado</div>
+      <button class="sr-only sr-only-focusable" (click)="listar('Terapia individual')">Ir para categoria: Atendimento
+        presencial e individualizado</button>
+    </div>
+    <div card (click)="listar('Crianças e adolescentes')" style="background-image: url(assets/imgs/criancas-e-adolescentes.jpg)">
+      <!-- <div class="card-subtitle">Terapia para</div> -->
+      <div class="card-title">Crianças e Adolescentes</div>
+      <button class="sr-only sr-only-focusable" (click)="listar('Crianças e adolescentes')">Ir para categoria: crianças
+        e adolescentes</button>
+    </div>
+    <div card (click)="listar('Medicamentos gratúitos')" style="background-image: url(assets/imgs/medicamentos.jpg)">
+      <div class="card-subtitle">Medicamentos</div>
+      <div class="card-title">Sem custo</div>
+      <button class="sr-only sr-only-focusable" (click)="listar('Medicamentos gratúitos')">Ir para categoria: Obter
+        medicamentos gratúitos</button>
+    </div>
+    <div card (click)="listar('Emergência Psiquiátrica')" style="background-image: url(assets/imgs/samu.jpg)">
+      <div class="card-subtitle">Emergência</div>
+      <div class="card-title">Psiquiátrica</div>
+      <button class="sr-only sr-only-focusable" (click)="listar('Emergência Psiquiátrica')">Ir para categoria:
+        Atendimento de emergência psiquiátrica</button>
+    </div>
+    <div card (click)="listar('Online')" style="background-image: url(assets/imgs/online.jpg)">
+      <div class="card-subtitle">Atendimento</div>
+      <div class="card-title">Online</div>
+      <button class="sr-only sr-only-focusable" (click)="listar('Online')">Ir para categoria: atendimento online</button>
+    </div>
+    <div card (click)="listar('Terapia de Grupo')" style="background-image: url(assets/imgs/grupal.jpg)">
+      <div class="card-subtitle">Terapia com</div>
+      <div class="card-title">Grupos de Ajuda</div>
+      <button class="sr-only sr-only-focusable" (click)="listar('Terapia de Grupo')">Ir para categoria: grupos de ajuda</button>
+    </div>
+    <div card (click)="listar('Terapia Familiar')" style="background-image: url(assets/imgs/familiar.jpg)">
+      <div class="card-subtitle">Terapia em</div>
+      <div class="card-title">Família</div>
+      <button class="sr-only sr-only-focusable" (click)="listar('Terapia Familiar')">Ir para categoria: terapia em
+        família</button>
+    </div>
+    <div card (click)="listar('Terapia Conjugal')" style="background-image: url(assets/imgs/casal.jpg)">
+      <div class="card-subtitle">Terapia para</div>
+      <div class="card-title">Casais</div>
+      <button class="sr-only sr-only-focusable" (click)="listar('Terapia Conjugal')">Ir para categoria: terapia para
+        casais</button>
+    </div>
+    <div card (click)="listar('Orientação Profissional')" style="background-image: url(assets/imgs/profissional.jpg)">
+      <div class="card-subtitle">Orientação</div>
+      <div class="card-title">Profissional</div>
+      <button class="sr-only sr-only-focusable" (click)="listar('Orientação Profissional')">Ir para categoria:
+        orientação profissional</button>
+    </div>
+    <div card (click)="listar('LGBT')" style="background-image: url(assets/imgs/lgbt.jpg)">
+      <div class="card-subtitle">Suporte emocional e legal para</div>
+      <div class="card-title">LGBT</div>
+      <button class="sr-only sr-only-focusable" (click)="listar('LGBT')">Ir para categoria: LGBT</button>
+    </div>
+    <div card (click)="listar('Drogas')" style="background-image: url(assets/imgs/drogas.jpg)">
+      <div class="card-subtitle">Grupos de ajuda e clínicas</div>
+      <div class="card-title">Álcool e outras drogas</div>
+      <button class="sr-only sr-only-focusable" (click)="listar('Drogas')">Ir para categoria: Álcool e outras drogas</button>
+    </div>
+    <div card (click)="listar('CAPS')" style="background-image: url(assets/imgs/caps.jpg)">
+      <div class="card-subtitle">Centros de Atenção</div>
+      <div class="card-title">Psicossocial</div>
+      <button class="sr-only sr-only-focusable" (click)="listar('CAPS')">Ir para categoria: Psicossocial</button>
+    </div>
+    <div card (click)="listar('Planos de saúde - Psicologos')" style="background-image: url(assets/imgs/planos-de-saude.jpg)">
+      <div class="card-subtitle">Psicólogos que atendem por</div>
+      <div class="card-title">Planos de Saúde</div>
+      <button class="sr-only sr-only-focusable" (click)="listar('Planos de saúde - Psicologos')">Ir para categoria:
+        Psicólogos que atendem por Planos de Saúde</button>
+    </div>
+      <div (click)="irPara('https://form.jotformz.com/82641319684665')"  card style="background-image: url(assets/imgs/faleconosco.jpg)">
         <div class="card-subtitle"></div>
         <div class="card-title">Fale Conosco</div>
         <button class="sr-only sr-only-focusable">Fale Conosco</button>
-    </div>
-      <p style='width: 84%; background-color: black; color:white; padding:1.6%; margin: 0%; text-align: center;'>PSIC HELP 2018</p>
-    </div>
+      </div>
   </div>
-
