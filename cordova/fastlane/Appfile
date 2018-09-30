@@ -1,0 +1,2 @@
+json_key_file("../api-6854067923819860823-725894-97e20ebc6987.json") # Path to the json secret file - Follow https://docs.fastlane.tools/actions/supply/#setup to get one
+package_name("com.gmail.appsdmtech.psichelp") # e.g. com.krausefx.app
