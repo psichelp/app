@@ -6,7 +6,7 @@ require 'googleauth/stores/file_token_store'
 OOB_URI = 'urn:ietf:wg:oauth:2.0:oob'
 
 scope = 'https://www.googleapis.com/auth/androidpublisher'
-client_id = Google::Auth::ClientId.from_file('/home/j/p/psicHelp/app/api-6854067923819860823-725894-97e20ebc6987.json')
+client_id = Google::Auth::ClientId.from_file('../api-6854067923819860823-725894-97e20ebc6987.json')
 token_store = Google::Auth::Stores::FileTokenStore.new( :file => './tokens.yaml')
 authorizer = Google::Auth::UserAuthorizer.new(client_id, scope, token_store)
 
