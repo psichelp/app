@@ -17,4 +17,8 @@ export class HomePageComponent implements OnInit {
     this.router.navigate(['/listar', { servico: servico }])
   }
 
+  irPara(url: string){
+    window.open(url);
+  }
+
 }
