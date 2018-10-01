@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { SERVICO_DESCRICAO } from 'src/app/services/local/tipos-de-servico';
 
 @Component({
   selector: 'app-home-page',
@@ -8,17 +9,18 @@ import { Router } from '@angular/router';
 })
 export class HomePageComponent implements OnInit {
 
+  tiposServicos = SERVICO_DESCRICAO;
+
   constructor(private router: Router) {}
 
   ngOnInit() {
   }
 
-  listar(servico: String) {
-    this.router.navigate(['/listar', { servico: servico }])
+  listar(servico: any) {
+    if(servico.url){
+      window.open(servico.url);
+    }else{
+      this.router.navigate(['/listar', { servico: servico.nome }])
+    }
   }
-
-  irPara(url: string){
-    window.open(url);
-  }
-
 }
