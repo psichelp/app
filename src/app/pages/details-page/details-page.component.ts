@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { WhatsAppService } from '../services/whatsapp/whats-app.service';
+import { WhatsAppService } from '../../services/whatsapp/whats-app.service';
 
 @Component({
   selector: 'app-details-page',

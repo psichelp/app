@@ -10,14 +10,19 @@ import { AppComponent } from './app.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { HttpClientModule } from '@angular/common/http';
 
-import { SidebarComponent } from './sidebar/sidebar.component';
-import { HomePageComponent } from './home-page/home-page.component';
-import { ListPageComponent } from './list-page/list-page.component';
-import { LocalService } from './services/local/local.service';
+// Pages
+import { SidebarComponent } from './pages/sidebar/sidebar.component';
+import { HomePageComponent } from './pages/home-page/home-page.component';
+import { ListPageComponent } from './pages/list-page/list-page.component';
+import { DetailsPageComponent } from './pages/details-page/details-page.component';
+import { SearchPageComponent } from './pages/search-page/search-page.component';
+
+// Pipes
 import { PipesModule } from './pipes/pipes.module';
-import { DetailsPageComponent } from './details-page/details-page.component';
-import { SearchPageComponent } from './search-page/search-page.component';
+
+// Services
 import { WhatsAppService } from './services/whatsapp/whats-app.service';
+import { LocalService } from './services/local/local.service';
 
 const appRoutes: Routes = [
   { path: 'inicio', component: HomePageComponent },

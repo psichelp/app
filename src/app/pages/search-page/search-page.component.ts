@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Observable, Subject } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
-import { Estabelecimento } from '../services/local/estabelecimento';
-import { LocalService } from '../services/local/local.service';
 import { Router } from '@angular/router';
-import { WhatsAppService } from '../services/whatsapp/whats-app.service';
+import { Estabelecimento } from '../../services/local/estabelecimento';
+import { LocalService } from '../../services/local/local.service';
+import { WhatsAppService } from '../../services/whatsapp/whats-app.service';
 
 @Component({
   selector: 'app-search-page',

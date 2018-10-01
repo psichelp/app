@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, ParamMap, Params } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { LocalService } from '../services/local/local.service';
-
+import { LocalService } from '../../services/local/local.service';
 
 @Component({
   selector: 'app-list-page',
@@ -15,11 +14,9 @@ export class ListPageComponent implements OnInit {
     private localService: LocalService) {
   }
 
-
   servico: String;
   locais: any;
   paramsSubscription: Subscription;
-
 
   ngOnInit() {
     this.locais = null;
