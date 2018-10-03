@@ -66,6 +66,17 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
       '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7542202858!2d-38.45155258517778!3d-12.987565790845363!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b0e9511d30f%3A0x1708013b12b438f!2sAv.+Prof.+Magalh%C3%A3es+Neto%2C+1450+-+Pituba%2C+Salvador+-+BA%2C+41810-011!5e0!3m2!1spt-BR!2sbr!4v1537598149991" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
   },
   {
+    nome: 'Margaret',
+    end: ' R. Alceu Amoroso Lima, Caminho das Árvores, Salvador, Bahia. Brasil',
+    tel: '(71) 986646888',
+    whatsapp: '(71) 986646888',
+    valor: 'Valor social (valor acessível)',
+    servicos: [SERVICO.INDIVIDUAL],
+    descricao_servicos: 'Especialista em terapia cognitiva e neuropsicóloga',
+    email: 'margassouza@gmail.com',
+    mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.875503874736!2d-38.45758328517785!3d-12.97981369085049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b1ae36a7025%3A0xae9e3bbcde47895d!2sR.+Alceu+Amoroso+Lima+-+Caminho+das+%C3%81rvores%2C+Salvador+-+BA%2C+40301-155!5e0!3m2!1spt-BR!2sbr!4v1538559598304" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+  {
     nome: 'Roqueleide Batista de Jesus',
     end: 'Avenida Antônio Carlos Magalhães, 3213, Em frente a MC Donald\'s,Salvador, Cep: 40280000',
     tel: '(71) 984073911',
