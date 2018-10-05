@@ -1078,13 +1078,12 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
   },
   {
     nome: 'Centro de Saúde Mental Alvaro Rubin de Pinho',
-    end: 'R. Itabuna S/N, Rio Vermelho Prox. Antiga Coca-Cola',
+    end: 'Rua Augusto Mendonça, 15, Dendezeiros, Bonfim, Salvador - BA, CEP: 40415-031',
     tel: '3611-5600',
     valor: 'Gratuito',
     servicos: [SERVICO.MEDICAMENTOS],
     descricao_servicos: 'Fornece Medicamentos Psiquiátricos. Neurologia (a partir de 13 anos) Psiquiatria Psicologia: Psicoterapia individual/ Psicoterapia de Grupo/ Psicoterapia Familiar Serviço Social e Enfermagem',
-    mapa:
-      '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4381307725484!2d-38.49429658517754!3d-13.007747990832177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160356f731022b%3A0xe01610742ab37e21!2sCentro+de+Saude+Mental+Oswaldo+Camargo!5e0!3m2!1spt-BR!2sbr!4v1531406263467" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>',
+    mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62209.0867957901!2d-38.51289994717869!3d-12.967505354509665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160560c2abde69%3A0x522296afe0bdc1df!2sR.+Augusto+de+Mendon%C3%A7a%2C+15+-+Bonfim%2C+Salvador+-+BA%2C+40301-155!5e0!3m2!1spt-BR!2sbr!4v1538731790531" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>',
   },
   {
     nome: 'Hospital Juliano Moreira',
