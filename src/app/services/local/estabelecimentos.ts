@@ -25,7 +25,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     nome: 'CVV - Centro de Valorização da Vida',
     end: 'Apenas online em Salvador',
     tel: '188',
-    valor: 'Gratúito',
+    valor: 'Gratuito',
     servicos: [SERVICO.INDIVIDUAL, SERVICO.ONLINE],
     descricao_servicos:
       'O CVV – Centro de Valorização da Vida realiza apoio emocional e prevenção do suicídio, atendendo voluntária e gratuitamente todas as pessoas que querem e precisam conversar, sob total sigilo por telefone, email e chat 24 horas todos os dias.',
@@ -92,7 +92,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     tel: '(71) 991044172',
     whatsapp: '(71) 991044172',
     valor:
-      'Gratúito',
+      'Gratuito',
     servicos: [SERVICO.FAMILIAR, SERVICO.DROGAS],
     email: 'alanonbaresponde@gmail.com',
     descricao_servicos:
@@ -515,7 +515,7 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
 
   {
     nome: 'UFBA - Universidade Federal da Bahia',
-    end: 'Rua Professor Aristides Novais, 197, Federação (São Lázaro)',
+    end: 'Rua Professor Aristides Novis, 197, Federação (São Lázaro)',
     tel: '3235-4589',
     valor: 'Gratuito ou Preço Negociado',
     servicos: [SERVICO.INDIVIDUAL, SERVICO.PROFISSIONAL, SERVICO.CRIANCAS_E_ADOLESCENTES],
@@ -1092,9 +1092,8 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     valor: 'Gratuito',
     servicos: [SERVICO.EMERGENCIA, SERVICO.INDIVIDUAL, SERVICO.GRUPO],
     descricao_servicos: 'Psiquiatria, Emergência Psiquiátrica, Psicoterapia individual e em grupo',
-    mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15553.19070998105!2d-38.4495004!3d-12.952794!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x91e90b3e71a74c92!2sHospital+Juliano+Moreira!5e0!3m2!1spt-BR!2sbr!4v1538154861244" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>', 
+    mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15553.19070998105!2d-38.4495004!3d-12.952794!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x91e90b3e71a74c92!2sHospital+Juliano+Moreira!5e0!3m2!1spt-BR!2sbr!4v1538154861244" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>',
   },
-
   {
     nome: 'Hospital Especializado Mário Leal',
     end: 'Rua Conde de Porto Alegre, no 11, IAPI.',
@@ -1102,8 +1101,35 @@ export const ESTABELECIMENTOS: Estabelecimento[] = [
     valor: 'Gratuito',
     servicos: [SERVICO.EMERGENCIA, SERVICO.INDIVIDUAL, SERVICO.GRUPO],
     descricao_servicos: 'Atendimento psiquiátrico e psicológico em regime de internamento e ambulatorial, psicoterapia individual e em grupo para adultos, terapia ocupacional.',
-    mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15552.87331840325!2d-38.4880311!3d-12.9578766!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd7122a7ad270df35!2sHospital+Especializado+Mario+Leal!5e0!3m2!1spt-BR!2sbr!4v1538155176605" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>' 
+    mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15552.87331840325!2d-38.4880311!3d-12.9578766!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd7122a7ad270df35!2sHospital+Especializado+Mario+Leal!5e0!3m2!1spt-BR!2sbr!4v1538155176605" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
   },
-
-  
+  {
+    nome: '5º Centro de Saúde Clementino Fraga - Pronto Atendemento Psiquiatrico',
+    end: 'Av. Centenário, s/n - 5º Centro',
+    tel: '(71) 3321-0800',
+    valor: 'Gratuito',
+    email: 'papsiquiatrico@gmail.com',
+    servicos: [SERVICO.EMERGENCIA, SERVICO.INDIVIDUAL, SERVICO.GRUPO, SERVICO.MEDICAMENTOS],
+    descricao_servicos: 'Emergência psiquiátrica, Internação, Atendimento em Enfermagem, Atendimento em Grupo, Atendimento Psiquiátrico, Serviço Social.',
+    mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.8054554341!2d-38.5111966!3d-12.9909428!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaf1f5ff524879677!2s5%C2%BA+Centro+de+Sa%C3%BAde+Clementino+Fraga+%3A+Pronto+Atendemento+Psiquiatrico!5e0!3m2!1spt-BR!2sbr!4v1539774725145" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+  {
+    nome: 'Clínica Ápice',
+    end: 'R. Macapá, 181 - Ondina, Salvador - BA, 40170-150',
+    tel: '(71) 3028-8350',
+    valor: 'Plano de Saúde',
+    email: 'contato@clinicaapice.com.br',
+    servicos: [SERVICO.EMERGENCIA, SERVICO.INDIVIDUAL, SERVICO.PLANO],
+    descricao_servicos: 'Emergência psiquiátrica, Internação Atendimento Psiquiátrico.',
+    mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15549.765443851622!2d-38.5080197!3d-13.0075419!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x192378876d4d830d!2sCl%C3%ADnica+APICE+IN!5e0!3m2!1spt-BR!2sbr!4v1539775854117" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
+  {
+    nome: 'Ambulatório CSM Aristides Novis',
+    end: 'R. Almirante Alves Camara S/N, Engenho Velho de Brotas. Prox. Secret. Educação do Município',
+    tel: '(71) 3611-2954',
+    valor: 'Gratuito',
+    servicos: [SERVICO.INDIVIDUAL, SERVICO.MEDICAMENTOS],
+    descricao_servicos: 'Ambulatório e medicamentos gratuitos.',
+    mapa: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15551.324336633877!2d-38.4998635!3d-12.9826534!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb4cc0ed7e8f3cdbf!2sCentro+de+Sa%C3%BAde+Aristides+N%C3%B3vis!5e0!3m2!1spt-BR!2sbr!4v1539776423263" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+  },
 ];
