@@ -3,10 +3,8 @@
 		<li *ngFor="let hero of heroes | orderbyHtml: 'nome'"
 	[class.selected]="hero === selectedHero"
 		(click)="onSelect(hero)">
-		<span class="badge">{{hero.id}} - {{hero.nome}}</span>
-		<br>
-		<span class="text">{{hero.end}}</span>
-		<br>
+		<p class="badge">{{hero.id}} - {{hero.nome}}</p>
+		<p class="text">{{hero.end}}</p>
   </li>
 </ul>
 

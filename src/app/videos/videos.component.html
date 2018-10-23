@@ -1,0 +1,9 @@
+<h2>Vídeos</h2>
+<ul class="videos">
+		<li *ngFor="let video of videos | orderbyHtml: 'nome'"
+	[class.selected]="video === selectedVideo"
+		(click)="onSelect(video)">
+		<p class="badge">{{video.id}} - {{video.nome}}</p>
+		<p class="text"><a href='{{video.end}}'>link</a></p>
+  </li>
+</ul>

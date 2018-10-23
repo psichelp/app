@@ -28,6 +28,7 @@ import { LocalService } from './services/local/local.service';
 // Para usar campo INPUT no html---FormsModule
 import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
 import { HeroesComponent } from './heroes/heroes.component';
+import { VideosComponent } from './videos/videos.component';
 // FIM - LUISAO - Formularios campo INPUT
 
 
@@ -38,12 +39,13 @@ const appRoutes: Routes = [
   { path: '', redirectTo: '/inicio', pathMatch: 'full' },
   { path: 'listar', component: ListPageComponent },
   { path: 'heroi', component: HeroesComponent},
+  { path: 'videos', component: VideosComponent},
   { path: 'detalhes', component: DetailsPageComponent },
   { path: 'buscar', component: SearchPageComponent },
 ];
 
 
-// LUISAO - modulo HeroesComponent
+// LUISAO - modulos HeroesComponent, VideosComponent
 @NgModule({
   declarations: [
     AppComponent,
@@ -52,7 +54,8 @@ const appRoutes: Routes = [
     ListPageComponent,
     DetailsPageComponent,
     SearchPageComponent,
-    HeroesComponent
+    HeroesComponent,
+    VideosComponent
   ],
   imports: [
     BrowserModule,
