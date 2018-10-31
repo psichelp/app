@@ -22,4 +22,6 @@ export class Estabelecimento {
   mapa?: string;
   video?: string;
   bairros_atendidos?: string;
+  crp?: string;
+  crm?: string;
 }

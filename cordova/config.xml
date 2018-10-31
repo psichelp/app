@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.gmail.appsdmtech.psichelp" version="0.0.41" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.gmail.appsdmtech.psichelp" version="0.0.42" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>PsicHelp</name>
     <description>Aplicativo para ajudar pessoas buscando tratamento psicoterapêutico em Salvador</description>
     <author email="evandrojr@gmail.com" href="http://psichelp.com.br">Equipe PsicHelp</author>
