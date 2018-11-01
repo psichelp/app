@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { WhatsAppService } from '../../services/whatsapp/whats-app.service';
+import { SharedService } from 'src/app/services/shared/shared.service';
+
 
 @Component({
   selector: 'app-details-page',
@@ -19,7 +21,8 @@ export class DetailsPageComponent implements OnInit {
   ngOnInit() {
     this.estabelecimento = null;
     this.paramsSubscription = this.route.params.subscribe((params: Params) => {
-      this.estabelecimento = JSON.parse(params['local']);
+      let local = SharedService.b64DecodeUnicode(params['local']);
+      this.estabelecimento = JSON.parse(local);
       console.dir(this.estabelecimento);
     });
   }

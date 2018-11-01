@@ -37,14 +37,14 @@ export const SERVICO_DESCRICAO = [
     img: 'url(assets/imgs/medicamentos.jpg)',
     titulo1: 'Medicamentos',
     titulo2: 'Sem custo',
-    leitor: 'Ir para categoria: Atendimento Psicossocial'
+    leitor: 'Ir para categoria: Medicamentos sem custo'
   },
   {
     nome: SERVICO.EMERGENCIA,
     img: 'url(assets/imgs/samu.jpg)',
     titulo1: 'Emergência',
     titulo2: 'Psiquiátrica',
-    leitor: 'Ir para categoria: Atendimento de emergência psiquiátrica'
+    leitor: 'Ir para categoria: Atendimento a emergência psiquiátrica'
   },
   {
     nome: SERVICO.ONLINE,
@@ -84,23 +84,23 @@ export const SERVICO_DESCRICAO = [
   {
     nome: SERVICO.PROFISSIONAL,
     img: 'url(assets/imgs/profissional.jpg)',
-    titulo1: 'Orientação',
-    titulo2: 'Profissional',
-    leitor: 'Ir para categoria: Orientação orofissional'
+    titulo1: 'Tensões no',
+    titulo2: 'Trabalho',
+    leitor: 'Ir para categoria: Tensões no trabalho'
   },
   {
     nome: SERVICO.LGBT,
     img: 'url(assets/imgs/lgbt.jpg)',
     titulo1: 'Suporte emocional e legal para',
     titulo2: 'LGBT',
-    leitor: 'Ir para categoria: LGBT'
+    leitor: 'Ir para categoria: Suporte emocional e legal para LGBT'
   },
   {
     nome: SERVICO.DROGAS,
     img: 'url(assets/imgs/drogas.jpg)',
     titulo1: 'Grupos de ajuda e clínicas',
     titulo2: 'Álcool e outras drogas',
-    leitor: 'Ir para categoria: Álcool e outras drogas'
+    leitor: 'Ir para categoria: Álcool e outras drogas - Grupos de ajuda e clínicas'
   },
   {
     nome: SERVICO.PLANO,
