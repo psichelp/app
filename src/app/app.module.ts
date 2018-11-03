@@ -45,6 +45,7 @@ const appRoutes: Routes = [
     BrowserModule,
     BrowserAnimationsModule,
     LayoutModule,
+    HttpClientModule,
     RouterModule.forRoot(appRoutes,
       {
         useHash: true,
@@ -68,7 +69,8 @@ const appRoutes: Routes = [
 })
 export class AppModule {
 
-  constructor(matIconRegistry: MatIconRegistry, domSanitizer: DomSanitizer) {
+  constructor(matIconRegistry: MatIconRegistry, domSanitizer: DomSanitizer, localservice: LocalService) {
+    localservice.loadEstabelecimentos();
     matIconRegistry.addSvgIconSet(domSanitizer.bypassSecurityTrustResourceUrl('./assets/mdi.svg')); // Or whatever path you placed mdi.svg at
   }
 
