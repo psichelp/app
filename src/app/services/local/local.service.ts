@@ -40,8 +40,10 @@ export class LocalService {
     let apiUrl = "assets/data/estabelecimentos.json";
     return this.http.get(apiUrl)
       .pipe(map(res => {
-        let results = res;
-        return results;
+        let results = res as Estabelecimento[];
+        return results.filter(estabelecimento => {
+          return estabelecimento.ativo === true;
+        });
       }));
   }
 
@@ -49,8 +51,10 @@ export class LocalService {
     let apiUrl = "https://raw.githubusercontent.com/psichelp/app/master/src/assets/data/estabelecimentos.json";
     return this.http.get(apiUrl)
       .pipe(map(res => {
-        let results = res;
-        return results;
+        let results = res as Estabelecimento[];
+        return results.filter(estabelecimento => {
+          return estabelecimento.ativo === true;
+        });
       }));
   }
 
