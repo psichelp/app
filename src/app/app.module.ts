@@ -23,6 +23,7 @@ import { PipesModule } from './pipes/pipes.module';
 // Services
 import { WhatsAppService } from './services/whatsapp/whats-app.service';
 import { LocalService } from './services/local/local.service';
+import { CadastroEntidadeComponent } from './pages/cadastro-entidade/cadastro-entidade.component';
 
 const appRoutes: Routes = [
   { path: 'inicio', component: HomePageComponent },
@@ -30,6 +31,7 @@ const appRoutes: Routes = [
   { path: 'listar', component: ListPageComponent },
   { path: 'detalhes', component: DetailsPageComponent },
   { path: 'buscar', component: SearchPageComponent },
+  { path: 'cadastrar', component: CadastroEntidadeComponent },
 ];
 
 @NgModule({
@@ -39,7 +41,8 @@ const appRoutes: Routes = [
     HomePageComponent,
     ListPageComponent,
     DetailsPageComponent,
-    SearchPageComponent
+    SearchPageComponent,
+    CadastroEntidadeComponent
   ],
   imports: [
     BrowserModule,
