@@ -11,6 +11,7 @@
  *
  */
 export class Estabelecimento {
+  ativo: boolean;
   nome?: string;
   end?: string;
   tel?: string;

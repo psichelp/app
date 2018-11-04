@@ -1,8 +1,10 @@
 import { Injectable } from '@angular/core';
-import { ESTABELECIMENTOS } from './estabelecimentos';
 import * as Fuse from 'fuse.js';
 import { Observable, of } from 'rxjs';
 import { Estabelecimento } from './estabelecimento';
+import { LocalstorageService } from '../localstorage/localstorage.service';
+import { map } from "rxjs/operators";
+import { HttpClient } from '@angular/common/http';
 
 @Injectable({
   providedIn: 'root'
@@ -11,14 +13,60 @@ export class LocalService {
 
   private fuseInstance;
 
-  constructor() { }
+  constructor(private http: HttpClient, private localstorage: LocalstorageService) {
+  }
+
+  public loadEstabelecimentos() {
+    let estabelecimentosLocais = this.localstorage.getStorage('estabelecimentos');
+    if (!estabelecimentosLocais) {
+      this.getLocalEstabelecientosJson().subscribe(localData => {
+        this.localstorage.setStorage('estabelecimentos', localData);
+        console.log("Número de estabelecimentos locais", localData.length);
+        this.getRemoteEstabelecientosJson().subscribe(remoteData => {
+          this.localstorage.setStorage('estabelecimentos', remoteData);
+          console.log("Número de estabelecimentos remotos", remoteData.length);
+        });
+      });
+    } else {
+      console.log("Número de estabelecimentos locais", estabelecimentosLocais.length);
+      this.getRemoteEstabelecientosJson().subscribe(remoteData => {
+        this.localstorage.setStorage('estabelecimentos', remoteData);
+        console.log("Número de estabelecimentos remotos", remoteData.length);
+      });
+    }
+  }
+
+  getLocalEstabelecientosJson(): Observable<any> {
+    let apiUrl = "assets/data/estabelecimentos.json";
+    return this.http.get(apiUrl)
+      .pipe(map(res => {
+        let results = res as Estabelecimento[];
+        return results.filter(estabelecimento => {
+          return estabelecimento.ativo === true;
+        });
+      }));
+  }
+
+  getRemoteEstabelecientosJson(): Observable<any> {
+    let apiUrl = "https://raw.githubusercontent.com/psichelp/app/master/src/assets/data/estabelecimentos.json";
+    return this.http.get(apiUrl)
+      .pipe(map(res => {
+        let results = res as Estabelecimento[];
+        return results.filter(estabelecimento => {
+          return estabelecimento.ativo === true;
+        });
+      }));
+  }
+
+  estabelecimentos() {
+    return this.localstorage.getStorage('estabelecimentos');
+  }
 
   public estabelicimentoCache: any;
 
   obterEstabelecimentosPorServico(servicoDesejado: String): Estabelecimento[] {
     servicoDesejado = servicoDesejado.toLowerCase();
-
-    return ESTABELECIMENTOS.filter(estabelecimento => {
+    return this.estabelecimentos().filter(estabelecimento => {
       return estabelecimento.servicos.some(servico => {
         return servicoDesejado === servico.toLocaleLowerCase();
       });
@@ -42,7 +90,7 @@ export class LocalService {
 
   private getFuseInstance(): Fuse {
     if (!this.fuseInstance) {
-      const list = ESTABELECIMENTOS;
+      const list = this.estabelecimentos();
       const options = {
         keys: [
           // {name: 'end', weight: 0.7},
