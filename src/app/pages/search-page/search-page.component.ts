@@ -5,6 +5,7 @@ import { Router } from '@angular/router';
 import { Estabelecimento } from '../../services/local/estabelecimento';
 import { LocalService } from '../../services/local/local.service';
 import { WhatsAppService } from '../../services/whatsapp/whats-app.service';
+import { SharedService } from 'src/app/services/shared/shared.service';
 
 @Component({
   selector: 'app-search-page',
@@ -42,7 +43,7 @@ export class SearchPageComponent implements OnInit {
   }
 
   mostrarDetalhes(estabelecimento: any) {
-    this.router.navigate(['/detalhes', {local:  JSON.stringify(estabelecimento)} ]);
+    this.router.navigate(['/detalhes', {local: SharedService.b64EncodeUnicode(JSON.stringify(estabelecimento))} ]);
   }
 
   onClickWhatsApp(estabelecimento: Estabelecimento) {

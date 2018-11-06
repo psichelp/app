@@ -8,24 +8,6 @@
   },
   {
     "ativo": true,
-    "nome": "Léa Marie Duvivier Curdoglo",
-    "end": " Clínica Volare, ao lado do Salvador Shopping, no edifício CEO Empresarial. Av Tancredo Neves 2539, Sala 2509, Salvador, BA, Brasil",
-    "tel": "(71) 988322327",
-    "whatsapp": "(71) 988322327",
-    "valor": "Atendimento por planos de saúde",
-    "servicos": [
-      "Terapia individual",
-      "Crianças e adolescentes",
-      "Planos de saúde - Psicologos"
-    ],
-    "descricao_servicos": "Terapia comportamental para jovens, adultos e idosos.",
-    "email": "leamdc@gmail.com",
-    "mapa":
-      "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.881059364436!2d-38.454540185177905!3d-12.979458490850709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b049c14de4b%3A0x86848acbeee11666!2sAv.+Tancredo+Neves%2C+2539+-+Caminho+das+%C3%81rvores%2C+Salvador+-+BA%2C+41820-021!5e0!3m2!1spt-BR!2sbr!4v1540975470761\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
-    "crp": "03/3787"
-  },
-  {
-    "ativo": true,
     "nome": "CVV - Centro de Valorização da Vida",
     "end": "Apenas online em Salvador",
     "tel": "188",
@@ -751,19 +733,6 @@
   },
   {
     "ativo": true,
-    "nome": "CAPS II Aristides Novis",
-    "end": "R. Almirante Alves Camara S/N, Engenho Velho de Brotas. Prox. Secret.Educação do Município",
-    "tel": "3611-2956 / 3611-2953",
-    "valor": "Gratuito",
-    "servicos": [
-      "CAPS"
-    ],
-    "descricao_servicos": "08hrs às 17hrs",
-    "mapa": " <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7954055875744!2d-38.5037336431724!3d-12.984933854235305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604c72421ba5f%3A0xb4cc0ed7e8f3cdbf!2sCentro+de+Sa%C3%BAde+Aristides+N%C3%B3vis!5e0!3m2!1sen!2sbr!4v1531404148736\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe> ",
-    "bairros_atendidos": "Acupe, Alto do Formoso, Alto do Saldanha, Baixa Candeal Pequeno, Brotas, Buraco da Gia, Campinas de Brotas, Engenho Velho de Brotas, Galés, Parque Florestal, Parque Bela Vista, Baixa do Cacau – 2, Baixa do Tubo –1, Bandeirantes, Boa Vista de Brotas, Bonocô, Candeal, Castro Neves, Cosme de Farias, Cruz da Redenção, Daniel Lisboa, Dois Leões, Invasão Ogunjá, Invasão Pela Porco, Invasão Polêmica, Jardim Caiçara, Luís Anselmo, Matatu, Ogunjá, Pepino, Pitangueiras, Santa Rita, Santo Agostinho, Sete Portas, Vila América, Vila Laura."
-  },
-  {
-    "ativo": true,
     "nome": "CAPS II Eduardo Saback",
     "end": "R. Conde Pereira Carneiro 148, Pernambues. Em Frente a Rádio Metrópole",
     "tel": "3460-1957 / 3611-7912",
@@ -779,14 +748,14 @@
     "ativo": true,
     "nome": "CAPS II Aristides Novis",
     "end": "R. Almirante Alves Camara S/N, Engenho Velho de Brotas. Prox. Secret.Educação do Município",
-    "tel": " 3611-2956",
+    "tel": "3611-2956 / 3611-2953",
     "valor": "Gratuito",
     "servicos": [
       "CAPS"
     ],
-    "descricao_servicos": "8 às 18 horas ",
-    "mapa": " <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7954053018484!2d-38.503728278494485!3d-12.98493387249636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604c72421ba5f%3A0xb4cc0ed7e8f3cdbf!2sCentro+de+Sa%C3%BAde+Aristides+N%C3%B3vis!5e0!3m2!1sen!2sbr!4v1531401539389\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe> ",
-    "bairros_atendidos": "Alto da Bola, Alto da Sereia, Alto das Pombas, Alto do Areal, Alto do Gantois, Alto do Sobradinho, Amaralina, Avenida Brandão, Baixa Vai quem quer, Banco dos Ingleses, Barra, Barra Avenida, Binóculo, Cardeal da Silva, Calabar, Calabar, Caminho das Arvores, Campo Santo, Canela, Centenário, Chame-Chame, Chapada do Rio Vermelho, Engenho Velho Federação, Federação, Garcia, Garibaldi, Graça, Iguatemi, Invasão do Cai Duro, Invasão do Tubo, Invasão São Lázaro, Itaigara, Jardim América, Jardim Apipema, Jardim Brasil, Jardim Zoológico, Loteamento Aquários, Loteamento IAPSEB, Morro do Conselho, Morro do Cristo, Morro do Gato, Morro Ipiranga, Nordeste de Amaralina, Ondina, Paciência, Parque Cruz Aguiar, Parque Flamboyants, Parque João XXIII, Parque Júlio César, Parque Nossa Sra. da Luz, Parque São Brás, Parque São Paulo, Parque São Vicente, Pedra da Sereia, Pituba, Ponto da Mangueira, Porto da Barra, Rio Vermelho, Roça da Sabina, Santa Cruz, São Gonçalo Federação, São Lázaro, Ubaranas, Vale da Muriçoca, Vale das Pedrinhas, Vale dos Barris, Vasco da Gama, Vila Matos, Vitória."
+    "descricao_servicos": "8 às 17hrs",
+    "mapa": " <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7954055875744!2d-38.5037336431724!3d-12.984933854235305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604c72421ba5f%3A0xb4cc0ed7e8f3cdbf!2sCentro+de+Sa%C3%BAde+Aristides+N%C3%B3vis!5e0!3m2!1sen!2sbr!4v1531404148736\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe> ",
+    "bairros_atendidos": "Acupe, Alto do Formoso, Alto do Saldanha, Baixa Candeal Pequeno, Brotas, Buraco da Gia, Campinas de Brotas, Engenho Velho de Brotas, Galés, Parque Florestal, Parque Bela Vista, Baixa do Cacau – 2, Baixa do Tubo –1, Bandeirantes, Boa Vista de Brotas, Bonocô, Candeal, Castro Neves, Cosme de Farias, Cruz da Redenção, Daniel Lisboa, Dois Leões, Invasão Ogunjá, Invasão Pela Porco, Invasão Polêmica, Jardim Caiçara, Luís Anselmo, Matatu, Ogunjá, Pepino, Pitangueiras, Santa Rita, Santo Agostinho, Sete Portas, Vila América, Vila Laura."
   },
   {
     "ativo": true,
@@ -1264,5 +1233,23 @@
     ],
     "descricao_servicos": "Ambulatório e medicamentos gratuitos.",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15551.324336633877!2d-38.4998635!3d-12.9826534!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb4cc0ed7e8f3cdbf!2sCentro+de+Sa%C3%BAde+Aristides+N%C3%B3vis!5e0!3m2!1spt-BR!2sbr!4v1539776423263\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
+  },
+  {
+    "ativo": true,
+    "nome": "Léa Marie Duvivier Curdoglo",
+    "end": " Clínica Volare, ao lado do Salvador Shopping, no edifício CEO Empresarial. Av Tancredo Neves 2539, Sala 2509, Salvador, BA, Brasil",
+    "tel": "(71) 988322327",
+    "whatsapp": "(71) 988322327",
+    "valor": "Atendimento por planos de saúde",
+    "servicos": [
+      "Terapia individual",
+      "Crianças e adolescentes",
+      "Planos de saúde - Psicologos"
+    ],
+    "descricao_servicos": "Terapia comportamental para jovens, adultos e idosos.",
+    "email": "leamdc@gmail.com",
+    "mapa":
+      "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.881059364436!2d-38.454540185177905!3d-12.979458490850709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b049c14de4b%3A0x86848acbeee11666!2sAv.+Tancredo+Neves%2C+2539+-+Caminho+das+%C3%81rvores%2C+Salvador+-+BA%2C+41820-021!5e0!3m2!1spt-BR!2sbr!4v1540975470761\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+    "crp": "03/3787"
   }
 ]
