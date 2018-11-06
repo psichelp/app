@@ -24,6 +24,7 @@ import { PipesModule } from './pipes/pipes.module';
 import { WhatsAppService } from './services/whatsapp/whats-app.service';
 import { LocalService } from './services/local/local.service';
 import { CadastroEntidadeComponent } from './pages/cadastro-entidade/cadastro-entidade.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 const appRoutes: Routes = [
   { path: 'inicio', component: HomePageComponent },
@@ -48,7 +49,6 @@ const appRoutes: Routes = [
     BrowserModule,
     BrowserAnimationsModule,
     LayoutModule,
-    HttpClientModule,
     RouterModule.forRoot(appRoutes,
       {
         useHash: true,
@@ -63,6 +63,7 @@ const appRoutes: Routes = [
     MatGridListModule,
     MatInputModule,
     HttpClientModule,
+    ReactiveFormsModule,
     PipesModule.forRoot(),
   ], providers: [
     LocalService,
