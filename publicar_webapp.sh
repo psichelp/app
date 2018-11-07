@@ -24,10 +24,8 @@ else
     exit
 fi
 
-cd ..
-acp Publicando o webApp no http://psichelp.github.io/app/webapp 
 
-cd ../site
+cd ../../site
 git checkout master
 git pull origin master
 rm -rf ios
@@ -35,6 +33,11 @@ rm -rf webapp
 cp ../app/dist/PsicHelp webapp -r
 
 acp Publicando o webApp no psichelp.com.br/webapp 
+
+cd ../app
+rm -rf docs
+acp Versionando o código publicado 
+
 
 echo teste agora em https://psichelp.com.br/webapp funcionou?
 read answer
@@ -44,3 +47,4 @@ else
     echo Eita pau!!!
     exit
 fi
+
