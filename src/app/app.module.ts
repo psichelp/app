@@ -56,7 +56,7 @@ const appRoutes: Routes = [
       }),
     MatToolbarModule,
     MatButtonModule,
-    MatSidenavModule,
+    MatSide qnavModule,
     MatIconModule,
     MatListModule,
     MatCardModule,
@@ -75,6 +75,7 @@ export class AppModule {
 
   constructor(matIconRegistry: MatIconRegistry, domSanitizer: DomSanitizer, localservice: LocalService) {
     localservice.loadEstabelecimentos();
+    // tslint:disable-next-line:max-line-length
     matIconRegistry.addSvgIconSet(domSanitizer.bypassSecurityTrustResourceUrl('./assets/mdi.svg')); // Or whatever path you placed mdi.svg at
   }
 

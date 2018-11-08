@@ -8,20 +8,22 @@ import { FormControl, FormBuilder, FormArray, Validators } from '@angular/forms'
 export class CadastroEntidadeComponent implements OnInit {
 
   profileForm = this.fb.group({
-    firstName: ['', Validators.required],
-    lastName: [''],
-    address: this.fb.group({
-      street: [''],
-      city: [''],
-      state: [''],
-      zip: ['']
-    }),
-    aliases: this.fb.array([
-      this.fb.control('')
-    ])
+    nome: ['', Validators.required],
+    end: [''],
+    tel: [''],
+    whatsapp: [''],
+    email: [''],
+    valor: [''],
+    servicos: [''],
+    //   descricao_servicos:[''],
+    mapa: [''],
+    video: [''],
+    bairros_atendidos: [''],
+    crp: [''],
+    crm: [''],
   });
 
-  ngOnInit(){
+  ngOnInit() {
 
   }
 
