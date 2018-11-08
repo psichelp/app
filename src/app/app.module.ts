@@ -24,14 +24,28 @@ import { PipesModule } from './pipes/pipes.module';
 import { WhatsAppService } from './services/whatsapp/whats-app.service';
 import { LocalService } from './services/local/local.service';
 
+// INICIO - LUISAO - Formularios campo INPUT
+// Para usar campo INPUT no html---FormsModule
+import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
+import { HeroesComponent } from './heroes/heroes.component';
+import { VideosComponent } from './videos/videos.component';
+// FIM - LUISAO - Formularios campo INPUT
+
+
+
+// INICIO - LUISAO - Rota para HeroesComponent
 const appRoutes: Routes = [
   { path: 'inicio', component: HomePageComponent },
   { path: '', redirectTo: '/inicio', pathMatch: 'full' },
   { path: 'listar', component: ListPageComponent },
+  { path: 'heroi', component: HeroesComponent},
+  { path: 'videos', component: VideosComponent},
   { path: 'detalhes', component: DetailsPageComponent },
   { path: 'buscar', component: SearchPageComponent },
 ];
 
+
+// LUISAO - modulos HeroesComponent, VideosComponent
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +53,9 @@ const appRoutes: Routes = [
     HomePageComponent,
     ListPageComponent,
     DetailsPageComponent,
-    SearchPageComponent
+    SearchPageComponent,
+    HeroesComponent,
+    VideosComponent
   ],
   imports: [
     BrowserModule,
@@ -61,6 +77,7 @@ const appRoutes: Routes = [
     MatInputModule,
     HttpClientModule,
     PipesModule.forRoot(),
+    FormsModule
   ], providers: [
     LocalService,
     WhatsAppService

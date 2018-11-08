@@ -1,0 +1,21 @@
+<h2>Estabelecimentos</h2>
+<ul class="heroes">
+		<li *ngFor="let hero of heroes | orderbyHtml: 'nome'"
+	[class.selected]="hero === selectedHero"
+		(click)="onSelect(hero)">
+		<p class="badge">{{hero.id}} - {{hero.nome}}</p>
+		<p class="text">{{hero.end}}</p>
+  </li>
+</ul>
+
+
+<!--So mostra se selecionou algum heroi-->
+<div *ngIf="selectedHero">
+	<h2>{{selectedHero.name | uppercase}} Details</h2>
+	<div><span>id: </span>{{selectedHero.id}}</div>
+	<div>
+	  <label>name:
+		<input [(ngModel)]="selectedHero.name" placeholder="name">
+	  </label>
+	</div>
+</div>
