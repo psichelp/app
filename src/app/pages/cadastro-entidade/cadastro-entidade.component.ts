@@ -14,11 +14,11 @@ import { HttpHeaders } from '@angular/common/http';
   styleUrls: ['./cadastro-entidade.component.css']
 })
 export class CadastroEntidadeComponent implements OnInit {
-  
+
   control: FormControl;
-  constructor(private fb: FormBuilder, private dengodb: DengodbService, private router: Router, private http: HttpClient) {}
+  constructor(private fb: FormBuilder, private dengodb: DengodbService, private router: Router, private http: HttpClient) { }
   telegramUrl = 'https://api.telegram.org/bot747846139:AAEpVYndvdgt6pQRcNyGex7A283hg3qlk0c/sendMessage?chat_id=569816047&text=';
-  
+
   servicosTipos = Object.values(SERVICO).sort();
 
   entidadeForm = this.fb.group({
@@ -53,7 +53,6 @@ export class CadastroEntidadeComponent implements OnInit {
     this.servicos.push(this.fb.control(''));
   }
 
-
   telegramMessage(mensagem): Observable<any> {
     mensagem = encodeURI(mensagem);
     let apiUrl = `${this.telegramUrl}${mensagem}`;
@@ -64,13 +63,40 @@ export class CadastroEntidadeComponent implements OnInit {
       }));
   }
 
+  get entidade() {
+    return this.entidadeForm.value;
+  }
+
+  validar(): Boolean {
+
+    this.entidade.servicos = this.entidade.servicos.filter(el => {
+      return el != "";
+    });
+
+    console.log(this.entidade.servicos);
+
+    let servicosQt = this.entidade.servicos.length;
+    console.log(servicosQt);
+    if (servicosQt < 1) {
+      alert("É necessário informar pelo menos um tipo de serviço");
+      return false;
+    }
+    return true;
+    // servicos)
+  }
+
   solicitarCadastro() {
-    console.warn(this.entidadeForm.value);
-    let entidade = this.entidadeForm.value;
+
+     if(!this.validar()){
+      return;
+     }
+
+    console.warn(this.entidade);
+    let entidade = this.entidade;
     entidade.ativo = false;
-    let r = this.dengodb.insert(entidade, 'test');
+    let r = this.dengodb.insert(entidade, 'estabelecimentos');
     console.log(r);
-    this.telegramMessage("Novo cadastro " + JSON.stringify(entidade, null, '  ') ).subscribe(data => {
+    this.telegramMessage("Novo cadastro " + JSON.stringify(entidade, null, '  ')).subscribe(data => {
       console.log('Mensagem de cadastro enviada com sucesso', data);
     },
       error => {
