@@ -1152,5 +1152,406 @@
     ],
     "descricao_servicos": "Ambulatório e medicamentos gratuitos.",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15551.324336633877!2d-38.4998635!3d-12.9826534!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb4cc0ed7e8f3cdbf!2sCentro+de+Sa%C3%BAde+Aristides+N%C3%B3vis!5e0!3m2!1spt-BR!2sbr!4v1539776423263\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
+  },
+  {
+    "nome": "Ana Paula Galrão Monteiro de Barros Leite",
+    "end": "Alameda Florença,137",
+    "tel": "71988880635",
+    "whatsapp": "",
+    "email": "apgalrao.leite@gmail.com",
+    "valor": "",
+    "servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
+  },
+  {
+    "nome": "",
+    "end": "",
+    "tel": "",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "",
+      ""
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
+  },
+  {
+    "nome": "",
+    "end": "",
+    "tel": "",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "",
+      "",
+      ""
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
+  },
+  {
+    "nome": "",
+    "end": "",
+    "tel": "",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
+  },
+  {
+    "nome": "",
+    "end": "",
+    "tel": "",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "zzzzz",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
+  },
+  {
+    "nome": "Ana Paula Galrão Monteiro de Barros Leite",
+    "end": "Alameda Florença,137",
+    "tel": "71988880635",
+    "whatsapp": "",
+    "email": "apgalrao.leite@gmail.com",
+    "valor": "",
+    "servicos": [
+      "sasa"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "Bahia",
+    "ativo": false
+  },
+  {
+    "nome": "sa",
+    "end": "",
+    "tel": "",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "",
+      "",
+      ""
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
+  },
+  {
+    "nome": "Ana Paula Galrão Monteiro de Barros Leite",
+    "end": "Alameda Florença,137",
+    "tel": "71988880635",
+    "whatsapp": "",
+    "email": "apgalrao.leite@gmail.com",
+    "valor": "",
+    "servicos": [
+      "volvo",
+      "mercedes",
+      "saab",
+      "mercedes"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "Bahia",
+    "ativo": false
+  },
+  {
+    "nome": "Ana Paula Galrão Monteiro de Barros Leite",
+    "end": "Alameda Florença,137, Pituba",
+    "tel": "71988880635",
+    "whatsapp": "",
+    "email": "apgalrao.leite@gmail.com",
+    "valor": "",
+    "servicos": [
+      "",
+      ""
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
+  },
+  {
+    "nome": "Ana Paula Galrão Monteiro de Barros Leite",
+    "end": "Alameda Florença,137, Pituba",
+    "tel": "71988880635",
+    "whatsapp": "",
+    "email": "apgalrao.leite@gmail.com",
+    "valor": "",
+    "servicos": [
+      "",
+      ""
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
+  },
+  {
+    "nome": "Ana Paula Galrão Monteiro de Barros Leite",
+    "end": "Alameda Florença,137",
+    "tel": "71988880635",
+    "whatsapp": "",
+    "email": "apgalrao.leite@gmail.com",
+    "valor": "",
+    "servicos": [
+      "Crianças e adolescentes",
+      "LGBT",
+      "Planos de saúde - Psicologos"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "Bahia",
+    "ativo": false
+  },
+  {
+    "nome": "Evandro Magalhaes Leite Junior",
+    "end": "Alameda Florenca 137, Pituba, apt 601",
+    "tel": "+5571982864766",
+    "whatsapp": "111111111",
+    "email": "evandrojr@gmail.com",
+    "valor": "10",
+    "servicos": [
+      "CAPS",
+      "Drogas"
+    ],
+    "descricao_servicos": "caps e drogas",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "canela e vitória",
+    "crp": "2222",
+    "crm": "11111",
+    "ativo": false
+  },
+  {
+    "nome": "Evandro Magalhaes Leite Junior",
+    "end": "Alameda Florenca 137, Pituba, apt 601",
+    "tel": "+5571982864766",
+    "whatsapp": "111111111",
+    "email": "evandrojr@gmail.com",
+    "valor": "10",
+    "servicos": [
+      "CAPS",
+      "Drogas",
+      "Planos de saúde - Psicologos"
+    ],
+    "descricao_servicos": "caps e drogas",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "canela e vitória",
+    "crp": "2222",
+    "crm": "11111",
+    "ativo": false
+  },
+  {
+    "nome": "sas",
+    "end": "",
+    "tel": "",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      ""
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
+  },
+  {
+    "nome": "Evandro Magalhaes Leite Junior",
+    "end": "Alameda Florenca 137, Pituba, apt 601",
+    "tel": "+5571982864766",
+    "whatsapp": "",
+    "email": "evandrojr@gmail.com",
+    "valor": "",
+    "servicos": [
+      ""
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "BA",
+    "ativo": false
+  },
+  {
+    "nome": "Evandro Magalhaes Leite Junior",
+    "end": "Alameda Florenca 137, Pituba, apt 601",
+    "tel": "+5571982864766",
+    "whatsapp": "",
+    "email": "evandrojr@gmail.com",
+    "valor": "",
+    "servicos": [
+      ""
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "BA",
+    "ativo": false
+  },
+  {
+    "nome": "Ana Paula Galrão Monteiro de Barros Leite",
+    "end": "Alameda Florença,137",
+    "tel": "71988880635",
+    "whatsapp": "",
+    "email": "apgalrao.leite@gmail.com",
+    "valor": "",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Planos de saúde - Psicologos"
+    ],
+    "descricao_servicos": "muito bom",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "Bahia",
+    "ativo": false
+  },
+  {
+    "nome": "Ana Paula Galrão Monteiro de Barros Leite",
+    "end": "Alameda Florença,137",
+    "tel": "71988880635",
+    "whatsapp": "",
+    "email": "apgalrao.leite@gmail.com",
+    "valor": "",
+    "servicos": [
+      "Crianças e adolescentes"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "Bahia",
+    "ativo": false
+  },
+  {
+    "nome": "Evandro Magalhaes Leite Junior",
+    "end": "Alameda Florenca 137, Pituba, apt 601",
+    "tel": "+5571982864766",
+    "whatsapp": "",
+    "email": "evandrojr@gmail.com",
+    "valor": "",
+    "servicos": [
+      "Drogas",
+      "Orientação Profissional"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "BA",
+    "ativo": false
+  },
+  {
+    "nome": "asa",
+    "end": "",
+    "tel": "",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Online"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
+  },
+  {
+    "nome": "Evandro Magalhaes Leite Junior",
+    "end": "Alameda Florenca 137, Pituba, apt 601",
+    "tel": "+5571982864766",
+    "whatsapp": "zap",
+    "email": "evandrojr@gmail.com",
+    "valor": "90",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Orientação Profissional",
+      "Terapia Familiar"
+    ],
+    "descricao_servicos": "Faço de tudo!",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "vitoria",
+    "crp": "332",
+    "crm": "12321",
+    "ativo": false
   }
 ]
