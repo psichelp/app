@@ -1,5 +1,26 @@
-<h3>Cadastro</h3>
-<div align="center">
+<div class="align-contents-center">
+  <div>
+    <h3>Cadastro</h3>
+  </div>
+
+  <div class="form-container">
+    <mat-form-field>
+      <input matInput placeholder="Input">
+    </mat-form-field>
+
+    <mat-form-field>
+      <textarea matInput placeholder="Textarea"></textarea>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-select placeholder="Select">
+        <mat-option value="option">Option</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+</div>
+
+
 <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
   <label>
     Nome:
@@ -69,5 +90,3 @@
 <p>
   <button (click)="updateProfile()">Update Profile</button>
 </p>
-
-</div>

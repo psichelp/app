@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule, MatIconRegistry, MatInputModule } from '@angular/material';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule, MatIconRegistry, MatInputModule, MatOptionModule, MatSelectModule } from '@angular/material';
 import { MatGridListModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
@@ -62,6 +62,8 @@ const appRoutes: Routes = [
     MatCardModule,
     MatGridListModule,
     MatInputModule,
+    MatOptionModule,
+    MatSelectModule,
     HttpClientModule,
     ReactiveFormsModule,
     PipesModule.forRoot(),
