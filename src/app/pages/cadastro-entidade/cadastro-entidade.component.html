@@ -1,0 +1,88 @@
+<div class="align-contents-center">
+
+  <div>
+    <h3>Solicitar cadastro</h3>
+  </div>
+
+  <div class="form-container">
+    <form [formGroup]="entidadeForm">
+      <mat-form-field>
+        <input matInput placeholder="Nome" formControlName="nome" required>
+      </mat-form-field>
+
+      <div formArrayName="servicos">
+        <h4>Selecione os tipos serviços oferecidos</h4>
+
+        <ng-container *ngFor="let servico of servicos.controls; let i=index">
+
+          <select [formControlName]="i">
+            <option *ngFor="let servicoTipo of servicosTipos" [value]="servicoTipo">{{servicoTipo}}</option>
+          </select>
+          <br><br>
+
+          <!-- <mat-form-field [formControlName]="i">
+                <mat-select placeholder="Serviço">
+                  <mat-option  *ngFor="let servicoTipo of servicosTipos" [value]="servicoTipo">
+                    {{servicoTipo}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+         -->
+          <!-- <mat-form-field>
+          </mat-form-field>
+          <br><br> -->
+        </ng-container>
+        <br>
+        <button mat-raised-button color="accent" (click)="addServico()">Adicionar outro serviço</button>
+      </div>
+      <br><br>
+
+      <mat-form-field>
+        <input matInput placeholder="Breve descrição dos serviços" formControlName="descricao_servicos">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Telefone" formControlName="tel">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Whatsapp" formControlName="whatsapp">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="E-mail" formControlName="email">
+        <!-- <mat-error *ngIf="entidadeForm.hasError('email') && !entidadeForm.hasError('required')">
+              Por favor, digite um email válido
+            </mat-error> -->
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Endereço" formControlName="end">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Valor da sessão" formControlName="valor">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Bairros atendidos" formControlName="bairros_atendidos">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="CRM (se aplicável)" formControlName="crm">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="CRP (se aplicável)" formControlName="crp">
+      </mat-form-field>
+
+      <div class="align-contents-center">
+        <br>
+        <button (click)="solicitarCadastro()" [disabled]="!entidadeForm.valid" mat-raised-button color="primary">Enviar
+          solicitação</button>
+      </div>
+    </form>
+  </div>
+  <br>
+  <br>
+</div>

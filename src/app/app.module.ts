@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule, MatIconRegistry, MatInputModule } from '@angular/material';
+import { MatToolbarModule, MatButtonModule, MatSidenavModule, MatIconModule, MatListModule, MatCardModule, MatIconRegistry, MatInputModule, MatOptionModule, MatSelectModule } from '@angular/material';
 import { MatGridListModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
@@ -23,6 +23,8 @@ import { PipesModule } from './pipes/pipes.module';
 // Services
 import { WhatsAppService } from './services/whatsapp/whats-app.service';
 import { LocalService } from './services/local/local.service';
+import { CadastroEntidadeComponent } from './pages/cadastro-entidade/cadastro-entidade.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 const appRoutes: Routes = [
   { path: 'inicio', component: HomePageComponent },
@@ -30,6 +32,7 @@ const appRoutes: Routes = [
   { path: 'listar', component: ListPageComponent },
   { path: 'detalhes', component: DetailsPageComponent },
   { path: 'buscar', component: SearchPageComponent },
+  { path: 'cadastrar', component: CadastroEntidadeComponent },
 ];
 
 @NgModule({
@@ -39,13 +42,13 @@ const appRoutes: Routes = [
     HomePageComponent,
     ListPageComponent,
     DetailsPageComponent,
-    SearchPageComponent
+    SearchPageComponent,
+    CadastroEntidadeComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     LayoutModule,
-    HttpClientModule,
     RouterModule.forRoot(appRoutes,
       {
         useHash: true,
@@ -59,7 +62,10 @@ const appRoutes: Routes = [
     MatCardModule,
     MatGridListModule,
     MatInputModule,
+    MatOptionModule,
+    MatSelectModule,
     HttpClientModule,
+    ReactiveFormsModule,
     PipesModule.forRoot(),
   ], providers: [
     LocalService,
@@ -71,6 +77,7 @@ export class AppModule {
 
   constructor(matIconRegistry: MatIconRegistry, domSanitizer: DomSanitizer, localservice: LocalService) {
     localservice.loadEstabelecimentos();
+    // tslint:disable-next-line:max-line-length
     matIconRegistry.addSvgIconSet(domSanitizer.bypassSecurityTrustResourceUrl('./assets/mdi.svg')); // Or whatever path you placed mdi.svg at
   }
 

@@ -1,0 +1,34 @@
+.align-contents-center {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background: lightblue; */
+    align-items: center;
+}
+
+.form-container {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container>* {
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    /* background: yellow; */
+    width: 100%;
+}
+
+form>* {
+    width: 100%;
+}
+
+@media all and (min-width: 800px) {
+    .form-container {
+        max-width: 60%;
+    }
+}
