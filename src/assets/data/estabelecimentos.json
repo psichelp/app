@@ -1285,7 +1285,7 @@
     "bairros_atendidos": "Centro",
     "crp": "",
     "crm": "",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Luisão",
@@ -1304,6 +1304,6 @@
     "bairros_atendidos": "Graça, Barra",
     "crp": "",
     "crm": "",
-    "ativo": false
+    "ativo": true
   }
 ]
