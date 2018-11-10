@@ -1227,5 +1227,27 @@
     "crp": "",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "",
+    "end": "",
+    "tel": "",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "zzzzz",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
