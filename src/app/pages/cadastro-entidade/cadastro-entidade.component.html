@@ -3,62 +3,65 @@
     <h3>Cadastro</h3>
   </div>
 
-  <div class="form-container">
-    <mat-form-field>
-      <input matInput placeholder="Input">
-    </mat-form-field>
+  <!-- <div class="form-container"> -->
+    <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+      <mat-form-field>
+        <input matInput placeholder="Nome" formControlName="nome" required>
+      </mat-form-field>
 
-    <mat-form-field>
-      <textarea matInput placeholder="Textarea"></textarea>
-    </mat-form-field>
+      <mat-form-field>
+        <textarea matInput placeholder="Textarea"></textarea>
+      </mat-form-field>
 
-    <mat-form-field>
-      <mat-select placeholder="Select">
-        <mat-option value="option">Option</mat-option>
-      </mat-select>
-    </mat-form-field>
+      <mat-form-field>
+        <mat-select placeholder="Select">
+          <mat-option value="option">Option</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <button type="submit" [disabled]="!profileForm.valid">Enviar</button>
+    </form>
+
   </div>
-</div>
+<!-- </div> -->
 
 
-<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
-  <label>
-    Nome:
-    <br><input type="text" formControlName="nome" required>
-  </label>
-  <label>
-    Telefone:
-    <br><input type="text" formControlName="tel">
-  </label>
-  <label>
-    Whatsapp:
-    <br><input type="text" formControlName="whatsapp">
-  </label>
-  <label>
-    e-mail:
-    <br><input type="text" formControlName="email">
-  </label>
-  <label>
-    Endereço:
-    <br><input type="text" formControlName="end">
-  </label>
-  <label>
-    Valor cobrado por sessão:
-    <br><input type="text" formControlName="valor">
-  </label>
-  <label>
-    Bairros antedidos(somente para os serviços do governo):
-    <br><input type="text" formControlName="bairros_atendidos">
-  </label>
-  <label>
-    CRP (se aplicável):
-    <br><input type="text" formControlName="crp">
-  </label>
-  <label>
-    CRP (se aplicável):
-    <br><input type="text" formControlName="nome">
-  </label>
-  <!-- <div formArrayName="aliases">
+<label>
+  Nome:
+  <br><input type="text" formControlName="nome" required>
+</label>
+<label>
+  Telefone:
+  <br><input type="text" formControlName="tel">
+</label>
+<label>
+  Whatsapp:
+  <br><input type="text" formControlName="whatsapp">
+</label>
+<label>
+  e-mail:
+  <br><input type="text" formControlName="email">
+</label>
+<label>
+  Endereço:
+  <br><input type="text" formControlName="end">
+</label>
+<label>
+  Valor cobrado por sessão:
+  <br><input type="text" formControlName="valor">
+</label>
+<label>
+  Bairros antedidos(somente para os serviços do governo):
+  <br><input type="text" formControlName="bairros_atendidos">
+</label>
+<label>
+  CRP (se aplicável):
+  <br><input type="text" formControlName="crp">
+</label>
+<label>
+  CRP (se aplicável):
+  <br><input type="text" formControlName="nome">
+</label>
+<!-- <div formArrayName="aliases">
     <h3>Aliases</h3> <button (click)="addAlias()">Add Alias</button>
 
     <div *ngFor="let address of aliases.controls; let i=index">
@@ -72,8 +75,6 @@
   -->
 
 
-  <button type="submit" [disabled]="!profileForm.valid">Enviar</button>
-</form>
 
 <hr>
 
