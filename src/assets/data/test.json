@@ -1287,5 +1287,26 @@
     "crp": "",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "Ana Paula Galrão Monteiro de Barros Leite",
+    "end": "Alameda Florença,137",
+    "tel": "71988880635",
+    "whatsapp": "",
+    "email": "apgalrao.leite@gmail.com",
+    "valor": "",
+    "servicos": [
+      "volvo",
+      "mercedes",
+      "saab",
+      "mercedes"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "Bahia",
+    "ativo": false
   }
 ]
