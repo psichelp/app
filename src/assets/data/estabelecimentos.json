@@ -1268,5 +1268,23 @@
     "crp": "",
     "crm": "Bahia",
     "ativo": false
+  },
+  {
+    "nome": "Leonardo Merlin",
+    "end": "Teste",
+    "tel": "41992419999",
+    "whatsapp": "41992419999",
+    "email": "leonardo.merlin@gmail.com",
+    "valor": "59,90",
+    "servicos": [
+      "Crianças e adolescentes"
+    ],
+    "descricao_servicos": "Atendimento especializado à adolescentes",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "Centro",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
