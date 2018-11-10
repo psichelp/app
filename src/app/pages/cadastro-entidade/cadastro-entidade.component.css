@@ -2,35 +2,30 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    background: lightblue;
+    /* background: lightblue; */
     align-items: center;
 }
 
-/* .form-container {
-    width: 100%;
-    max-width: 95%;
+.form-container {
+    width: 95%;
     display: flex;
     flex-direction: column;
-    background: lightgreen;
-} */
+}
 
-/* .form-container>* {
+.form-container>* {
     width: 100%;
-} */
+}
 
 form {
-    /* width: 100%; */
-    width: 100%;
-    max-width: 95%;
-
     display: flex;
     flex-direction: column;
-    background: lightpink;
+    /* background: yellow; */
+    width: 100%;
 }
-/* 
+
 form>* {
     width: 100%;
-} */
+}
 
 @media all and (min-width: 800px) {
     .form-container {

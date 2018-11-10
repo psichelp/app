@@ -1,93 +1,86 @@
 <div class="align-contents-center">
+
   <div>
-    <h3>Cadastro</h3>
+    <h3>Solicitar cadastro</h3>
   </div>
 
-  <!-- <div class="form-container"> -->
-    <form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+  <div class="form-container">
+    <form [formGroup]="entidadeForm">
       <mat-form-field>
         <input matInput placeholder="Nome" formControlName="nome" required>
       </mat-form-field>
 
+      <div formArrayName="servicos">
+        <h4>Tipos serviços oferecidos</h4>
+        
+        <button mat-raised-button color="accent" (click)="addServico()">Adicionar serviço</button>
+        <ng-container *ngFor="let servico of servicos.controls; let i=index">
+            <mat-form-field [formControlName]="i">
+                <mat-select placeholder="Serviço">
+                  <mat-option  *ngFor="let servicoTipo of servicosTipos" [value]="servicoTipo">
+                    {{servicoTipo}}
+                  </mat-option>
+                </mat-select>
+              </mat-form-field>
+        
+          <!-- <mat-form-field>
+            <select  [formControlName]="i">
+              <option value="volvo">Volvo</option>
+              <option value="saab">Saab</option>
+              <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+            </select>
+          </mat-form-field>
+          <br><br> -->
+        </ng-container>
+      </div>
+
       <mat-form-field>
-        <textarea matInput placeholder="Textarea"></textarea>
+        <input matInput placeholder="Breve descrição dos serviços" formControlName="descricao_servicos">
       </mat-form-field>
 
       <mat-form-field>
-        <mat-select placeholder="Select">
-          <mat-option value="option">Option</mat-option>
-        </mat-select>
+        <input matInput placeholder="Telefone" formControlName="tel">
       </mat-form-field>
-      <button type="submit" [disabled]="!profileForm.valid">Enviar</button>
+
+      <mat-form-field>
+        <input matInput placeholder="Whatsapp" formControlName="whatsapp">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="E-mail" formControlName="email">
+        <!-- <mat-error *ngIf="entidadeForm.hasError('email') && !entidadeForm.hasError('required')">
+              Por favor, digite um email válido
+            </mat-error> -->
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Endereço" formControlName="end">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Valor da sessão" formControlName="valor">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="Bairros atendidos" formControlName="bairros_atendidos">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="CRM (se aplicável)" formControlName="crm">
+      </mat-form-field>
+
+      <mat-form-field>
+        <input matInput placeholder="CRP (se aplicável)" formControlName="crp">
+      </mat-form-field>
+
+      <div class="align-contents-center">
+        <br>
+        <button (click)="solicitarCadastro()" [disabled]="!entidadeForm.valid" mat-raised-button color="primary">Enviar
+          solicitação</button>
+      </div>
     </form>
-
   </div>
-<!-- </div> -->
-
-
-<label>
-  Nome:
-  <br><input type="text" formControlName="nome" required>
-</label>
-<label>
-  Telefone:
-  <br><input type="text" formControlName="tel">
-</label>
-<label>
-  Whatsapp:
-  <br><input type="text" formControlName="whatsapp">
-</label>
-<label>
-  e-mail:
-  <br><input type="text" formControlName="email">
-</label>
-<label>
-  Endereço:
-  <br><input type="text" formControlName="end">
-</label>
-<label>
-  Valor cobrado por sessão:
-  <br><input type="text" formControlName="valor">
-</label>
-<label>
-  Bairros antedidos(somente para os serviços do governo):
-  <br><input type="text" formControlName="bairros_atendidos">
-</label>
-<label>
-  CRP (se aplicável):
-  <br><input type="text" formControlName="crp">
-</label>
-<label>
-  CRP (se aplicável):
-  <br><input type="text" formControlName="nome">
-</label>
-<!-- <div formArrayName="aliases">
-    <h3>Aliases</h3> <button (click)="addAlias()">Add Alias</button>
-
-    <div *ngFor="let address of aliases.controls; let i=index">
-      <!-- The repeated alias template 
-  <label>
-    Alias:
-    <br><input type="text" [formControlName]="i">
-  </label>
-  
-  </div>
-  -->
-
-
-
-<hr>
-
-
-<p>
-  Form Value: {{ profileForm.value | json }}
-</p>
-
-
-<p>
-  Form Status: {{ profileForm.status }}
-</p>
-
-<p>
-  <button (click)="updateProfile()">Update Profile</button>
-</p>
+  <br>
+  <br>
+</div>
