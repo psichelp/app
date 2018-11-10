@@ -1515,5 +1515,23 @@
     "crp": "",
     "crm": "BA",
     "ativo": false
+  },
+  {
+    "nome": "asa",
+    "end": "",
+    "tel": "",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Online"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
