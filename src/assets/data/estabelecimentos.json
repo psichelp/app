@@ -1286,5 +1286,24 @@
     "crp": "",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "Luisão",
+    "end": "Graça",
+    "tel": "71988377591",
+    "whatsapp": "",
+    "email": "luisao.ba@gmail.com",
+    "valor": "R$100.00",
+    "servicos": [
+      "Planos de saúde - Psicologos",
+      "Crianças e adolescentes"
+    ],
+    "descricao_servicos": "Autismo",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "Graça, Barra",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
