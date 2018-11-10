@@ -56,7 +56,7 @@ const appRoutes: Routes = [
       }),
     MatToolbarModule,
     MatButtonModule,
-    MatSide qnavModule,
+    MatSidenavModule,
     MatIconModule,
     MatListModule,
     MatCardModule,

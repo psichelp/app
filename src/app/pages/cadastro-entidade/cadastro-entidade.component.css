@@ -1,0 +1,85 @@
+/* ProfileEditorComponent's private CSS styles */
+
+:host{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    background: lightgreen;
+}
+
+.form-container {
+    display: flex;
+    flex-flow: row wrap;
+    /* padding-top: 24px; */
+    /* width: 70%; */
+    background: #607D8B;
+    justify-content:space-evenly;
+}
+
+label {
+    background: tomato;
+    width: 90%;
+    margin: .5em 0;
+    color: #607D8B;
+    font-weight: bold;
+}
+
+
+@media all and (min-width: 800px) {
+    .container {
+        display: flex;
+        flex-flow: row wrap;
+        /* padding-top: 24px; */
+        width: 70%;
+        /* background: #607D8B; */
+        /* justify-content: space-around; */
+    }
+
+    label {
+        background: tomato;
+        width: 30em;
+        margin: .5em 0;
+        color: #607D8B;
+        font-weight: bold;
+    }
+    
+}
+
+/* .container > * {
+    flex: 1 100%;
+} */
+
+
+input {
+    height: 2em;
+    width: 15em;
+    font-size: 1em;
+    padding-left: .4em;
+}
+
+button {
+    font-family: Arial;
+    background-color: #eee;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 5em;
+}
+
+button:hover {
+    background-color: #cfd8dc;
+}
+
+button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+}
+
+/*
+  Copyright 2017-2018 Google Inc. All Rights Reserved.
+  Use of this source code is governed by an MIT-style license that
+  can be found in the LICENSE file at http://angular.io/license
+  */
