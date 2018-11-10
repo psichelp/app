@@ -1366,5 +1366,24 @@
     "crp": "",
     "crm": "Bahia",
     "ativo": false
+  },
+  {
+    "nome": "Evandro Magalhaes Leite Junior",
+    "end": "Alameda Florenca 137, Pituba, apt 601",
+    "tel": "+5571982864766",
+    "whatsapp": "111111111",
+    "email": "evandrojr@gmail.com",
+    "valor": "10",
+    "servicos": [
+      "CAPS",
+      "Drogas"
+    ],
+    "descricao_servicos": "caps e drogas",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "canela e vitória",
+    "crp": "2222",
+    "crm": "11111",
+    "ativo": false
   }
 ]
