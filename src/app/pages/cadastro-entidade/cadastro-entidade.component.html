@@ -11,29 +11,31 @@
       </mat-form-field>
 
       <div formArrayName="servicos">
-        <h4>Tipos serviços oferecidos</h4>
-        
-        <button mat-raised-button color="accent" (click)="addServico()">Adicionar serviço</button>
+        <h4>Selecione os tipos serviços oferecidos</h4>
+
         <ng-container *ngFor="let servico of servicos.controls; let i=index">
-            <mat-form-field [formControlName]="i">
+
+          <select [formControlName]="i">
+            <option *ngFor="let servicoTipo of servicosTipos" [value]="servicoTipo">{{servicoTipo}}</option>
+          </select>
+          <br><br>
+
+          <!-- <mat-form-field [formControlName]="i">
                 <mat-select placeholder="Serviço">
                   <mat-option  *ngFor="let servicoTipo of servicosTipos" [value]="servicoTipo">
                     {{servicoTipo}}
                   </mat-option>
                 </mat-select>
               </mat-form-field>
-        
+         -->
           <!-- <mat-form-field>
-            <select  [formControlName]="i">
-              <option value="volvo">Volvo</option>
-              <option value="saab">Saab</option>
-              <option value="mercedes">Mercedes</option>
-              <option value="audi">Audi</option>
-            </select>
           </mat-form-field>
           <br><br> -->
         </ng-container>
+        <br>
+        <button mat-raised-button color="accent" (click)="addServico()">Adicionar outro serviço</button>
       </div>
+      <br><br>
 
       <mat-form-field>
         <input matInput placeholder="Breve descrição dos serviços" formControlName="descricao_servicos">
