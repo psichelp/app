@@ -36,10 +36,10 @@ acp Publicando o webApp no psichelp.com.br/webapp
 
 cd ../app
 rm -rf docs
+git pull
 acp Versionando o código publicado 
 
-
-echo teste agora em https://psichelp.com.br/webapp funcionou?
+echo teste agora em https://github.com/psichelp/app funcionou?
 read answer
 if [ "$answer" != "${answer#[SsYy]}" ] ;then
     echo OK, Parabéns!
