@@ -1186,5 +1186,25 @@
     "crp": "",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "",
+    "end": "",
+    "tel": "",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "",
+      "",
+      ""
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
