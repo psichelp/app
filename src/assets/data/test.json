@@ -1533,5 +1533,25 @@
     "crp": "",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "Evandro Magalhaes Leite Junior",
+    "end": "Alameda Florenca 137, Pituba, apt 601",
+    "tel": "+5571982864766",
+    "whatsapp": "zap",
+    "email": "evandrojr@gmail.com",
+    "valor": "90",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Orientação Profissional",
+      "Terapia Familiar"
+    ],
+    "descricao_servicos": "Faço de tudo!",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "vitoria",
+    "crp": "332",
+    "crm": "12321",
+    "ativo": false
   }
 ]
