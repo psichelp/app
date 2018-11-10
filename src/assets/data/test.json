@@ -1267,5 +1267,25 @@
     "crp": "",
     "crm": "Bahia",
     "ativo": false
+  },
+  {
+    "nome": "sa",
+    "end": "",
+    "tel": "",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "",
+      "",
+      ""
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
