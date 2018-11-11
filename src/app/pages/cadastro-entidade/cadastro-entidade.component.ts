@@ -68,42 +68,42 @@ export class CadastroEntidadeComponent implements OnInit {
   }
 
   validar(): Boolean {
-
-    this.entidade.servicos = this.entidade.servicos.filter(el => {
-      return el != "";
-    });
-
-    console.log(this.entidade.servicos);
-
     let servicosQt = this.entidade.servicos.length;
     console.log(servicosQt);
     if (servicosQt < 1) {
       alert("É necessário informar pelo menos um tipo de serviço");
       return false;
     }
+    if(!this.entidade.whatsapp && !this.entidade.tel && !this.entidade.email){
+      alert("É necessário informar pelo menos uma forma para entrar em contato: Telfone ou whatsApp ou email");
+    }
     return true;
-    // servicos)
   }
 
   solicitarCadastro() {
 
-     if(!this.validar()){
-      return;
-     }
+    this.entidade.servicos = this.entidade.servicos.filter(el => {
+      return el != "";
+    });
 
-    console.warn(this.entidade);
-    let entidade = this.entidade;
-    entidade.ativo = false;
-    let r = this.dengodb.insert(entidade, 'estabelecimentos');
-    console.log(r);
-    this.telegramMessage("Novo cadastro " + JSON.stringify(entidade, null, '  ')).subscribe(data => {
-      console.log('Mensagem de cadastro enviada com sucesso', data);
-    },
-      error => {
-        console.error('Erro ao enviar mensagem de cadastro', error);
+    if (!this.validar()) {
+      return;
+    }else{
+
+      console.warn(this.entidade);
+      let entidade = this.entidade;
+      entidade.ativo = false;
+      let r = this.dengodb.insert(entidade, 'estabelecimentos');
+      console.log(r); 
+      this.telegramMessage("Novo cadastro " + JSON.stringify(entidade, null, '  ')).subscribe(data => {
+        console.log('Mensagem de cadastro enviada com sucesso', data);
+        },
+        error => {
+          console.error('Erro ao enviar mensagem de cadastro', error);
+        }
+      );
+      alert("Muito obrigado! Cadastro efetuado com sucesso");
+      this.router.navigate(['/']);
       }
-    );
-    alert("Muito obrigado! Cadastro efetuado com sucesso");
-    this.router.navigate(['/'])
   }
 }

@@ -12,10 +12,8 @@
 
       <div formArrayName="servicos">
         <h4>Selecione os tipos serviços oferecidos</h4>
-
         <ng-container *ngFor="let servico of servicos.controls; let i=index">
-
-          <select [formControlName]="i">
+          <select [formControlName]="i"  >
             <option *ngFor="let servicoTipo of servicosTipos" [value]="servicoTipo">{{servicoTipo}}</option>
           </select>
           <br><br>
