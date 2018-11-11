@@ -58,8 +58,17 @@ export class LocalService {
       }));
   }
 
+  compare(a,b): Number {
+    if (a.nome < b.nome)
+      return -1;
+    if (a.nome > b.nome)
+      return 1;
+    return 0;
+  }
+
+
   estabelecimentos() {
-    return this.localstorage.getStorage('estabelecimentos');
+    return this.localstorage.getStorage('estabelecimentos').sort(this.compare);
   }
 
   public estabelicimentoCache: any;

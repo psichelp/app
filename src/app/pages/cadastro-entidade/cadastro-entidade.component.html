@@ -1,9 +1,7 @@
 <div class="align-contents-center">
-
-  <div>
-    <h3>Solicitar cadastro</h3>
-  </div>
-
+  <h4 style="padding: 1em; text-align: justify">Cadastro - PsicHelp<br><br>
+    Formulário para indicar que você tem interesse em prestar serviço a população oferecendo atendimento a baixo custo
+    ou até mesmo de graça</h4>
   <div class="form-container">
     <form [formGroup]="entidadeForm">
       <mat-form-field>
@@ -13,7 +11,7 @@
       <div formArrayName="servicos">
         <h4>Selecione os tipos serviços oferecidos</h4>
         <ng-container *ngFor="let servico of servicos.controls; let i=index">
-          <select [formControlName]="i"  >
+          <select [formControlName]="i">
             <option *ngFor="let servicoTipo of servicosTipos" [value]="servicoTipo">{{servicoTipo}}</option>
           </select>
           <br><br>

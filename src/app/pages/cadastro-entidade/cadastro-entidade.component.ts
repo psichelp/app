@@ -76,6 +76,7 @@ export class CadastroEntidadeComponent implements OnInit {
     }
     if(!this.entidade.whatsapp && !this.entidade.tel && !this.entidade.email){
       alert("É necessário informar pelo menos uma forma para entrar em contato: Telfone ou whatsApp ou email");
+      return false;
     }
     return true;
   }
@@ -88,22 +89,24 @@ export class CadastroEntidadeComponent implements OnInit {
 
     if (!this.validar()) {
       return;
-    }else{
-
-      console.warn(this.entidade);
-      let entidade = this.entidade;
-      entidade.ativo = false;
-      let r = this.dengodb.insert(entidade, 'estabelecimentos');
-      console.log(r); 
-      this.telegramMessage("Novo cadastro " + JSON.stringify(entidade, null, '  ')).subscribe(data => {
-        console.log('Mensagem de cadastro enviada com sucesso', data);
-        },
-        error => {
-          console.error('Erro ao enviar mensagem de cadastro', error);
-        }
-      );
-      alert("Muito obrigado! Cadastro efetuado com sucesso");
-      this.router.navigate(['/']);
+    }
+    console.warn(this.entidade);
+    let entidade = this.entidade;
+    entidade.ativo = false;
+    let r = this.dengodb.insert(entidade, 'estabelecimentos');
+    if(!r){
+      alert("Aparentemente você está sem conexão com internet. Por favor tente mais tarde ou contacte: psichelpcontatos@gmail.com para informar o acontecido. Obrigado!")   
+      return;
+    } 
+    this.telegramMessage("Novo cadastro " + JSON.stringify(entidade, null, '  ')).subscribe(data => {
+      console.log('Mensagem de cadastro enviada com sucesso', data);
+      },
+      error => {
+        console.error('Erro ao enviar mensagem de cadastro', error);
       }
+    );
+    alert("Muito obrigado! Cadastro solicitação de cadastro efetuada com sucesso. Em breve iremos entrar em contato. Muito obrigao por ajudar!");
+    this.router.navigate(['/']);
+      
   }
 }
