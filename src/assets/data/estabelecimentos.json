@@ -1268,5 +1268,23 @@
     "crp": "",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "oo",
+    "end": "",
+    "tel": "",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Crianças e adolescentes"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
