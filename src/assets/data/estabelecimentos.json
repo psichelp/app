@@ -1254,20 +1254,13 @@
   {
     "nome": "IVAN LUCIO DE QUADROS CORREIA",
     "end": "Euclides da Cunha, 403",
-    "tel": "71999715040",
-    "whatsapp": "71 999715040",
-    "email": "coach@ivanquadroscom.br",
+    "tel": "071999715040",
+    "whatsapp": "071 999715040",
+    "email": "coach@ivanquadros.com.br",
     "valor": "50,00",
+    "descricao_servicos": "Coach",
     "servicos": [
-      "Online",
-      "CAPS"
-    ],
-    "descricao_servicos": "Coaching",
-    "mapa": "",
-    "video": "",
-    "bairros_atendidos": "Aberto",
-    "crp": "Não",
-    "crm": "Não",
-    "ativo": false
+      "Online"
+    ]
   }
 ]
