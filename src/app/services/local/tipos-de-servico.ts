@@ -15,6 +15,7 @@ export const SERVICO = {
   CRIANCAS_E_ADOLESCENTES: 'Crianças e adolescentes',
   MEDICAMENTOS: 'Medicamentos gratúitos',
   EMERGENCIA: 'Emergência Psiquiátrica',
+  LIFE_COACH: 'Life Coach',
 };
 
 export const SERVICO_DESCRICAO = [
@@ -108,6 +109,13 @@ export const SERVICO_DESCRICAO = [
     titulo1: 'Psicólogos que atendem por',
     titulo2: 'Planos de Saúde',
     leitor: 'Ir para categoria: Psicólogos que atendem por Planos de Saúde'
+  },
+  {
+    nome: SERVICO.LIFE_COACH,
+    img: 'url(assets/imgs/life-coach.jpg)',
+ //   titulo1: 'Psicólogos que atendem por',
+    titulo2: 'Life Coach',
+    leitor: 'Ir para categoria: Life Coach'
   },
   {
     nome: 'FALE-CONOSCO',
