@@ -113,8 +113,8 @@ export const SERVICO_DESCRICAO = [
   {
     nome: SERVICO.LIFE_COACH,
     img: 'url(assets/imgs/life-coach.jpg)',
- //   titulo1: 'Psicólogos que atendem por',
-    titulo2: 'Life Coach',
+//    titulo1: 'Psicólogos que atendem por',
+//    titulo2: 'Life Coach',
     leitor: 'Ir para categoria: Life Coach'
   },
   {
