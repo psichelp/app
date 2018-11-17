@@ -1301,5 +1301,24 @@
     "crp": "CRP: 03/16760",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "Herbelim Paim",
+    "end": "Rua Alberto Pasqualini 141, Amaralina, Salvador, Bahia Cep: 41900-266, Brazil",
+    "tel": "(71) 991355993",
+    "whatsapp": "(71) 991355993",
+    "email": "herbelim@gmail.com",
+    "valor": "",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Especialista em terapia cognitiva comportamental. Atendimento à crianças, adolescentes, adultos e pessoas com Fobia Social.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "CRP: 03/16760",
+    "crm": "",
+    "ativo": false
   }
 ]
