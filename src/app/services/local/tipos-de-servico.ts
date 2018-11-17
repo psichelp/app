@@ -129,6 +129,6 @@ export const SERVICO_DESCRICAO = [
     titulo2: 'Fale Conosco',
     url: 'https://form.jotformz.com/82641319684665',
     leitor: 'Ir para: Fale Conosco'
-  },
+  }
 ]
 
