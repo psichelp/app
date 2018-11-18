@@ -1282,5 +1282,24 @@
     "crp": "03/16760",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "Ana Cristina Santana dos Santos",
+    "end": "Rua Alceu Amoroso Lima, 267 a sala 404 edf Mondial Salvador office",
+    "tel": "71 99191.0082",
+    "whatsapp": "71 99191.0082",
+    "email": "crissantana.psicologa@gmail.com",
+    "valor": "Atendo também por valor social",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimento psicoterapeutico de crianças, adolescentes, casal, família e individual.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "Caminho das Árvores e Pituba ",
+    "crp": "16112",
+    "crm": "",
+    "ativo": false
   }
 ]
