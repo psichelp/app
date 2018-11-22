@@ -1306,5 +1306,24 @@
     "crp": "",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "CILENE FONSECA",
+    "end": "Condomínio Empresarial Torre do Parque, Avenida Antônio Carlos Magalhães, 771 - Itaigara - Salvador - Bahia",
+    "tel": "071993115587",
+    "whatsapp": "071993115587",
+    "email": "musiterap@hotmail.com",
+    "valor": "",
+    "servicos": [
+      "Musicoterapia",
+      "Crianças e adolescentes"
+    ],
+    "descricao_servicos": "Musicoterapia: Seminários e Aulas, crianças (a partir de 3 anos), adolescentes e adultos. Privado, empresas e escolas. ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
