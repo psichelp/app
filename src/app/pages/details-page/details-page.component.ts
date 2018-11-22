@@ -7,7 +7,8 @@ import { SharedService } from 'src/app/services/shared/shared.service';
 
 @Component({
   selector: 'app-details-page',
-  templateUrl: './details-page.component.html'
+  templateUrl: './details-page.component.html',
+  styleUrls: ['./details-page.component.css']
 })
 export class DetailsPageComponent implements OnInit {
   estabelecimento: any;

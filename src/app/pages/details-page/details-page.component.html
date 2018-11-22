@@ -36,19 +36,17 @@
         {{estabelecimento.crm}}
       </span>
     </p>
-    <p *ngIf="estabelecimento.descricao_servicos">
-      <span primary>Serviço:</span>
-      <span light>
-        {{estabelecimento.descricao_servicos}}
-      </span>
-    </p>
+    <ng-container *ngIf="estabelecimento.descricao_servicos">
+      <span primary>Serviços:</span>
+      <pre light [innerHtml]="estabelecimento.descricao_servicos | sanitizeHtml">
+      </pre>
+    </ng-container>
     <p *ngIf="estabelecimento.bairros_atendidos">
       <span primary>Bairros de Abrangência:</span>
       <span light>
         {{estabelecimento.bairros_atendidos}}
       </span>
     </p>
-
 
   </mat-card-content>
   <mat-card-actions>
