@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
-import { map } from "rxjs/operators";
-import { HttpClient } from '@angular/common/http';
+import { Observable, throwError } from 'rxjs';
+import { map, catchError, retry } from "rxjs/operators";
+import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { HttpHeaders } from '@angular/common/http';
 import { Base64 } from 'js-base64';
 
@@ -12,10 +12,10 @@ import { Base64 } from 'js-base64';
 export class GithubService {
   constructor(private http: HttpClient) { }
 
-  token(): String{
+  token(): String {
     let encToken = "ZTIyODhkYTJlY2VhNjE0NjM4NjYyMWRiNjllYzQzYzAyN2RkMzg1YQ==";
     return Base64.decode(encToken);
-  } 
+  }
 
   apiRoot = 'https://api.github.com/repos/psichelp/app/contents'
   httpOptions = {
@@ -29,11 +29,32 @@ export class GithubService {
   get(filePath): Observable<any> {
     let apiUrl = `${this.apiRoot}${filePath}`;
     return this.http.get(apiUrl)
-      .pipe(map(res => {
-        let results = res;
-        return results;
-      }));
+      .pipe(
+        retry(3),
+        (results => {
+          if (!results) {
+            throw new Error("Não foi possível obter os dados")
+          }
+          return results;
+        })
+      );
   }
+
+  handleError(error: HttpErrorResponse) {
+    if (error.error instanceof ErrorEvent) {
+      // A client-side or network error occurred. Handle it accordingly.
+      console.error('An error occurred:', error.error.message);
+    } else {
+      // The backend returned an unsuccessful response code.
+      // The response body may contain clues as to what went wrong,
+      console.error(
+        `Backend returned code ${error.status}, ` +
+        `body was: ${error.error}`);
+    }
+    // return an observable with a user-facing error message
+    return throwError(
+      'Something bad happened; please try again later.');
+  };
 
   raw(filePath): Observable<any> {
     let apiUrl = `https://raw.githubusercontent.com/psichelp/app/master/src/assets/data/${filePath}.json`;
