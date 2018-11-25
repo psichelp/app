@@ -93,19 +93,20 @@ export class CadastroEntidadeComponent implements OnInit {
     console.warn(this.entidade);
     let entidade = this.entidade;
     entidade.ativo = false;
-    let r = this.dengodb.insert(entidade, 'estabelecimentos');
-    // if(!r){
-    //   alert("Aparentemente você está sem conexão com internet. Por favor tente mais tarde ou contacte: psichelpcontatos@gmail.com para informar o acontecido. Obrigado!")   
-    //   return;
-    // } 
-    this.telegramMessage("Novo cadastro " + JSON.stringify(entidade, null, '  ')).subscribe(data => {
-      console.log('Mensagem de cadastro enviada com sucesso', data);
-    },
-      error => {
-        console.error('Erro ao enviar mensagem de cadastro', error);
-      }
-    );
-    alert("Muito obrigado! Cadastro solicitação de cadastro efetuada com sucesso. Em breve iremos entrar em contato. Muito obrigao por ajudar!");
-    this.router.navigate(['/']);
+    try {
+      this.dengodb.insert(entidade, 'estabelecimentos');
+      this.telegramMessage("Novo cadastro " + JSON.stringify(entidade, null, '  ')).subscribe(data => {
+        console.log('Mensagem de cadastro enviada com sucesso', data);
+      },
+        error => {
+          console.error('Erro ao enviar mensagem de cadastro', error);
+        }
+      );
+      alert("Muito obrigado! Cadastro solicitação de cadastro efetuada com sucesso. Em breve iremos entrar em contato. Muito obrigao por ajudar!");
+    } catch (error) {
+      alert("Aparentemente você está sem conexão com internet. Por favor tente mais tarde ou contacte: psichelpcontatos@gmail.com para informar o acontecido. Obrigado!")
+    } finally {
+      this.router.navigate(['/']);
+    }
   }
 }

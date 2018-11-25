@@ -37,7 +37,8 @@ export class GithubService {
           }
           return results;
         })
-      );
+      )
+
   }
 
   handleError(error: HttpErrorResponse) {
@@ -110,13 +111,16 @@ export class GithubService {
       "sha": sha
     }
     this.http.put(apiUrl, body, this.httpOptions)
-      .pipe(map(res => {
-        let results = res;
-        return results;
-      }))
+      .pipe(retry(3),
+        results => {
+          return results;
+        })
       .subscribe((data) => {
         console.log(data);
-      });
+      }, error => {
+        console.error(error);
+        throwError("Não foi possível inserir " + error);
+      }); 
   }
 
   set(filePath, contents) {
