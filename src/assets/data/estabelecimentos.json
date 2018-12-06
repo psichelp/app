@@ -1361,5 +1361,24 @@
     "crp": "",
     "crm": "BA",
     "ativo": false
+  },
+  {
+    "nome": "Augusto",
+    "end": "",
+    "tel": "991724349",
+    "whatsapp": "Jfjff",
+    "email": "cesarfex@gmail.com",
+    "valor": "",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Terapia Conjugal"
+    ],
+    "descricao_servicos": "Teste",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
