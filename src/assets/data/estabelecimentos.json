@@ -1325,5 +1325,24 @@
     "crp": "",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "Priscila Dantas",
+    "end": "",
+    "tel": "",
+    "whatsapp": "71985084258",
+    "email": "",
+    "valor": "0,00",
+    "servicos": [
+      "Crianças e adolescentes",
+      "LGBT"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "Ribeira, Massaranduba, itapagipe",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
