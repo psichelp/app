@@ -1,12 +1,12 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
-import { FormControl, FormBuilder, FormArray, Validators } from '@angular/forms';
-import { DengodbService } from 'src/app/services/dengodb/dengodb.service';
-import { SERVICO } from 'src/app/services/local/tipos-de-servico';
+import { FormArray, FormBuilder, FormControl, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { map } from "rxjs/operators";
-import { HttpClient } from '@angular/common/http';
-import { HttpHeaders } from '@angular/common/http';
+import { DengodbService } from 'src/app/services/dengodb/dengodb.service';
+import { SERVICO } from 'src/app/services/local/tipos-de-servico';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-cadastro-entidade',
@@ -93,19 +93,38 @@ export class CadastroEntidadeComponent implements OnInit {
     console.warn(this.entidade);
     let entidade = this.entidade;
     entidade.ativo = false;
-    let r = this.dengodb.insert(entidade, 'estabelecimentos');
-    // if(!r){
-    //   alert("Aparentemente você está sem conexão com internet. Por favor tente mais tarde ou contacte: psichelpcontatos@gmail.com para informar o acontecido. Obrigado!")   
-    //   return;
-    // } 
-    this.telegramMessage("Novo cadastro " + JSON.stringify(entidade, null, '  ')).subscribe(data => {
-      console.log('Mensagem de cadastro enviada com sucesso', data);
-    },
-      error => {
-        console.error('Erro ao enviar mensagem de cadastro', error);
-      }
-    );
-    alert("Muito obrigado! Cadastro solicitação de cadastro efetuada com sucesso. Em breve iremos entrar em contato. Muito obrigao por ajudar!");
-    this.router.navigate(['/']);
+    let dengodb = this.dengodb;
+
+    const observable = Observable.create( (observer) => {
+      dengodb.insert(entidade, environment.entityFile, observer);
+    });
+
+    observable.subscribe({
+      next: x => {
+        if (x === 'ok') {
+          try {
+            this.telegramMessage("Novo cadastro " + JSON.stringify(entidade, null, '  ')).subscribe(data => {
+              console.log('Mensagem de cadastro enviada com sucesso', data);
+            },
+              error => {
+                console.error('Erro ao enviar mensagem de cadastro', error);
+              }
+            );
+            alert("Muito obrigado! Cadastro solicitação de cadastro efetuada com sucesso. Em breve iremos entrar em contato. Muito obrigao por ajudar!");
+          } catch (error) {
+            alert("Aparentemente você está sem conexão com internet. Por favor tente mais tarde ou contacte: psichelpcontatos@gmail.com para informar o acontecido. Obrigado!")
+          } finally {
+            this.router.navigate(['/']);
+          }
+        } else {
+          alert("Aparentemente você está sem conexão com internet. Por favor tente mais tarde ou contacte: psichelpcontatos@gmail.com para informar o acontecido. Obrigado!")
+          this.router.navigate(['/']);
+        }
+      },
+      error: err => {
+        alert("Aparentemente você está sem conexão com internet. Por favor tente mais tarde ou contacte: psichelpcontatos@gmail.com para informar o acontecido. Obrigado!")
+        this.router.navigate(['/']);
+      }      
+    });
   }
 }
