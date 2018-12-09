@@ -8,7 +8,7 @@ APP="PsicHelp"
     git push
 }
 
-ng build --prod
+ng build --prod --env=prod
 rm -rf docs
 mkdir -p docs
 cp dist/PsicHelp/* docs -r

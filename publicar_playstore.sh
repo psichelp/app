@@ -19,7 +19,7 @@ else
 fi
 
 emulator @`emulator -list-avds | tail` &
-ng build --prod 
+ng build --prod --env=prod
 
 rm -rf cordova/www
 mkdir -p cordova/www
