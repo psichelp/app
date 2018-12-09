@@ -1553,5 +1553,113 @@
     "crp": "332",
     "crm": "12321",
     "ativo": false
+  },
+  {
+    "nome": "Evandro Magalhaes Leite Junior",
+    "end": "Alameda Florenca 137, Pituba, apt 601",
+    "tel": "+5571982864766",
+    "whatsapp": "",
+    "email": "evandrojr@gmail.com",
+    "valor": "",
+    "servicos": [
+      "Life Coach"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "BA",
+    "ativo": false
+  },
+  {
+    "nome": "Evandro Magalhaes Leite Junior",
+    "end": "Alameda Florenca 137, Pituba, apt 601",
+    "tel": "+5571982864766",
+    "whatsapp": "",
+    "email": "evandrojr@gmail.com",
+    "valor": "",
+    "servicos": [
+      "Terapia de Grupo"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "BA",
+    "ativo": false
+  },
+  {
+    "nome": "Evandro Magalhaes Leite Junior",
+    "end": "Alameda Florenca 137, Pituba, apt 601",
+    "tel": "+5571982864766",
+    "whatsapp": "",
+    "email": "evandrojr@gmail.com",
+    "valor": "",
+    "servicos": [
+      "Terapia Familiar"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "BA",
+    "ativo": false
+  },
+  {
+    "nome": "Evandro Magalhaes Leite Junior",
+    "end": "Alameda Florenca 137, Pituba, apt 601",
+    "tel": "+5571982864766",
+    "whatsapp": "",
+    "email": "evandrojr@gmail.com",
+    "valor": "",
+    "servicos": [
+      "Life Coach"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "BA",
+    "ativo": false
+  },
+  {
+    "nome": "Evandro Magalhaes Leite Junior",
+    "end": "Alameda Florenca 137, Pituba, apt 601",
+    "tel": "+5571982864766",
+    "whatsapp": "",
+    "email": "evandrojr@gmail.com",
+    "valor": "",
+    "servicos": [
+      "Terapia de Grupo"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "BA",
+    "ativo": false
+  },
+  {
+    "nome": "Evandro Magalhaes Leite Junior",
+    "end": "Alameda Florenca 137, Pituba, apt 601",
+    "tel": "+5571982864766",
+    "whatsapp": "",
+    "email": "evandrojr@gmail.com",
+    "valor": "",
+    "servicos": [
+      "Terapia Familiar"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
