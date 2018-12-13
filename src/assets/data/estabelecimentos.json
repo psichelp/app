@@ -1362,5 +1362,25 @@
     "crp": "",
     "crm": "BA",
     "ativo": false
+  },
+  {
+    "nome": "Priscila",
+    "end": "",
+    "tel": "71985084258",
+    "whatsapp": "71985084258",
+    "email": "pritiano@hotmail.com",
+    "valor": "Gratuito",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Online",
+      "CAPS"
+    ],
+    "descricao_servicos": "ajuda, atendimento, apoio",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "Todos",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
