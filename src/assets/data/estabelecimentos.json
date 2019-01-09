@@ -1382,5 +1382,23 @@
     "crp": "",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "ALCOÓLICOS ANÔNIMOS - GRUPO HARMONIA - PITUBA",
+    "end": "R. Minas Gerais, 634 - Pituba - CEP 41830-020",
+    "tel": "(71) 3322-7797",
+    "whatsapp": "",
+    "email": "eslaa-sede@aabahia.org.br",
+    "valor": "Gratuito",
+    "servicos": [
+      "Álcool e outras drogas"
+    ],
+    "descricao_servicos": "Você irá aprender a viver e redescobrir que tudo pode ser muito melhor. Por favor, se dê uma chance!\n\nHorário de funcionamento: De segunda a sexta, às 19:00hrs Sábado - 10:00hrs/17:30hrs Domingo - 10:00hrs",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
