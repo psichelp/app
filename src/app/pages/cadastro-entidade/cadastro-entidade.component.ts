@@ -75,7 +75,7 @@ export class CadastroEntidadeComponent implements OnInit {
       return false;
     }
     if (!this.entidade.whatsapp && !this.entidade.tel && !this.entidade.email) {
-      alert("É necessário informar pelo menos uma forma para entrar em contato: Telfone ou whatsApp ou email");
+      alert("É necessário informar pelo menos uma forma para entrar em contato: Telefone ou whatsApp ou email");
       return false;
     }
     return true;
