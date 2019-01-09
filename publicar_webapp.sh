@@ -8,7 +8,7 @@ APP="PsicHelp"
     git push
 }
 
-ng build --prod --verbose
+ng build --aot --prod --verbose
 rm -rf docs
 mkdir -p docs
 cp dist/PsicHelp/* docs -r

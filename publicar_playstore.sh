@@ -19,8 +19,7 @@ else
 fi
 
 emulator @`emulator -list-avds | tail` &
-ng build --prod --env=prod
-
+ng build --aot --prod --verbose
 rm -rf cordova/www
 mkdir -p cordova/www
 cp dist/PsicHelp/* cordova/www -r
