@@ -9,7 +9,7 @@ export const SERVICO = {
   CONJUGAL: 'Terapia Conjugal',
   PROFISSIONAL: 'Orientação Profissional',
   LGBT: 'LGBT',
-  DROGAS: 'Drogas',
+  DROGAS: 'Álcool e outras drogas',
   ONLINE: 'Online',
   PLANO: 'Planos de saúde - Psicologos',
   CRIANCAS_E_ADOLESCENTES: 'Crianças e adolescentes',

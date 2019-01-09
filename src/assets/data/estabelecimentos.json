@@ -99,7 +99,7 @@
     "valor": "Gratuito",
     "servicos": [
       "Terapia Familiar",
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "email": "alanonbaresponde@gmail.com",
     "descricao_servicos": "Através do e-mail ou WhatsApp informamos os grupos que atendem familiares e amigos de alcoólicos, que sofrem com a maneira de beber dessa pessoa."
@@ -339,7 +339,7 @@
     "servicos": [
       "Terapia individual",
       "Terapia de Grupo",
-      "Drogas",
+      "Álcool e outras drogas",
       "CAPS",
       "Crianças e adolescentes"
     ],
@@ -355,7 +355,7 @@
     "servicos": [
       "Terapia individual",
       "Terapia de Grupo",
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "Atendimento psicológico individual e em grupo ao usuário de drogas,  oficinas, salas de espera, ponto da cidadania, programa de intensificação de cuidados.",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.6522207459925!2d-38.525833285177754!3d-12.994081790841182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160486c4fd4d4b%3A0x9b8b6c3240dc6390!2sR.+Pedro+Lessa%2C+123+-+Canela%2C+Salvador+-+BA%2C+40110-050!5e0!3m2!1spt-BR!2sbr!4v1530940782888\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
@@ -369,7 +369,7 @@
     "servicos": [
       "Terapia individual",
       "Terapia de Grupo",
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "Psicoterapia individual, grupos terapêuticos, grupos informativos, internação, acompanhamento ambulatorial a pessoas com necessidades decorrentes do uso abusivo de álcool.",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.5733980210753!2d-38.509015100706094!3d-12.935117562534588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf3fc696323413476!2sAmbulat%C3%B3rio+Presidente+Jos%C3%A9+Sarney!5e0!3m2!1spt-BR!2sbr!4v1530941046948\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
@@ -778,7 +778,7 @@
     "valor": "Gratuito",
     "servicos": [
       "CAPS",
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "segunda a sexta-feira",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.045907398281!2d-38.466969249497694!3d-12.968914290812785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161ade305f1ce1%3A0x724a308e96882ce!2sCaps-ad!5e0!3m2!1sen!2sbr!4v1531402269181\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
@@ -792,7 +792,7 @@
     "valor": "Gratuito",
     "servicos": [
       "CAPS",
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "Focam no atendimento a pessoas que utilizam o álcool de maneira prejudicial e outras drogas",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15551.282243560197!2d-38.52321792264122!3d-12.983326052851451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161a43294d8bbb%3A0x1cb6cfc0d17a0ff8!2sFaculdade+de+Medicina+da+Universidade+Federal+da+Bahia+-+FMB!5e0!3m2!1sen!2sbr!4v1531403447080\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>  ",
@@ -845,7 +845,7 @@
     "valor": "Gratuito",
     "servicos": [
       "CAPS",
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "24 hrs",
     "mapa": " <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15554.305471555159!2d-38.48838605723118!3d-12.934927035121607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716100e428e141f%3A0xe0c3af6a67dcae36!2sCAPS+AD+III+Gey+Espinheira!5e0!3m2!1sen!2sbr!4v1531393503388\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe> ",
@@ -939,7 +939,7 @@
     "tel": "(71) 3322-2963",
     "valor": "Contribuição voluntária",
     "servicos": [
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "Auxílio a individuo com problemas alcoólicos",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.257528236325!2d-38.48325668517819!3d-12.955365990866555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161acc7378dbc9%3A0xc2f2ccf2abcbca04!2sA.+A.+Grupo+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927300676\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
@@ -951,7 +951,7 @@
     "tel": "(71) 98213-1953",
     "valor": "Contribuição voluntária",
     "servicos": [
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "Auxílio a individuo com problemas alcoólicos",
     "mapa": " <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.732428717619!2d-38.484210949558204!3d-12.9889581636326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b4a674c07a7%3A0x4951edf977d21e07!2sGrupo+Brotas+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1531927536286\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
@@ -963,7 +963,7 @@
     "tel": "(71) 3322-2963",
     "valor": "Contribuição voluntária",
     "servicos": [
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "Auxílio a individuo com problemas alcoólicos",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8360543033577!2d-38.36761724955931!3d-12.91825656219534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161703f4cbe311%3A0xe3ef967e29329c3c!2sA.+A.+Grupo+Liberta%C3%A7%C3%A3o+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927594266\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
@@ -975,7 +975,7 @@
     "tel": "(71) 3322-2963",
     "valor": "Contribuição voluntária",
     "servicos": [
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "Auxílio a individuo com problemas alcoólicos",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.888649864694!2d-38.49734524955829!3d-12.978973163429142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604cf7b513c8b%3A0xf64869a42dd39f27!2sA.+A.+Grupo+Unidos+de+Brotas+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927638706\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
@@ -987,7 +987,7 @@
     "tel": "(71) 3322-2963",
     "valor": "Contribuição voluntária",
     "servicos": [
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "Auxílio a individuo com problemas alcoólicos",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.978233227609!2d-38.50972404955828!3d-12.973243963312461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604e7c32fe977%3A0xbe83a5c30baa470d!2sA.+A.+Grupo+Sete+Portas+-+26!5e0!3m2!1spt-BR!2sbr!4v1531927810186\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
@@ -999,7 +999,7 @@
     "tel": "(71) 3322-2963",
     "valor": "Contribuição voluntária",
     "servicos": [
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "Auxílio a individuo com problemas alcoólicos",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
@@ -1011,7 +1011,7 @@
     "tel": "(71) 3322-2963",
     "valor": "Contribuição voluntária",
     "servicos": [
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "Auxílio a individuo com problemas alcoólicos",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.2847568162692!2d-38.444730549558685!3d-12.953621762913238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161a61da0de185%3A0xcd329b4a690d47c7!2sA.+A.+Grupo+Cabula+VI+-+26!5e0!3m2!1spt-BR!2sbr!4v1531928209598\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
@@ -1023,7 +1023,7 @@
     "tel": "(71) 3322-7757",
     "valor": "Contribuição voluntária",
     "servicos": [
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "Auxílio ao indivíduo com problemas relativos as drogas",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.9381034876596!2d-38.355463449559345!3d-12.911699762062517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161653897e6229%3A0x9700805773f10ead!2zTmFyY8OzdGljb3MgQW7DtG5pbW9z!5e0!3m2!1spt-BR!2sbr!4v1532092895985\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
@@ -1035,7 +1035,7 @@
     "tel": "(71) 98213-1953",
     "valor": "Contribuição voluntária",
     "servicos": [
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "Auxílio ao indivíduo com problemas relativos as drogas",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8465945110356!2d-38.36755058517858!3d-12.917579490891352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71617038abed2cb%3A0xdf544489cf7478bd!2sNarcoticos+Anonimos!5e0!3m2!1spt-BR!2sbr!4v1532093692247\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
@@ -1047,7 +1047,7 @@
     "tel": "(71) 98213-1953",
     "valor": "Contribuição voluntária",
     "servicos": [
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "Auxílio ao indivíduo com problemas relativos as drogas",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4848399690122!2d-38.48514394955811!3d-13.004767563955092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b55052101cb%3A0xa0bd6ed35077e916!2sGrupo+Esperan%C3%A7a+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532093797118\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
@@ -1059,7 +1059,7 @@
     "tel": "(71) 98213-1953",
     "valor": "Contribuição voluntária",
     "servicos": [
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "Auxílio ao indivíduo com problemas relativos as drogas",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.179616175057!2d-38.50529104955855!3d-12.960355663050233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160523d5fa6d35%3A0x57cfd50aadf2391a!2sGrupo+Milagres+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532093874593\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
@@ -1071,7 +1071,7 @@
     "tel": "(71) 98213-1953",
     "valor": "Contribuição voluntária",
     "servicos": [
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "Auxílio ao indivíduo com problemas relativos as drogas",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9576108583824!2d-38.504350949558464!3d-12.974563063339346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604dcca3df9f7%3A0x907abba08694ca0d!2sGrupo+Lapa+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532093992414\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
@@ -1083,7 +1083,7 @@
     "tel": "(71) 98213-1953",
     "valor": "Contribuição voluntária",
     "servicos": [
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "Auxílio ao indivíduo com problemas relativos as drogas",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31108.947797914814!2d-38.41002564142727!3d-12.932225436343277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x716177dd266c1ed%3A0x9d82981de3fb46a2!2sGrupo+Narcoticos+Anonimos+Itapua!5e0!3m2!1spt-BR!2sbr!4v1532094051294\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
@@ -1095,7 +1095,7 @@
     "tel": "(71) 98213-1953",
     "valor": "Contribuição voluntária",
     "servicos": [
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "Auxílio ao indivíduo com problemas relativos as drogas",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.7324287176093!2d-38.48421094955817!3d-12.988958163632601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b4a674c07a7%3A0x4951edf977d21e07!2sGrupo+Brotas+de+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532094184290\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
@@ -1107,7 +1107,7 @@
     "tel": "(71) 98213-1953",
     "valor": "Contribuição voluntária",
     "servicos": [
-      "Drogas"
+      "Álcool e outras drogas"
     ],
     "descricao_servicos": "Auxílio ao indivíduo com problemas relativos as drogas",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d124407.5288544306!2d-38.5522398!3d-12.9887762!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71610e9a3d16a29%3A0x72190debbf1ec98f!2sGrupo+Itapu%C3%A3+Narc%C3%B3ticos+An%C3%B4nimos!5e0!3m2!1spt-BR!2sbr!4v1532094341184\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
