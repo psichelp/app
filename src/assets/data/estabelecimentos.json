@@ -1440,5 +1440,25 @@
     "crp": "",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "Edgar Pires da Veiga",
+    "end": "Rua Jaime Vieira Lima, s/n, Pau da Lima (Prox. à 10ª Delegacia) .",
+    "tel": " (71) 3611-7830 / 3611-7831",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Emergência Psiquiátrica",
+      "Terapia de Grupo",
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Psicoterapia individual e em grupo. Atendimento ambulatorial em\npsiquiatria",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
