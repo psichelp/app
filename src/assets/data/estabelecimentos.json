@@ -1460,5 +1460,23 @@
     "crp": "",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "Centro de Saúde Eunísio Coelho Teixeira",
+    "end": "Rua Jurucutu, s/n, Saboeiro.",
+    "tel": "071 3611-5412 / 5413",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Triagem para atendimento psicológico e psiquiátrico pelo SUS.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
