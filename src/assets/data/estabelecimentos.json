@@ -1395,12 +1395,12 @@
       "Terapia de Grupo",
       "Terapia individual"
     ],
-    "descricao_servicos": "Atendimentos psiquiátrico e psicológico em grupo e individual;\navaliação neuropsicológica.",
+    "descricao_servicos": "Atendimentos psiquiátrico e psicológico em grupo e individual;avaliação neuropsicológica.",
     "mapa": "",
     "video": "",
     "bairros_atendidos": "",
     "crp": "",
     "crm": "",
-    "ativo": false
+    "ativo": true
   }
 ]
