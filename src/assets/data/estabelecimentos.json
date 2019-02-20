@@ -1383,5 +1383,24 @@
     "crp": "03/11462",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "* Ambulatório Docente de Saúde Mental da Fundação de Neurologia",
+    "end": "Rua Deocleciano Barreto, 10, Av. Centenário, Chame-Chame.",
+    "tel": "071 4009-8888",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Terapia de Grupo",
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimentos psiquiátrico e psicológico em grupo e individual;\navaliação neuropsicológica.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
