@@ -241,10 +241,11 @@
     "tel": " (71) 3194-7777 e 3235-8114",
     "valor": "Gratuito ou Valor social (valor acessível)",
     "servicos": [
+      "Emergência Psiquiátrica",
       "Terapia individual",
       "Terapia de Grupo"
     ],
-    "descricao_servicos": "Atendimento individual e em grupo.",
+    "descricao_servicos": "Psicoterapia individual e em grupo. Atendimento ambulatorial em psiquiatria.",
     "email": "",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.652841417435!2d-38.5069492!3d-12.9933799!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe83e600405e6a2b2!2sCECOM-Centro+Comunit%C3%A1rio+Batista+Cl%C3%A9riston+Andrade!5e0!3m2!1spt-BR!2sbr!4v1534025193528\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
   },
