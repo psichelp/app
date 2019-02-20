@@ -1420,5 +1420,25 @@
     "crp": "",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "Centro de Saúde Mental Oswaldo Camargo",
+    "end": "Rua Itabuna, n° 2, Pq. Cruz Aguiar, Rio Vermelho",
+    "tel": "0713611-3917",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Terapia individual",
+      "Terapia Conjugal",
+      "Terapia de Grupo"
+    ],
+    "descricao_servicos": "Atendimento psiquiátrico, psicoterapia individual, conjugal,\nfamiliar, em grupo, neurologia.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
