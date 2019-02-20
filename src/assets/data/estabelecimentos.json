@@ -1497,5 +1497,23 @@
     "crp": "",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "Hospital Ana Nery",
+    "end": "Praça da liberdade, Soledade, Lapinha.",
+    "tel": "071 3117-1808 / 1930 ",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimento psicológico para internos.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
