@@ -1402,5 +1402,43 @@
     "crp": "",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "Ambulatório de Psiquiatria Hospital das Clínicas - UFBA",
+    "end": "Rua Augusto Viana, S/N, Canela, Salvador-BA, CEP: 40.110-060",
+    "tel": " (71) 3245-6611/3247-8154",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimento hospitalar e ambulatorial em psiquiatria.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
+  },
+  {
+    "nome": "Centro de Saúde Mental Oswaldo Camargo",
+    "end": "Rua Itabuna, n° 2, Pq. Cruz Aguiar, Rio Vermelho",
+    "tel": "0713611-3917",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Terapia individual",
+      "Terapia Conjugal",
+      "Terapia de Grupo"
+    ],
+    "descricao_servicos": "Atendimento psiquiátrico, psicoterapia individual, conjugal,\nfamiliar, em grupo, neurologia.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
