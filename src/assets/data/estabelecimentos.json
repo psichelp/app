@@ -1408,7 +1408,7 @@
     "bairros_atendidos": "",
     "crp": "",
     "crm": "",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Centro de Saúde Mental Oswaldo Camargo",
@@ -1428,7 +1428,7 @@
     "bairros_atendidos": "",
     "crp": "",
     "crm": "",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Edgar Pires da Veiga",
@@ -1448,7 +1448,7 @@
     "bairros_atendidos": "",
     "crp": "",
     "crm": "",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Centro de Saúde Eunísio Coelho Teixeira",
@@ -1466,7 +1466,7 @@
     "bairros_atendidos": "",
     "crp": "",
     "crm": "",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Hospital Geral Roberto Santos ",
@@ -1484,7 +1484,7 @@
     "bairros_atendidos": "",
     "crp": "",
     "crm": "",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Hospital Ana Nery",
@@ -1502,7 +1502,7 @@
     "bairros_atendidos": "",
     "crp": "",
     "crm": "",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "CAPS II Nise da Silveira",
@@ -1520,7 +1520,7 @@
     "bairros_atendidos": " Faz. Grande II Cajazeiras",
     "crp": "",
     "crm": "",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "CAPS II Aguas Claras",
@@ -1538,7 +1538,7 @@
     "bairros_atendidos": "Cajazeiras II",
     "crp": "",
     "crm": "",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Unidade de Acolhimento Infanto-Juvenil Casa da Ladeira",
@@ -1556,7 +1556,7 @@
     "bairros_atendidos": "",
     "crp": "",
     "crm": "",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "CAPS II Adilson Sampaio",
@@ -1574,6 +1574,6 @@
     "bairros_atendidos": "",
     "crp": "",
     "crm": "",
-    "ativo": false
+    "ativo": true
   }
 ]
