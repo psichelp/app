@@ -702,7 +702,7 @@
     "servicos": [
       "CAPS"
     ],
-    "descricao_servicos": "Atendimento das 8h00 às 17h00",
+    "descricao_servicos": "Atendimento psiquiátrico, psicoterapia individual, conjugal, familiar, em grupo, neurologia.Atendimento das 8h00 às 17h00",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4381307725484!2d-38.49429658517754!3d-13.007747990832177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160356f731022b%3A0xe01610742ab37e21!2sCentro+de+Saude+Mental+Oswaldo+Camargo!5e0!3m2!1spt-BR!2sbr!4v1531406263467\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
     "bairros_atendidos": "Alto da Bola, Alto da Sereia, Alto das Pombas, Alto do Areal, Alto do Gantois, Alto do Sobradinho, Amaralina, Avenida Brandão, Baixa Vai quem quer, Banco dos Ingleses, Barra, Barra Avenida, Binóculo, Cardeal da Silva, Calabar, Calabar, Caminho das Arvores, Campo Santo, Canela, Centenário, Chame-Chame, Chapada do Rio Vermelho, Engenho Velho Federação, Federação, Garcia, Garibaldi, Graça, Iguatemi, Invasão do Cai Duro, Invasão do Tubo, Invasão São Lázaro, Itaigara, Jardim América, Jardim Apipema, Jardim Brasil, Jardim Zoológico, Loteamento Aquários, Loteamento IAPSEB, Morro do Conselho, Morro do Cristo, Morro do Gato, Morro Ipiranga, Nordeste de Amaralina, Ondina, Paciência, Parque Cruz Aguiar, Parque Flamboyants, Parque João XXIII, Parque Júlio César, Parque Nossa Sra. da Luz, Parque São Brás, Parque São Paulo, Parque São Vicente, Pedra da Sereia, Pituba, Ponto da Mangueira, Porto da Barra, Rio Vermelho, Roça da Sabina, Santa Cruz, São Gonçalo Federação, São Lázaro, Ubaranas, Vale da Muriçoca, Vale das Pedrinhas, Vale dos Barris, Vasco da Gama, Vila Matos, Vitória."
   },
@@ -722,7 +722,7 @@
   {
     "ativo": true,
     "nome": "CAPS II Rosa Garcia",
-    "end": " R. Prof. Euclides Alipio de Oliveira 236, Jd Armação Atrás do Rest. Bargaço, 1a Rua a Direita",
+    "end": "Rua Elesbao do Carmo, 254, Jd. Armação,  Atrás do Rest. Bargaço, 1a Rua a Direita",
     "tel": "3611-2968",
     "valor": "Gratuito",
     "servicos": [
