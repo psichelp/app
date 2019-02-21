@@ -1557,5 +1557,23 @@
     "crp": "",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "CAPS II Adilson Sampaio",
+    "end": "R. do Céu 77, Bonfim. Prox. ao Hospital Agenor Paiva.",
+    "tel": "071 3611- 6585",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "CAPS"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
