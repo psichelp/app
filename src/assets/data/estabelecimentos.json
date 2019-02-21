@@ -734,19 +734,6 @@
   },
   {
     "ativo": true,
-    "nome": "CAPS II Eduardo Saback",
-    "end": "R. Conde Pereira Carneiro 148, Pernambues. Em Frente a Rádio Metrópole",
-    "tel": "3460-1957 / 3611-7912",
-    "valor": "Gratuito",
-    "servicos": [
-      "CAPS"
-    ],
-    "descricao_servicos": "08hrs às 17hrs",
-    "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0469966500646!2d-38.46702844949765!3d-12.968844590812864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161ade309b038f%3A0x3c39b34f3a1ee5e1!2sCAPS+Eduardo+Saback!5e0!3m2!1sen!2sbr!4v1531403640550\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>  ",
-    "bairros_atendidos": "Alto da Ventosa, Alto do Arraial, Alto do Calabetão, Alto do Cruzeiro – 1, Arenoso, Arraial do Retiro, Baixa da Paz, Baixa de Santo Antônio, Baixa do Calabetão, Baixa do Cruzeiro, Baixa do Manú, Baixa do Manú, Baixa do Sapo, Baixa do Tubo – 2, Baixinha Santo Antônio, Barreiras, Bate Folha, Beco da Coruja, Beco do Fuxico, Beirú-Tancredo Neves, Bom Futuro, CAB, Cabula, Cabula I, Cabula II, Cabula III, Cabula IV, Cabula VI, Cabula VII, Cabula IX, Cabula X, Calabetão, Campo Seco, Chácara Perseverança, Chácara Senhor do Bonfim, Cocheira, Invasão Barreiras, Invasão Barreiras, Invasão CAB, Invasão Narandiba, Cj. Baia de Todos os Santos, Conjunto J. S. Cavalcante, Conjunto Jardim Cabula, Conjunto João Durval, Conjunto Novo Horizonte, Conjunto Parque Flamengo, Conjunto Salvador, Conjunto Santa Edwirgens, Doron, Engomadeira, Fazenda Pompilio Bittencourt, Jardim Guiomar, Jardim Pampulha, Jardim Santo Inácio, João Caldas, Loteamento Jardim Brasília, Loteamento Jardim Iara, Mata Escura, Narandiba, Nova Sussuarana, Parque Jacélia, Parque Residencial  Vale Mangueira, Pedreira S. G. Retiro, Pernambués, Saboeiro, São Gonçalo, Sussuarana, Tesoura, Vila Aberlado Magalhães, Vila Dois Irmãos."
-  },
-  {
-    "ativo": true,
     "nome": "CAPS II Aristides Novis",
     "end": "R. Almirante Alves Camara S/N, Engenho Velho de Brotas. Prox. Secret.Educação do Município",
     "tel": "3611-2953",
