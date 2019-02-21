@@ -1539,5 +1539,23 @@
     "crp": "",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "Unidade de Acolhimento Infanto-Juvenil Casa da Ladeira",
+    "end": "Ladeira Fonte das Pedras nº 6",
+    "tel": "071 3322-7820",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Crianças e adolescentes"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
