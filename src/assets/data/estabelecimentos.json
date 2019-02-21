@@ -1520,5 +1520,23 @@
     "crp": "",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "CAPS II Aguas Claras",
+    "end": "Rua Coronel Azevedo, S/N",
+    "tel": "071 3611-6852",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "CAPS"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "Cajazeiras II",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
