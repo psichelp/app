@@ -1502,5 +1502,23 @@
     "crp": "",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "CAPS II Nise da Silveira",
+    "end": "Endereço: Rua Jerusalém, 15",
+    "tel": "071 3611-6854",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "CAPS"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": " Faz. Grande II Cajazeiras",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
