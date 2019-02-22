@@ -1575,5 +1575,25 @@
     "crp": "",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "IPSE - Instituto da Saúde",
+    "end": "Av. Manoel Dias da Silva, 1196 - Pituba (Em frente ao Bom Preço, ao lado do COT) ",
+    "tel": " 71 3345-5138        71 3346-7883        71 99201-8077",
+    "whatsapp": "",
+    "email": "",
+    "valor": "Plano de saúde ou valor social",
+    "servicos": [
+      "Álcool e outras drogas",
+      "Terapia individual",
+      "Planos de saúde - Psicologos"
+    ],
+    "descricao_servicos": "Psicólogos com tratamentos diversos incluindo TCC, compulsão e vícios.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
