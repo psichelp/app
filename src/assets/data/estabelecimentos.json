@@ -1595,5 +1595,25 @@
     "crp": "",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "Mercia   santos de oliveira",
+    "end": "Travessa do Sossego",
+    "tel": "71988858292",
+    "whatsapp": "",
+    "email": "merciaoliveira1212@gmail.com",
+    "valor": "",
+    "servicos": [
+      "Álcool e outras drogas",
+      "CAPS",
+      "Álcool e outras drogas"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "ba",
+    "ativo": false
   }
 ]
