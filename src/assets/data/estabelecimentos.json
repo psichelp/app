@@ -1605,15 +1605,14 @@
     "valor": "",
     "servicos": [
       "Álcool e outras drogas",
-      "CAPS",
-      "Álcool e outras drogas"
+      "CAPS"
     ],
     "descricao_servicos": "",
     "mapa": "",
     "video": "",
     "bairros_atendidos": "",
     "crp": "",
-    "crm": "ba",
-    "ativo": false
+    "crm": "",
+    "ativo": true
   }
 ]
