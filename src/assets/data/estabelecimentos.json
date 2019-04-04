@@ -1614,5 +1614,23 @@
     "crp": "",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "Andresa joane dos santos ",
+    "end": "",
+    "tel": "71993804475",
+    "whatsapp": "71993804475",
+    "email": "desajoane@hotmail.com",
+    "valor": "60,00",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimento Psicológico- Adolescente , adultos e idosos  .\n(Valor Social )",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/19104",
+    "crm": "",
+    "ativo": false
   }
 ]
