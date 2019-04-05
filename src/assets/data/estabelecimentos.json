@@ -1579,7 +1579,7 @@
   {
     "nome": "IPSE - Instituto da Saúde",
     "end": "Av. Manoel Dias da Silva, 1196 - Pituba (Em frente ao Bom Preço, ao lado do COT) ",
-    "tel": " 71 3345-5138        71 3346-7883        71 99201-8077",
+    "tel": "71 3345-5138        71 3346-7883        71 99201-8077",
     "whatsapp": "",
     "email": "",
     "valor": "Plano de saúde ou valor social",
@@ -1599,7 +1599,7 @@
   {
     "nome": "Mercia   santos de oliveira",
     "end": "Travessa do Sossego",
-    "tel": "71988858292",
+    "tel": "071988858292",
     "whatsapp": "",
     "email": "merciaoliveira1212@gmail.com",
     "valor": "",
@@ -1616,10 +1616,10 @@
     "ativo": true
   },
   {
-    "nome": "Andresa joane dos santos ",
+    "nome": "Andresa Joane dos Santos ",
     "end": "",
-    "tel": "71993804475",
-    "whatsapp": "71993804475",
+    "tel": "071993804475",
+    "whatsapp": "071993804475",
     "email": "desajoane@hotmail.com",
     "valor": "60,00",
     "servicos": [
@@ -1631,6 +1631,6 @@
     "bairros_atendidos": "",
     "crp": "03/19104",
     "crm": "",
-    "ativo": false
+    "ativo": true
   }
 ]
