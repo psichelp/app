@@ -1632,5 +1632,25 @@
     "crp": "03/19104",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "Mário Cesar",
+    "end": "Avenida Tancredo Neves, 909, Edifício André Guimarães, *Edifício do restaurante Barbacoa*, Clínica Vivência, 7° andar, Sala 706 ",
+    "tel": "71982275063",
+    "whatsapp": "71982275063",
+    "email": "psicologomariocesar@gmail.com",
+    "valor": "Valor Social",
+    "servicos": [
+      "Terapia individual",
+      "Terapia Conjugal",
+      "Crianças e adolescentes"
+    ],
+    "descricao_servicos": "Atendimento a adolescentes, adultos e idosos. ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/19384",
+    "crm": "",
+    "ativo": false
   }
 ]
