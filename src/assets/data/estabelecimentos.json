@@ -1671,5 +1671,23 @@
     "crp": "06/148444",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "Andresa joane dos santos ",
+    "end": "",
+    "tel": "71 99389-4475",
+    "whatsapp": "7199380-4475",
+    "email": "desajoane@hotmail.com",
+    "valor": "Custo ",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimento psicológico: Adolescente , adulto e criança ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "0319104",
+    "crm": "",
+    "ativo": false
   }
 ]
