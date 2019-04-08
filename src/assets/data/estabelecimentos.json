@@ -1652,5 +1652,24 @@
     "crp": "03/19384",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "Luciana Graciela dos Santos",
+    "end": "Rua Mário Lessio, 25 jardim Santana Hortolândia SP",
+    "tel": "19982453304",
+    "whatsapp": "+5519982453304",
+    "email": "luciana-grace@hotmail.com",
+    "valor": "60,00",
+    "servicos": [
+      "Terapia individual",
+      "Terapia Conjugal"
+    ],
+    "descricao_servicos": "Trabalho com adultos e adolescentes com a abordagem cognitivo comportamental na resolução de problemas como ansiedade, depressão, automutilação e pensamentos suicidas.  Tenho um preço acessível para aqueles que não tem condições financeiras de pagar o valor integral. ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "06/148444",
+    "crm": "",
+    "ativo": false
   }
 ]
