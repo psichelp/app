@@ -1671,6 +1671,28 @@
     "crp": "06/148444",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "Alzira Aparecida de Carvalho Araújo",
+    "end": "Arlindo dos Santos, 11, apartamento 301",
+    "tel": "31 99122-6103",
+    "whatsapp": "31 99122-6103",
+    "email": "Psico.alzira@gmail.com",
+    "valor": "60,00",
+    "servicos": [
+      "Planos de saúde - Psicologos",
+      "Terapia individual",
+      "Crianças e adolescentes",
+      "Terapia Conjugal",
+      "Terapia Familiar",
+      "Álcool e outras drogas"
+    ],
+    "descricao_servicos": "Psicóloga Clínica ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "Atendimentos domiciliar e particular também",
+    "crp": "04/53835",
+    "crm": "",
+    "ativo": false
   }
-
 ]
