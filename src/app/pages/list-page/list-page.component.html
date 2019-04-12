@@ -6,7 +6,10 @@
   </mat-card>
   <mat-card *ngIf="local.nome" (click)="goToDetails(local)" item>
     <mat-card-content *ngIf="local.nome">
-      {{local.nome}} - <span primary>Custo: {{local.valor}}</span>
+      {{local.nome}}  
+      <span primary >
+          {{local.valor}}
+      </span>
     </mat-card-content>
   </mat-card>
 </ng-container>
