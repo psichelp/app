@@ -1697,26 +1697,6 @@
   },
   {
     "nome": "Danielli O'Reilly",
-    "end": "",
-    "tel": "71985252858",
-    "whatsapp": "71985252858",
-    "email": "psi.daniellioreilly@gmail.com",
-    "valor": "",
-    "servicos": [
-      "Terapia individual",
-      "Crianças e adolescentes",
-      "Álcool e outras drogas"
-    ],
-    "descricao_servicos": "Atendimento Particular e Social",
-    "mapa": "",
-    "video": "",
-    "bairros_atendidos": "",
-    "crp": "03/18316",
-    "crm": "",
-    "ativo": false
-  },
-  {
-    "nome": "Danielli O'Reilly",
     "end": "R. Alceu Amoroso Lima 470, ed Niemeyer. Caminho das Árvores",
     "tel": "71 98525-2858",
     "whatsapp": "7198525-2858",
@@ -1733,6 +1713,6 @@
     "bairros_atendidos": "",
     "crp": "03/18316",
     "crm": "",
-    "ativo": false
+    "ativo": true
   }
 ]
