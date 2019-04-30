@@ -1714,5 +1714,24 @@
     "crp": "03/18316",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "Juliana Lopes Souza",
+    "end": "Rua da Grécia, Edifício Delta, sala 503, 5°andar. Comércio, em frente a Secretaria de Saúde.",
+    "tel": "71 992769050",
+    "whatsapp": "74 991216327",
+    "email": "juliana_lopes15@hotmail.com",
+    "valor": "À combinar, baixo custo. Aceito cartão de crédito e débito.",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimento a crianças, adolescentes e adultos; palestras.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "CRP 03/16104",
+    "crm": "",
+    "ativo": false
   }
 ]
