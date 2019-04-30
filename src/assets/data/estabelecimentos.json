@@ -1754,5 +1754,26 @@
     "crp": "12.120",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "Joana Gomes",
+    "end": "Rua Minas Gerais, 229, Edf Minas Trade Service, Pituba, Salvador-BA",
+    "tel": "71 98102-6737",
+    "whatsapp": "71 98102-6737",
+    "email": "psijoanagomes@gmail.com",
+    "valor": "150,00",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Terapia individual",
+      "Online",
+      "Planos de saúde - Psicologos"
+    ],
+    "descricao_servicos": "Psicoterapia individual infanto juvenil e adulto.\nAtendimento por planos de saúde Bradesco Top Nacional, Saúde Caixa e Petrobrás PAE.\nAtendimento particular presencial e online para adolescentes e adultos\nAbordagem: Terapia Cognitivo Comportamental",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "CRP03/6806",
+    "crm": "",
+    "ativo": false
   }
 ]
