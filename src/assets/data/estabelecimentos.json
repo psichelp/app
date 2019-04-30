@@ -1733,5 +1733,26 @@
     "crp": "CRP 03/16104",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "Thiago Freitas",
+    "end": "Alameda Praia de Tubarão, Shopping Giovanni Center.",
+    "tel": "71993229395",
+    "whatsapp": "71993229395",
+    "email": "thijames@gmail.com",
+    "valor": "50",
+    "servicos": [
+      "Terapia individual",
+      "Online",
+      "Terapia Conjugal",
+      "Terapia Familiar"
+    ],
+    "descricao_servicos": "Psicoterapia",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "Itinga, Vilas do Atlântico, Portão, Pitangueiras, Estrada do Côco",
+    "crp": "12.120",
+    "crm": "",
+    "ativo": false
   }
 ]
