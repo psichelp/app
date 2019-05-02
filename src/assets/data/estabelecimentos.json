@@ -1597,7 +1597,7 @@
     "ativo": true
   },
   {
-    "nome": "Mercia   santos de oliveira",
+    "nome": "Mercia Santos de oliveira",
     "end": "Travessa do Sossego",
     "tel": "071988858292",
     "whatsapp": "",
@@ -1732,7 +1732,7 @@
     "bairros_atendidos": "",
     "crp": "CRP 03/16104",
     "crm": "",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Thiago Freitas",
@@ -1753,7 +1753,7 @@
     "bairros_atendidos": "Itinga, Vilas do Atlântico, Portão, Pitangueiras, Estrada do Côco",
     "crp": "12.120",
     "crm": "",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Joana Gomes",
@@ -1774,6 +1774,6 @@
     "bairros_atendidos": "",
     "crp": "CRP03/6806",
     "crm": "",
-    "ativo": false
+    "ativo": true
   }
 ]
