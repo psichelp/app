@@ -1775,5 +1775,25 @@
     "crp": "CRP03/6806",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "Eliene Jesus Silva ",
+    "end": "Ladeira da Palma, n°12 - Nazaré ",
+    "tel": "",
+    "whatsapp": "(71) 993278341",
+    "email": "elieneampliarensino@gmail.com",
+    "valor": "A combinar ou Clínica Social",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Orientação Profissional",
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimento Clínico - Psicanálise ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "Graça ",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
