@@ -1795,5 +1795,25 @@
     "crp": "",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "Joanna Cafezeiro ",
+    "end": "Condomínio edifício Delta, rua Rua da Grécia em frente à secretaria Municipal de saúde ",
+    "tel": "(71)991200147",
+    "whatsapp": "(71)991200147",
+    "email": "Joannacafezeiro@gmail.com",
+    "valor": "Valor Social  $60,00",
+    "servicos": [
+      "Terapia individual",
+      "Crianças e adolescentes",
+      "Terapia Conjugal"
+    ],
+    "descricao_servicos": "Psicóloga \nEspecialista em Terapia Cognitivo Comportamental ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/15890",
+    "crm": "",
+    "ativo": false
   }
 ]
