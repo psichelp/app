@@ -1794,7 +1794,7 @@
     "bairros_atendidos": "Graça ",
     "crp": "",
     "crm": "",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Joanna Cafezeiro ",
@@ -1814,6 +1814,6 @@
     "bairros_atendidos": "",
     "crp": "03/15890",
     "crm": "",
-    "ativo": false
+    "ativo": true
   }
 ]
