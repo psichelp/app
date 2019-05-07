@@ -1815,5 +1815,25 @@
     "crp": "03/15890",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "Andreza Maria Moraes de Faria",
+    "end": "Comércio",
+    "tel": "71 9.9663.8689",
+    "whatsapp": "71 9.9663.9689",
+    "email": "andrezamoraes1@hotmail.com",
+    "valor": "Atendimento com Valor Social",
+    "servicos": [
+      "Terapia individual",
+      "Crianças e adolescentes",
+      "Álcool e outras drogas"
+    ],
+    "descricao_servicos": "Atendimento Psicoterapêutico para Crianças, Adolescentes, Adultos e Idosos",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "CRP 03/14695",
+    "crm": "",
+    "ativo": false
   }
 ]
