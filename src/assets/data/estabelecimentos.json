@@ -1835,5 +1835,24 @@
     "crp": "CRP 03/14695",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "Cláudio Henrique Raposo",
+    "end": "Avenida ACM edf Golden Plaza. Sala 509",
+    "tel": "071999000658",
+    "whatsapp": "071999000658",
+    "email": "Claudio@raposoadvocacia.adv.br",
+    "valor": "Valor social",
+    "servicos": [
+      "LGBT",
+      "Crianças e adolescentes"
+    ],
+    "descricao_servicos": "Atendimento e consultoria jurídica. OAB 61469",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
