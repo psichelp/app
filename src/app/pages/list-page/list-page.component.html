@@ -1,14 +1,14 @@
 <ng-container *ngFor="let local of locais">
-  <mat-card *ngIf="local.video" >
+  <mat-card *ngIf="local.video">
     <mat-card-content>
       <div iframe-block-center [innerHtml]="local.video | sanitizeHtml"></div>
     </mat-card-content>
   </mat-card>
   <mat-card *ngIf="local.nome" (click)="goToDetails(local)" item>
     <mat-card-content *ngIf="local.nome">
-      {{local.nome}}  
-      <span primary >
-          {{local.valor}}
+      {{ local.nome }}
+      <span primary>
+        {{ local.valor }}
       </span>
     </mat-card-content>
   </mat-card>
