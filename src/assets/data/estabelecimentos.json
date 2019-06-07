@@ -1871,5 +1871,24 @@
     "crp": "CRP-03/19593",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "Larissa Abreu",
+    "end": "Edifício Empresarial Niemeyer, Rua Alceu Amoroso Lima, N°470, Caminho das Árvores, próximo ao Salvador Shopping.",
+    "tel": "",
+    "whatsapp": "(71)98615-2070",
+    "email": "psilarissaabreu@gmail.com",
+    "valor": "Valor Social",
+    "servicos": [
+      "Terapia individual",
+      "Planos de saúde - Psicologos"
+    ],
+    "descricao_servicos": "Atendimento Psicológico- Adolescente , adultos e idosos  .\n(Valor Social )",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/19462",
+    "crm": "",
+    "ativo": false
   }
 ]
