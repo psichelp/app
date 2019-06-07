@@ -1853,5 +1853,23 @@
     "crp": "CRP-03/19593",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "Andressa Santana",
+    "end": "Rua Alceu Amoroso. Av.Tancredo Neves. Em frente ao Salvador shopping",
+    "tel": "71993368869",
+    "whatsapp": "71993368869",
+    "email": "andressasantana897@gmail.com",
+    "valor": "Valor acessível acordado na triagem",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Psicoterapia individual para adolescentes, adultos e crianças. ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "CRP-03/19593",
+    "crm": "",
+    "ativo": false
   }
 ]
