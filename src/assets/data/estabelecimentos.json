@@ -1835,5 +1835,23 @@
     "crp": "",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "Psicóloga Andressa Santana",
+    "end": "Rua Alceu amoroso Lima ",
+    "tel": "",
+    "whatsapp": "71993368869",
+    "email": "andressasantana897@gmail.com",
+    "valor": "Acordada na triagem ",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Psicoterapia Individual",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "CRP-03/19593",
+    "crm": "",
+    "ativo": false
   }
 ]
