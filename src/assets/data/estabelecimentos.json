@@ -1890,5 +1890,23 @@
     "crp": "03/19462",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "Andressa Santana",
+    "end": "Rua Alceu Amoroso, 470.Edificio Niemeyer. Av. Tancredo Neves. Em frente ao Salvador shopping",
+    "tel": "(71)993368869",
+    "whatsapp": "(71)993368869",
+    "email": "andressasantana897@gmail.com",
+    "valor": "Valor social",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Psicoterapia individual - Adolescentes, Adultos e idosos.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/19593",
+    "crm": "",
+    "ativo": false
   }
 ]
