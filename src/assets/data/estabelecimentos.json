@@ -1883,12 +1883,12 @@
       "Terapia individual",
       "Planos de saúde - Psicologos"
     ],
-    "descricao_servicos": "Atendimento Psicológico- Adolescente , adultos e idosos  .\n(Valor Social )",
+    "descricao_servicos": "Atendimento Psicológico - Adolescente, adultos e idosos. (Valor Social )",
     "mapa": "",
     "video": "",
     "bairros_atendidos": "",
     "crp": "03/19462",
     "crm": "",
-    "ativo": false
+    "ativo": true
   }
 ]
