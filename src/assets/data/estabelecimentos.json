@@ -1908,5 +1908,23 @@
     "crp": "03/19593",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "Ivonete Barreto",
+    "end": " Rua Ewerton Visco, 290, Edf. Boulevard Side Empresarial, Sala 211, Clinica Gestar Psi.",
+    "tel": "71 98686-4858",
+    "whatsapp": "71 98606-4858",
+    "email": "Ivoneteleo@outlook.com",
+    "valor": "Clínica Social ",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/19232",
+    "crm": "",
+    "ativo": false
   }
 ]
