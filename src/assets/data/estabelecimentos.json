@@ -1749,7 +1749,7 @@
       "Online",
       "Planos de saúde - Psicologos"
     ],
-    "descricao_servicos": "Psicoterapia individual infanto juvenil e adulto.\nAtendimento por planos de saúde Bradesco Top Nacional, Saúde Caixa e Petrobrás PAE.\nAtendimento particular presencial e online para adolescentes e adultos\nAbordagem: Terapia Cognitivo Comportamental",
+    "descricao_servicos": "Psicoterapia individual infanto juvenil e adulto.\nAtendimento por planos de saúde Bradesco Top Nacional, Saúde Caixa e Petrobrás PAE.\nAtendimento particular presencial e online para adolescentes e adultos\nAbordagem: Terapia Cognitivo Comportamental <a href='https://appear.in/psicologajoanagomes'>Atendimento online</a> A profissional também realiza atendimentos online. Para isso, é necessário entrar em contato com a mesma e ajustar dia, horário e encaminhamento de dados pessoais para cadastro prévio. Caso seja menor de idade, será necessária autorização expressa dos pais ou responsáveis legais.",
     "mapa": "",
     "video": "",
     "bairros_atendidos": "",
@@ -1789,7 +1789,7 @@
       "Crianças e adolescentes",
       "Terapia Conjugal"
     ],
-    "descricao_servicos": "Psicóloga \nEspecialista em Terapia Cognitivo Comportamental ",
+    "descricao_servicos": "Psicóloga Especialista em Terapia Cognitivo Comportamental ",
     "mapa": "",
     "video": "",
     "bairros_atendidos": "",
@@ -1837,24 +1837,6 @@
     "ativo": true
   },
   {
-    "nome": "Psicóloga Andressa Santana",
-    "end": "Rua Alceu amoroso Lima ",
-    "tel": "",
-    "whatsapp": "71993368869",
-    "email": "andressasantana897@gmail.com",
-    "valor": "Acordada na triagem ",
-    "servicos": [
-      "Terapia individual"
-    ],
-    "descricao_servicos": "Psicoterapia Individual",
-    "mapa": "",
-    "video": "",
-    "bairros_atendidos": "",
-    "crp": "CRP-03/19593",
-    "crm": "",
-    "ativo": false
-  },
-  {
     "nome": "Andressa Santana",
     "end": "Rua Alceu Amoroso. Av.Tancredo Neves. Em frente ao Salvador shopping",
     "tel": "71993368869",
@@ -1870,7 +1852,7 @@
     "bairros_atendidos": "",
     "crp": "CRP-03/19593",
     "crm": "",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Larissa Abreu",
