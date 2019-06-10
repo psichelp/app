@@ -1872,5 +1872,41 @@
     "crp": "03/19462",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "Andressa Santana",
+    "end": "Rua Alceu Amoroso, 470.Edificio Niemeyer. Av. Tancredo Neves. Em frente ao Salvador shopping",
+    "tel": "(71)993368869",
+    "whatsapp": "(71)993368869",
+    "email": "andressasantana897@gmail.com",
+    "valor": "Valor social",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Psicoterapia individual - Adolescentes, Adultos e idosos.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/19593",
+    "crm": "",
+    "ativo": false
+  },
+  {
+    "nome": "Ivonete Barreto",
+    "end": " Rua Ewerton Visco, 290, Edf. Boulevard Side Empresarial, Sala 211, Clinica Gestar Psi.",
+    "tel": "71 98686-4858",
+    "whatsapp": "71 98606-4858",
+    "email": "Ivoneteleo@outlook.com",
+    "valor": "Clínica Social ",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/19232",
+    "crm": "",
+    "ativo": false
   }
 ]
