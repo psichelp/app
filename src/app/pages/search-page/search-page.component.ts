@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { Observable, Subject } from 'rxjs';
 import { debounceTime, distinctUntilChanged, map, switchMap } from 'rxjs/operators';
 import { Router } from '@angular/router';
@@ -16,6 +16,8 @@ export class SearchPageComponent implements OnInit {
 
   estabelecimentos$: Observable<Estabelecimento[]>;
   private searchQuery = new Subject<string>();
+  @ViewChild('searchBox') searchBox: ElementRef;
+
 
   constructor(
     private localService: LocalService,
@@ -25,6 +27,7 @@ export class SearchPageComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+
     // carrega a lista de estabelecimentos
     this.estabelecimentos$ = this.searchQuery.pipe(
       debounceTime(300),
@@ -33,7 +36,6 @@ export class SearchPageComponent implements OnInit {
       // NOTE: se quiser, dá para "mapear" cada trecho encontrado na busca "fuzzy", marcando no HTML os termos.
       map(results => results.map(result => result.item))
     );
-
   }
 
   search(query: string) {
@@ -70,6 +72,8 @@ export class SearchPageComponent implements OnInit {
     // .catch(err => console.log('Error launching dialer', err));
   }
 
-
+  ngAfterViewInit() {
+    this.searchBox.nativeElement.focus();
+  }
 
 }
