@@ -1890,5 +1890,23 @@
     "crp": "03/19232",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "Adriana Nascimento",
+    "end": "",
+    "tel": "",
+    "whatsapp": "71981837079",
+    "email": "adrianasn@outlook.com.br",
+    "valor": "Valor negociável ",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimentos domiciliar e particular também \nAdolescentes, Adultos e Idosos\n",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "Mata de São João, Dias D'Ávila, Camaçari e Salvador",
+    "crp": "03/17344",
+    "crm": "",
+    "ativo": false
   }
 ]
