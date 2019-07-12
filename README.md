@@ -1,6 +1,6 @@
 # PsicHelp
 
-> Site oficial do app: [https://psichelp.com.br](https://psichelp.com.br)
+> Site oficial do app: [https://psicohelp.org](https://psicohelp.org)
 
 Aplicativo criado com o objetivo de ajudar a população a encontrar atendimento psicológico
 e psiquiátrico por um baixo custo ou até gratuitamente.
@@ -27,7 +27,7 @@ Consultores: **Dr. Rodrigo Mello** e **Karla Prazeres**.
 
 Estamos buscando patrocínio e parceiros para ajudar na divulgação do aplicativo.
 
-- :globe_with_meridians: Site: http://www.psichelp.com.br
+- :globe_with_meridians: Site: http://www.psicohelp.org
 - :camera: Instagram: [@PsichelpApp](https://www.instagram.com/PsichelpApp/)
 - :love_letter: E-mail: [PsicHelpcontatos@gmail.com](mailto:PsicHelpcontatos@gmail.com)
 

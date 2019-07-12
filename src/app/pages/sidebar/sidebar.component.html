@@ -1,12 +1,22 @@
 <mat-sidenav-container class="sidenav-container">
-  <mat-sidenav #drawer class="sidenav" fixedInViewport="true" [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
-    [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="!(isHandset$ | async)">
+  <mat-sidenav
+    #drawer
+    class="sidenav"
+    fixedInViewport="true"
+    [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+    [mode]="(isHandset$ | async) ? 'over' : 'side'"
+    [opened]="!(isHandset$ | async)"
+  >
     <mat-toolbar color="primary">Menu</mat-toolbar>
     <mat-nav-list>
       <a mat-list-item [routerLink]="['/inicio']">Listar categorias</a>
       <a mat-list-item [routerLink]="['/buscar']">Buscar</a>
-      <a mat-list-item [routerLink]="['/cadastrar']">Posso ajudar também, quero me cadastrar!</a>
-      <a mat-list-item href="https://form.jotformz.com/82641319684665">Fale Conosco</a>
+      <a mat-list-item [routerLink]="['/cadastrar']"
+        >Posso ajudar também, quero me cadastrar!</a
+      >
+      <a mat-list-item href="https://form.jotformz.com/82641319684665"
+        >Fale Conosco</a
+      >
       <!--  <a mat-list-item href="#">Doações</a>
       <a mat-list-item href="#">FisioHelp</a>  -->
     </mat-nav-list>
@@ -16,11 +26,17 @@
       <button *ngIf="!isHome()" mat-icon-button (click)="backClicked()">
         <mat-icon svgIcon="arrow-left" aria-label="back icon"></mat-icon>
       </button>
-      <button *ngIf="isHome() && (isHandset$ | async)" type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()" >
-          <mat-icon svgIcon="menu" aria-label="Side nav toggle icon"></mat-icon>
+      <button
+        *ngIf="isHome() && (isHandset$ | async)"
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+      >
+        <mat-icon svgIcon="menu" aria-label="Side nav toggle icon"></mat-icon>
       </button>
       <!-- <span *ngIf="isHome()" style="width: 40px"></span> -->
-      <span>PsicHelp</span>
+      <span>PSICOHELP</span>
       <div>
         <button mat-icon-button (click)="search()">
           <mat-icon svgIcon="magnify" aria-label="search icon"></mat-icon>
