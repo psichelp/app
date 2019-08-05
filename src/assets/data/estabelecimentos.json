@@ -1908,5 +1908,30 @@
     "crp": "03/17344",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "Nepente Multidisciplinare",
+    "end": "Avenida Tancredo Neves, 1222, Catabas Tower, salas 901 e 902, Caminho das Árvores ",
+    "tel": "71- 3043-8050",
+    "whatsapp": "71 - 99710-4370",
+    "email": "contato@espaconepente.com",
+    "valor": "Combinado no primeiro atendimento que é sem custo.",
+    "servicos": [
+      "Terapia individual",
+      "Crianças e adolescentes",
+      "LGBT",
+      "Orientação Profissional",
+      "Terapia Conjugal",
+      "Terapia Familiar",
+      "Terapia de Grupo",
+      "Álcool e outras drogas"
+    ],
+    "descricao_servicos": "Oferecemos diversas modalidades de psicoterapia com psicólogos devidamente habilitados particular e clínica social.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": false
   }
 ]
