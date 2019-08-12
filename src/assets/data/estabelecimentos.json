@@ -1933,5 +1933,25 @@
     "crp": "",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "Eduardo Serra",
+    "end": "",
+    "tel": "71 982331995",
+    "whatsapp": "71 982331995",
+    "email": "Eduardohenriqueserra@gmail.com",
+    "valor": "60",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Online",
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Psicólogo com enfoque na Gestalt. Condições especiais para estudante de psicologia e pessoas de baixa renda.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/16004",
+    "crm": "",
+    "ativo": false
   }
 ]
