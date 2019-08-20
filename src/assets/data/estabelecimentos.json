@@ -1953,5 +1953,29 @@
     "crp": "03/16004",
     "crm": "",
     "ativo": false
+  },
+  {
+    "nome": "Simone Matos",
+    "end": "",
+    "tel": "(71)99243-6919",
+    "whatsapp": "(71)9243-6919",
+    "email": "psi.Simonematos@gmail.com",
+    "valor": "",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Life Coach",
+      "Terapia individual",
+      "Terapia de Grupo",
+      "Orientação Profissional",
+      "LGBT",
+      "Terapia Conjugal"
+    ],
+    "descricao_servicos": "Atendimento social ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/18323",
+    "crm": "",
+    "ativo": false
   }
 ]
