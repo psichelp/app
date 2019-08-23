@@ -30,8 +30,8 @@ export class DetailsPageComponent implements OnInit {
       let local = SharedService.b64DecodeUnicode(params['local']);
       this.estabelecimento = JSON.parse(local);
       console.dir(this.estabelecimento);
-      this.telegramMessage(JSON.stringify(this.estabelecimento, null, '  ') + " foi acessado").subscribe(data => {
-        console.log('Mensagem de cadastro enviada com sucesso', data);
+      this.telegramMessage(this.estabelecimento.nome + " foi acessado(a)").subscribe(data => {
+        console.log('Mensagem de acesso enviada', data);
       },
         error => {
           console.error('Erro ao enviar mensagem', error);
@@ -42,8 +42,8 @@ export class DetailsPageComponent implements OnInit {
   onClickLigar() {
     const tel = this.estabelecimento.tel;
     window.open(`tel:${tel}`);
-    this.telegramMessage(JSON.stringify(this.estabelecimento, null, '  ') +  " foi ligado").subscribe(data => {
-      console.log('Mensagem de cadastro enviada com sucesso', data);
+    this.telegramMessage(this.estabelecimento.nome + " foi ligado").subscribe(data => {
+      console.log('Mensagem de foi feita ligação para prestador enviada', data);
     },
       error => {
         console.error('Erro ao enviar mensagem', error);
@@ -52,8 +52,8 @@ export class DetailsPageComponent implements OnInit {
 
   onClickWhatsApp() {
     this.whatsapp.message(this.estabelecimento.whatsapp);
-    this.telegramMessage(JSON.stringify(this.estabelecimento, null, '  ') + " foi contactado por WhatsApp").subscribe(data => {
-      console.log('Mensagem de cadastro enviada com sucesso', data);
+    this.telegramMessage(this.estabelecimento.nome + " foi contactado por WhatsApp").subscribe(data => {
+      console.log('Mensagem que foi feito contato via WhatsApp para prestador enviada', data);
     },
       error => {
         console.error('Erro ao enviar mensagem', error);
