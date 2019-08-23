@@ -1952,7 +1952,7 @@
     "bairros_atendidos": "",
     "crp": "03/16004",
     "crm": "",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Simone Matos",
@@ -1976,6 +1976,6 @@
     "bairros_atendidos": "",
     "crp": "03/18323",
     "crm": "",
-    "ativo": false
+    "ativo": true
   }
 ]
