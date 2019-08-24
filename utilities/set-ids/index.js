@@ -1,5 +1,4 @@
 // import * as uuid from "uuid";
-const uuidv3 = require("uuid/v4");
 const fs = require("fs");
 const slug = require("slug");
 
@@ -21,7 +20,4 @@ contents.forEach(function(element) {
 });
 
 // console.log(contents);
-fs.writeFileSync(
-  "../../src/assets/data/estabelecimentos.json",
-  JSON.stringify(contents, null, "  ")
-);
+fs.writeFileSync("estabelecimentos.json", JSON.stringify(contents, null, "  "));
