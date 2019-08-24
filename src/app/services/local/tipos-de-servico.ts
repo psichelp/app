@@ -16,7 +16,6 @@ export const SERVICO = {
   MEDICAMENTOS: 'Medicamentos gratúitos',
   EMERGENCIA: 'Emergência Psiquiátrica',
   MUSICOTERAPIA: 'Musicoterapia',
-  LIFE_COACH: 'Life Coach',
 };
 
 export const SERVICO_DESCRICAO = [

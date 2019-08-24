@@ -5,6 +5,8 @@ import { Estabelecimento } from './estabelecimento';
 import { LocalstorageService } from '../localstorage/localstorage.service';
 import { map } from "rxjs/operators";
 import { HttpClient } from '@angular/common/http';
+import * as _ from 'lodash';
+
 
 @Injectable({
   providedIn: 'root'
@@ -66,16 +68,20 @@ export class LocalService {
     return 0;
   }
 
-
   estabelecimentos() {
-    return this.localstorage.getStorage('estabelecimentos').sort(this.compare);
+    return this.localstorage.getStorage('estabelecimentos');
   }
 
-  public estabelicimentoCache: any;
+  findById(id: string): Estabelecimento{
+    const found = _.filter(this.estabelecimentos(), function(o) {
+      return o.id === id;
+   });
+   return found[0];
+  }
 
   obterEstabelecimentosPorServico(servicoDesejado: String): Estabelecimento[] {
     servicoDesejado = servicoDesejado.toLowerCase();
-    return this.estabelecimentos().filter(estabelecimento => {
+    return this.estabelecimentos().sort(this.compare).filter(estabelecimento => {
       return estabelecimento.servicos.some(servico => {
         return servicoDesejado === servico.toLocaleLowerCase();
       });

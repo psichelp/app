@@ -7,6 +7,8 @@ import { map } from "rxjs/operators";
 import { DengodbService } from 'src/app/services/dengodb/dengodb.service';
 import { SERVICO } from 'src/app/services/local/tipos-de-servico';
 import { environment } from 'src/environments/environment';
+import * as slug from 'slug';
+import * as uuidv4 from "uuid/v4";
 
 @Component({
   selector: 'app-cadastro-entidade',
@@ -87,11 +89,14 @@ export class CadastroEntidadeComponent implements OnInit {
       return el != "";
     });
 
+    
     if (!this.validar()) {
       return;
     }
+    
     console.warn(this.entidade);
     let entidade = this.entidade;
+    entidade.id = slug(entidade.nome) + "-" + uuidv4().substr(0, 3);
     entidade.ativo = false;
     let dengodb = this.dengodb;
 

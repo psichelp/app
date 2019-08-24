@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, ParamMap, Params } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { LocalService } from '../../services/local/local.service';
-import { SharedService } from 'src/app/services/shared/shared.service';
 
 @Component({
   selector: 'app-list-page',
@@ -33,7 +32,7 @@ export class ListPageComponent implements OnInit {
   }
 
   goToDetails(local: any) {
-    this.router.navigate(['/detalhes', {local: SharedService.b64EncodeUnicode(JSON.stringify(local))} ]);
+    this.router.navigate(['/detalhes', {local: local.id} ]);
   }
 
 

@@ -2,10 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params, Router } from '@angular/router';
 import { Subscription, Observable } from 'rxjs';
 import { WhatsAppService } from '../../services/whatsapp/whats-app.service';
-import { SharedService } from 'src/app/services/shared/shared.service';
 import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
-
+import { LocalService } from 'src/app/services/local/local.service';
 
 @Component({
   selector: 'app-details-page',
@@ -19,7 +18,7 @@ export class DetailsPageComponent implements OnInit {
 
 
   constructor(
-    private router: Router,
+    private localService: LocalService,
     private route: ActivatedRoute,
     private whatsapp: WhatsAppService,
     private http: HttpClient) { }
@@ -27,9 +26,8 @@ export class DetailsPageComponent implements OnInit {
   ngOnInit() {
     this.estabelecimento = null;
     this.paramsSubscription = this.route.params.subscribe((params: Params) => {
-      let local = SharedService.b64DecodeUnicode(params['local']);
-      this.estabelecimento = JSON.parse(local);
-      console.dir(this.estabelecimento);
+      this.estabelecimento = this.localService.findById(params['local']);
+      console.log('estabelecimento', this.estabelecimento);
       this.telegramMessage(this.estabelecimento.nome + " foi acessado(a)").subscribe(data => {
         console.log('Mensagem de acesso enviada', data);
       },
@@ -69,7 +67,6 @@ export class DetailsPageComponent implements OnInit {
       .pipe(map(res => {
         let results = res;
         console.log(res);
-        
         return results;
       }));
   }

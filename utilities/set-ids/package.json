@@ -1,0 +1,16 @@
+{
+  "name": "set-ids",
+  "version": "1.0.0",
+  "description": "Cria ids para os prestadores do psicohelp",
+  "main": "index.js",
+  "scripts": {
+    "set": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "slug": "^1.1.0",
+    "uuid": "^3.3.3"
+  }
+}
