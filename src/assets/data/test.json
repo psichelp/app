@@ -241,10 +241,11 @@
     "tel": " (71) 3194-7777 e 3235-8114",
     "valor": "Gratuito ou Valor social (valor acessível)",
     "servicos": [
+      "Emergência Psiquiátrica",
       "Terapia individual",
       "Terapia de Grupo"
     ],
-    "descricao_servicos": "Atendimento individual e em grupo.",
+    "descricao_servicos": "Psicoterapia individual e em grupo. Atendimento ambulatorial em psiquiatria.",
     "email": "",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15550.652841417435!2d-38.5069492!3d-12.9933799!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe83e600405e6a2b2!2sCECOM-Centro+Comunit%C3%A1rio+Batista+Cl%C3%A9riston+Andrade!5e0!3m2!1spt-BR!2sbr!4v1534025193528\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
   },
@@ -378,7 +379,7 @@
     "ativo": true,
     "nome": "Hospital Geral Couto Maia",
     "end": "Rua São Francisco, s/n, Monte Serrat",
-    "tel": "3316-3084",
+    "tel": "(71) 3103-7150 / 3316-3084",
     "valor": "Gratuito",
     "servicos": [
       "Terapia individual"
@@ -701,7 +702,7 @@
     "servicos": [
       "CAPS"
     ],
-    "descricao_servicos": "Atendimento das 8h00 às 17h00",
+    "descricao_servicos": "Atendimento psiquiátrico, psicoterapia individual, conjugal, familiar, em grupo, neurologia.Atendimento das 8h00 às 17h00",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.4381307725484!2d-38.49429658517754!3d-13.007747990832177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7160356f731022b%3A0xe01610742ab37e21!2sCentro+de+Saude+Mental+Oswaldo+Camargo!5e0!3m2!1spt-BR!2sbr!4v1531406263467\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
     "bairros_atendidos": "Alto da Bola, Alto da Sereia, Alto das Pombas, Alto do Areal, Alto do Gantois, Alto do Sobradinho, Amaralina, Avenida Brandão, Baixa Vai quem quer, Banco dos Ingleses, Barra, Barra Avenida, Binóculo, Cardeal da Silva, Calabar, Calabar, Caminho das Arvores, Campo Santo, Canela, Centenário, Chame-Chame, Chapada do Rio Vermelho, Engenho Velho Federação, Federação, Garcia, Garibaldi, Graça, Iguatemi, Invasão do Cai Duro, Invasão do Tubo, Invasão São Lázaro, Itaigara, Jardim América, Jardim Apipema, Jardim Brasil, Jardim Zoológico, Loteamento Aquários, Loteamento IAPSEB, Morro do Conselho, Morro do Cristo, Morro do Gato, Morro Ipiranga, Nordeste de Amaralina, Ondina, Paciência, Parque Cruz Aguiar, Parque Flamboyants, Parque João XXIII, Parque Júlio César, Parque Nossa Sra. da Luz, Parque São Brás, Parque São Paulo, Parque São Vicente, Pedra da Sereia, Pituba, Ponto da Mangueira, Porto da Barra, Rio Vermelho, Roça da Sabina, Santa Cruz, São Gonçalo Federação, São Lázaro, Ubaranas, Vale da Muriçoca, Vale das Pedrinhas, Vale dos Barris, Vasco da Gama, Vila Matos, Vitória."
   },
@@ -721,7 +722,7 @@
   {
     "ativo": true,
     "nome": "CAPS II Rosa Garcia",
-    "end": " R. Prof. Euclides Alipio de Oliveira 236, Jd Armação Atrás do Rest. Bargaço, 1a Rua a Direita",
+    "end": "Rua Elesbao do Carmo, 254, Jd. Armação,  Atrás do Rest. Bargaço, 1a Rua a Direita",
     "tel": "3611-2968",
     "valor": "Gratuito",
     "servicos": [
@@ -733,22 +734,9 @@
   },
   {
     "ativo": true,
-    "nome": "CAPS II Eduardo Saback",
-    "end": "R. Conde Pereira Carneiro 148, Pernambues. Em Frente a Rádio Metrópole",
-    "tel": "3460-1957 / 3611-7912",
-    "valor": "Gratuito",
-    "servicos": [
-      "CAPS"
-    ],
-    "descricao_servicos": "08hrs às 17hrs",
-    "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0469966500646!2d-38.46702844949765!3d-12.968844590812864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161ade309b038f%3A0x3c39b34f3a1ee5e1!2sCAPS+Eduardo+Saback!5e0!3m2!1sen!2sbr!4v1531403640550\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>  ",
-    "bairros_atendidos": "Alto da Ventosa, Alto do Arraial, Alto do Calabetão, Alto do Cruzeiro – 1, Arenoso, Arraial do Retiro, Baixa da Paz, Baixa de Santo Antônio, Baixa do Calabetão, Baixa do Cruzeiro, Baixa do Manú, Baixa do Manú, Baixa do Sapo, Baixa do Tubo – 2, Baixinha Santo Antônio, Barreiras, Bate Folha, Beco da Coruja, Beco do Fuxico, Beirú-Tancredo Neves, Bom Futuro, CAB, Cabula, Cabula I, Cabula II, Cabula III, Cabula IV, Cabula VI, Cabula VII, Cabula IX, Cabula X, Calabetão, Campo Seco, Chácara Perseverança, Chácara Senhor do Bonfim, Cocheira, Invasão Barreiras, Invasão Barreiras, Invasão CAB, Invasão Narandiba, Cj. Baia de Todos os Santos, Conjunto J. S. Cavalcante, Conjunto Jardim Cabula, Conjunto João Durval, Conjunto Novo Horizonte, Conjunto Parque Flamengo, Conjunto Salvador, Conjunto Santa Edwirgens, Doron, Engomadeira, Fazenda Pompilio Bittencourt, Jardim Guiomar, Jardim Pampulha, Jardim Santo Inácio, João Caldas, Loteamento Jardim Brasília, Loteamento Jardim Iara, Mata Escura, Narandiba, Nova Sussuarana, Parque Jacélia, Parque Residencial  Vale Mangueira, Pedreira S. G. Retiro, Pernambués, Saboeiro, São Gonçalo, Sussuarana, Tesoura, Vila Aberlado Magalhães, Vila Dois Irmãos."
-  },
-  {
-    "ativo": true,
     "nome": "CAPS II Aristides Novis",
     "end": "R. Almirante Alves Camara S/N, Engenho Velho de Brotas. Prox. Secret.Educação do Município",
-    "tel": "3611-2956 / 3611-2953",
+    "tel": "3611-2953",
     "valor": "Gratuito",
     "servicos": [
       "CAPS"
@@ -794,6 +782,7 @@
       "CAPS",
       "Álcool e outras drogas"
     ],
+    "email": "capsad_gregoriodematos@yahoo.com.br",
     "descricao_servicos": "Focam no atendimento a pessoas que utilizam o álcool de maneira prejudicial e outras drogas",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15551.282243560197!2d-38.52321792264122!3d-12.983326052851451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161a43294d8bbb%3A0x1cb6cfc0d17a0ff8!2sFaculdade+de+Medicina+da+Universidade+Federal+da+Bahia+-+FMB!5e0!3m2!1sen!2sbr!4v1531403447080\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>  ",
     "bairros_atendidos": "Água de Meninos, Aflitos, Ajuda, Alto da Esperança, Aquidabã, Baixa dos Sapateiros, Barbalho, Barris, Barroquinha, BoulevardSuisso, Campo da Pólvora, Campo Grande, Carmo, Centro, Comércio, Conceição da Praia, Curva Grande, Desterro, Djalma Dutra, Faísca, Fonte Nova, Forte de São Pedro, Gamboa, Jardim Bahiano, Lapa, Largo Dois de Julho, Loteamento Lanat, Macaúbas, Mercado do Ouro, Mercês, Misericórdia, Mouraria, Nazaré, Paço, Palma, Pelourinho, Piedade, Pilar, Poeira, Politeama, Rosário, Santa Tereza, Santana, Santo Antônio, São Bento, São Francisco, São Joaquim, São José, São Pedro, São Raimundo, Saúde, Sé, Taboão, Tororó."
@@ -815,7 +804,7 @@
     "ativo": true,
     "nome": "CAPS II Pau da Lima",
     "end": "Estrada das Muriçocas Cond. Dom Bosco, 1a Casa. De frente pro Shopping Ponto Alto.",
-    "tel": "3259-2556",
+    "tel": "071 3611-7851",
     "valor": "Gratuito",
     "servicos": [
       "CAPS"
@@ -929,7 +918,7 @@
       "Online",
       "Terapia individual"
     ],
-    "descricao_servicos": "Psicologia. Atendimento online de diversas cidades do Brasil e exterior. www.psicologiaviva.com.br/adampereira",
+    "descricao_servicos": "Psicologia. Atendimento online de diversas cidades do Brasil e exterior. <a href='http://www.psicologiaviva.com.br/adampereira'>http://www.psicologiaviva.com.br/adampereira</a>",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.752594523973!2d-43.563493985034825!3d-22.885595985022633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be3d8b1d97801%3A0x4bde266ba454f14c!2sEstr.+Guand%C3%BA+do+Sap%C3%A9%2C+112+-+Campo+Grande%2C+Rio+de+Janeiro+-+RJ%2C+23075-000!5e0!3m2!1spt-BR!2sbr!4v1531978532356\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>"
   },
   {
@@ -1154,7 +1143,7 @@
     "ativo": true,
     "nome": "Centro de Saúde Mental Alvaro Rubin de Pinho",
     "end": "Rua Augusto Mendonça, 15, Dendezeiros, Bonfim, Salvador - BA, CEP: 40415-031",
-    "tel": "3611-5600",
+    "tel": "3611-6555/6557",
     "valor": "Gratuito",
     "servicos": [
       "Medicamentos gratúitos"
@@ -1166,7 +1155,7 @@
     "ativo": true,
     "nome": "Hospital Juliano Moreira",
     "end": "Rua Prof. Edgar Santos, s/n, Narandiba (próximo ao Cabula VI).",
-    "tel": "3231-6644 / 3231-2359 3256-0869 / 3386-4385/3386-0696",
+    "tel": "(71) 3103-3900 | (71) 3231-2359/ 2360/ 6644/ 2575",
     "valor": "Gratuito",
     "servicos": [
       "Emergência Psiquiátrica",
@@ -1180,7 +1169,7 @@
     "ativo": true,
     "nome": "Hospital Especializado Mário Leal",
     "end": "Rua Conde de Porto Alegre, no 11, IAPI.",
-    "tel": "3256-0869 / 3386-4385/0696",
+    "tel": "(71) 3256-0696 / 3256-0869 / 3117-0155",
     "valor": "Gratuito",
     "servicos": [
       "Emergência Psiquiátrica",
@@ -1194,7 +1183,7 @@
     "ativo": true,
     "nome": "5º Centro de Saúde Clementino Fraga - Pronto Atendemento Psiquiatrico",
     "end": "Av. Centenário, s/n - 5º Centro",
-    "tel": "(71) 3321-0800",
+    "tel": "(71) 3321-0800/ 3247-7686 ",
     "valor": "Gratuito",
     "email": "papsiquiatrico@gmail.com",
     "servicos": [
@@ -1290,24 +1279,6 @@
     "ativo": true
   },
   {
-    "nome": "IVAN LÚCIO DE QUADROS CORREIA",
-    "end": "",
-    "tel": "  071999715040",
-    "whatsapp": "  071999715040",
-    "email": "",
-    "valor": "50,00 por sessão",
-    "servicos": [
-      "Life Coach"
-    ],
-    "descricao_servicos": "O que é coaching:\n  Processo de mudança, gerando mais de autoconhecimento, com foco na aprendizagem e expansão, tendo a visão e gestão do futuro como seus pontos fundamentais.\n\nO que busca o coaching:\n- Mobilização para sair do estado atual para um resultado desejado;\n- Enfrentar desafios;\n- Mudança do modelo mental\n- Utilizar-se da “tensão criativa” para a expansão;\n- Desenvolver o afastamento crítico;\n- Pensar de forma diferenciada e estratégica. \n\nQuem é o Coach: Ivan Quadros Coach & Consultant. \n    • Administrador / Pós-graduado em RH\n    • Coach sênior:  Formação ICI e academia Emocional                                                                                          \n    • Mais de 2.500 horas de atendimentos a executivos                                                  \n    • Consultor nas áreas de Gestão e RH\n    • Palestrante\n    • Treinador em Liderança e Atendimento\n    • Colunista da Revista especializada em Coaching – Coach Me\n    • Experiência em Diretorias em empresas da Bahia e São Paulo \n    • Especialista em empresas familiares\n    • Sócio diretor da Sapiens Consultoria desde 1999.\n\nJUSTIFICATIVA:\n  O contexto dos negócios e a vida das pessoas tem sofrido modificações profundas nas últimas décadas, motivadas por uma conjuntura de fatores, tais como aumento da competitividade, maior velocidade da informação, aumento da complexidade das cadeias produtivas, constituição de relacionamentos estruturados em redes, volatilidade financeira, questões de segurança, alto desemprego, uma certa solidão e outros. Tais fatores configuram um ambiente instável e em reestruturação contínua. \nEntendem-se como competências requeridas para o desempenho da vida pessoal ou profissional, os seguintes aspectos:\n\n    1. Trabalhar em equipe e desenvolver pessoas;\n    2. Saber reagir a mudanças e situações novas;\n    3. Comunicar-se bem verbalmente e por escrito;\n    4. Enfrentar momentos de pressão com equilíbrio e clareza;\n    5. Desenvolver-se sempre e trazer melhoria para o ambiente;\n    6. Saber negociar questões relevantes e trazer resultado;\n    7. Tomar decisões com base em uma visão ampla da situação;\n    8. Construir um clima de confiança para perpetuação da empresa;\n    9. Saber administrar conflitos.\n\nCrenças, maus hábitos, baixa resiliência, motivação aquém do esperado e pouca determinação, dimensões tão presentes, podem dificultar em muito a consecução de objetivos pessoais, por muitos tempos arquitetados, preparados e implementados \n  “Todo mundo precisa de um Coach” - Eric Schmidt (Google´s CEO) \n\nPOSSIBILIDADES DO COACHING:\n  Coaching de competências: \n  Foco em um projeto atual do cliente. Pode ser um método, estratégia ou comportamento relacionado ao sucesso do projeto. \n\nCoaching de performance:\n Foco na efetividade do cliente no cargo atual, onde ele busca melhorar no contexto profissional/pessoal. \n Coaching de desenvolvimento:\n Foco em responsabilidades de cargo futuro ou no futuro da carreira. Desenvolve competências que melhoram as chances de promoção ou criam novas oportunidades de carreira. \n\nCoaching para negócios:\n Dirigido normalmente para o primeiro escalão da liderança organizacional, trata questões de complexidade estratégica. \n\nCoaching de Equipe:\n  Trabalho voltado para um grupo especifico, dentro das necessidades da organização, através do desenvolvimento de duas competências de responsabilidade da equipe, visando o crescimento deste grupo para determinado foco.\n\nLife Coaching (Coaching de Vida):\n  Trata-se da abordagem do Coaching voltadas para as questões da forma de viver, como reage às adversidades da vida, resiliência e motivação. Muito indicado para aqueles que pretendem retornar ao mercado de trabalho, mudar de padrão de vida, resolver questões de relacionamento pessoal.",
-    "mapa": "",
-    "video": "",
-    "bairros_atendidos": "",
-    "crp": "",
-    "crm": "",
-    "ativo": true
-  },
-  {
     "nome": "CILENE FONSECA",
     "end": "Condomínio Empresarial Torre do Parque, Avenida Antônio Carlos Magalhães, 771 - Itaigara - Salvador - Bahia",
     "tel": "071993115587",
@@ -1360,6 +1331,650 @@
     "video": "",
     "bairros_atendidos": "",
     "crp": "",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Marcus Santos",
+    "end": "Rua Marechal Andrea, 342, primeiro andar, Pituba, Salvador",
+    "tel": "0 (71) 98290-4327",
+    "whatsapp": "0 (71) 98181-8341",
+    "email": "marcuspsi@outlook.com",
+    "valor": "Aceito todos os convênios, exceto: Central Unimed e Unimed. Para particular tenho pacote promocional. Paga 3 consultas e uma sai de graça, a quarta. Se o mês tiver 5 semanas tem 2 de graça. Valor: R$300 acesso ao WhatsApp",
+    "servicos": [
+      "Álcool e outras drogas",
+      "Crianças e adolescentes",
+      "Terapia Conjugal",
+      "Planos de saúde - Psicologos"
+    ],
+    "descricao_servicos": "Psicologia escolar, trabalho com adolescentes, alcoolismo e dependência química, terapia de casais, estresse, depressão atendo a domicílio. Dia de quarta-feira atendo na clínica IPSE na Pituba.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/11462",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Ambulatório Docente de Saúde Mental da Fundação de Neurologia",
+    "end": "Rua Deocleciano Barreto, 10, Av. Centenário, Chame-Chame.",
+    "tel": "071 4009-8888",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Terapia de Grupo",
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimentos psiquiátrico e psicológico em grupo e individual;avaliação neuropsicológica.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Ambulatório de Psiquiatria Hospital das Clínicas - UFBA",
+    "end": "Rua Augusto Viana, S/N, Canela, Salvador-BA, CEP: 40.110-060",
+    "tel": " (71) 3245-6611/3247-8154",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimento hospitalar e ambulatorial em psiquiatria.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Centro de Saúde Mental Oswaldo Camargo",
+    "end": "Rua Itabuna, n° 2, Pq. Cruz Aguiar, Rio Vermelho",
+    "tel": "0713611-3917",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Terapia individual",
+      "Terapia Conjugal",
+      "Terapia de Grupo"
+    ],
+    "descricao_servicos": "Atendimento psiquiátrico, psicoterapia individual, conjugal,\nfamiliar, em grupo, neurologia.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Edgar Pires da Veiga",
+    "end": "Rua Jaime Vieira Lima, s/n, Pau da Lima (Prox. à 10ª Delegacia) .",
+    "tel": " (71) 3611-7830 / 3611-7831",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Emergência Psiquiátrica",
+      "Terapia de Grupo",
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Psicoterapia individual e em grupo. Atendimento ambulatorial em\npsiquiatria",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Centro de Saúde Eunísio Coelho Teixeira",
+    "end": "Rua Jurucutu, s/n, Saboeiro.",
+    "tel": "071 3611-5412 / 5413",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Triagem para atendimento psicológico e psiquiátrico pelo SUS.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Hospital Geral Roberto Santos ",
+    "end": " Rua Silveira Martins, s/n, Cabula",
+    "tel": " (71) 3117-7500 / 7509",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Psicoterapia individual para internos.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Hospital Ana Nery",
+    "end": "Praça da liberdade, Soledade, Lapinha.",
+    "tel": "071 3117-1808 / 1930 ",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimento psicológico para internos.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "CAPS II Nise da Silveira",
+    "end": "Endereço: Rua Jerusalém, 15",
+    "tel": "071 3611-6854",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "CAPS"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": " Faz. Grande II Cajazeiras",
+    "crp": "",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "CAPS II Aguas Claras",
+    "end": "Rua Coronel Azevedo, S/N",
+    "tel": "071 3611-6852",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "CAPS"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "Cajazeiras II",
+    "crp": "",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Unidade de Acolhimento Infanto-Juvenil Casa da Ladeira",
+    "end": "Ladeira Fonte das Pedras nº 6",
+    "tel": "071 3322-7820",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Crianças e adolescentes"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "CAPS II Adilson Sampaio",
+    "end": "R. do Céu 77, Bonfim. Prox. ao Hospital Agenor Paiva.",
+    "tel": "071 3611- 6585",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "CAPS"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "IPSE - Instituto da Saúde",
+    "end": "Av. Manoel Dias da Silva, 1196 - Pituba (Em frente ao Bom Preço, ao lado do COT) ",
+    "tel": "71 3345-5138        71 3346-7883        71 99201-8077",
+    "whatsapp": "",
+    "email": "",
+    "valor": "Plano de saúde ou valor social",
+    "servicos": [
+      "Álcool e outras drogas",
+      "Terapia individual",
+      "Planos de saúde - Psicologos"
+    ],
+    "descricao_servicos": "Psicólogos com tratamentos diversos incluindo TCC, compulsão e vícios.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Mercia Santos de oliveira",
+    "end": "Travessa do Sossego",
+    "tel": "071988858292",
+    "whatsapp": "",
+    "email": "merciaoliveira1212@gmail.com",
+    "valor": "",
+    "servicos": [
+      "Álcool e outras drogas"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Andresa Joane dos Santos ",
+    "end": "",
+    "tel": "071993804475",
+    "whatsapp": "071993804475",
+    "email": "desajoane@hotmail.com",
+    "valor": "60,00",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimento Psicológico- Adolescente , adultos e idosos  .\n(Valor Social )",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/19104",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Mário Cesar",
+    "end": "Avenida Tancredo Neves, 909, Edifício André Guimarães, *Edifício do restaurante Barbacoa*, Clínica Vivência, 7° andar, Sala 706 ",
+    "tel": "71982275063",
+    "whatsapp": "71982275063",
+    "email": "psicologomariocesar@gmail.com",
+    "valor": "Valor Social",
+    "servicos": [
+      "Terapia individual",
+      "Terapia Conjugal",
+      "Crianças e adolescentes"
+    ],
+    "descricao_servicos": "Atendimento a adolescentes, adultos e idosos. ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/19384",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Luciana Graciela dos Santos",
+    "end": "Rua Mário Lessio, 25 jardim Santana Hortolândia SP",
+    "tel": "019982453304",
+    "whatsapp": "+5519982453304",
+    "email": "luciana-grace@hotmail.com",
+    "valor": "60,00",
+    "servicos": [
+      "Terapia individual",
+      "Terapia Conjugal"
+    ],
+    "descricao_servicos": "Trabalho com adultos e adolescentes com a abordagem cognitivo comportamental na resolução de problemas como ansiedade, depressão, automutilação e pensamentos suicidas.  Tenho um preço acessível para aqueles que não tem condições financeiras de pagar o valor integral. ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "06/148444",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Alzira Aparecida de Carvalho Araújo",
+    "end": "Arlindo dos Santos, 11, apartamento 301",
+    "tel": "31 99122-6103",
+    "whatsapp": "31 99122-6103",
+    "email": "Psico.alzira@gmail.com",
+    "valor": "60,00",
+    "servicos": [
+      "Planos de saúde - Psicologos",
+      "Terapia individual",
+      "Crianças e adolescentes",
+      "Terapia Conjugal",
+      "Terapia Familiar",
+      "Álcool e outras drogas"
+    ],
+    "descricao_servicos": "Psicóloga Clínica ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "Atendimentos domiciliar e particular também",
+    "crp": "04/53835",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Danielli O'Reilly",
+    "end": "R. Alceu Amoroso Lima 470, ed Niemeyer. Caminho das Árvores",
+    "tel": "71 98525-2858",
+    "whatsapp": "7198525-2858",
+    "email": "psi.daniellioreilly@gmail.com",
+    "valor": "Valor acessível (negociável)",
+    "servicos": [
+      "Online",
+      "Terapia individual",
+      "Álcool e outras drogas"
+    ],
+    "descricao_servicos": "Especialista em Terapia Cognitiva Comportamental\nAtendimento Particular e Social (Presencial e Online)",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/18316",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Juliana Lopes Souza",
+    "end": "Rua da Grécia, Edifício Delta, sala 503, 5°andar. Comércio, em frente a Secretaria de Saúde.",
+    "tel": "71 992769050",
+    "whatsapp": "74 991216327",
+    "email": "juliana_lopes15@hotmail.com",
+    "valor": "À combinar, baixo custo. Aceito cartão de crédito e débito.",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimento a crianças, adolescentes e adultos; palestras.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "CRP 03/16104",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Thiago Freitas",
+    "end": "Alameda Praia de Tubarão, Shopping Giovanni Center.",
+    "tel": "71993229395",
+    "whatsapp": "71993229395",
+    "email": "thijames@gmail.com",
+    "valor": "50",
+    "servicos": [
+      "Terapia individual",
+      "Online",
+      "Terapia Conjugal",
+      "Terapia Familiar"
+    ],
+    "descricao_servicos": "Psicoterapia",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "Itinga, Vilas do Atlântico, Portão, Pitangueiras, Estrada do Côco",
+    "crp": "12.120",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Joana Gomes",
+    "end": "Rua Minas Gerais, 229, Edf Minas Trade Service, Pituba, Salvador-BA",
+    "tel": "71 98102-6737",
+    "whatsapp": "71 98102-6737",
+    "email": "psijoanagomes@gmail.com",
+    "valor": "150,00 e planos de saúde",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Terapia individual",
+      "Online",
+      "Planos de saúde - Psicologos"
+    ],
+    "descricao_servicos": "Psicoterapia individual infanto juvenil e adulto.\nAtendimento por planos de saúde Bradesco Top Nacional, Saúde Caixa e Petrobrás PAE.\nAtendimento particular presencial e online para adolescentes e adultos\nAbordagem: Terapia Cognitivo Comportamental\n\n<a href='https://appear.in/psicologajoanagomes'>Atendimento online</a>\nA profissional também realiza atendimentos online. Para isso, é necessário entrar em contato com a mesma e ajustar dia, horário e encaminhamento de dados pessoais para cadastro prévio. Caso seja menor de idade, será necessária autorização expressa dos pais ou responsáveis legais.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "CRP03/6806",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Eliene Jesus Silva ",
+    "end": "Rua Recife, n°115 - Barra. Atendo no Instituto Quatro Estações",
+    "tel": "",
+    "whatsapp": "(71) 993278341",
+    "email": "elieneampliarensino@gmail.com",
+    "valor": "A combinar ou Clínica Social",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Orientação Profissional",
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimento Clínico - Psicanálise ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Joanna Cafezeiro ",
+    "end": "Condomínio edifício Delta, rua Rua da Grécia em frente à secretaria Municipal de saúde ",
+    "tel": "(71)991200147",
+    "whatsapp": "(71)991200147",
+    "email": "Joannacafezeiro@gmail.com",
+    "valor": "Valor Social  $60,00",
+    "servicos": [
+      "Terapia individual",
+      "Crianças e adolescentes",
+      "Terapia Conjugal"
+    ],
+    "descricao_servicos": "Psicóloga Especialista em Terapia Cognitivo Comportamental ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/15890",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Andreza Maria Moraes de Faria",
+    "end": "Comércio",
+    "tel": "071 99663-8689",
+    "whatsapp": "71996639689",
+    "email": "andrezamoraes1@hotmail.com",
+    "valor": "Atendimento com Valor Social",
+    "servicos": [
+      "Terapia individual",
+      "Crianças e adolescentes",
+      "Álcool e outras drogas"
+    ],
+    "descricao_servicos": "Atendimento Psicoterapêutico para Crianças, Adolescentes, Adultos e Idosos",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "CRP 03/14695",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Cláudio Henrique Raposo",
+    "end": "Avenida ACM edf Golden Plaza. Sala 509",
+    "tel": "071999000658",
+    "whatsapp": "071999000658",
+    "email": "Claudio@raposoadvocacia.adv.br",
+    "valor": "Valor social",
+    "servicos": [
+      "LGBT",
+      "Crianças e adolescentes"
+    ],
+    "descricao_servicos": "Atendimento e consultoria jurídica. OAB 61469",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Larissa Abreu",
+    "end": "Edifício Empresarial Niemeyer, Rua Alceu Amoroso Lima, N°470, Caminho das Árvores, próximo ao Salvador Shopping.",
+    "tel": "",
+    "whatsapp": "(71)98615-2070",
+    "email": "psilarissaabreu@gmail.com",
+    "valor": "Valor Social",
+    "servicos": [
+      "Terapia individual",
+      "Planos de saúde - Psicologos"
+    ],
+    "descricao_servicos": "Atendimento Psicológico - Adolescente, adultos e idosos. (Valor Social )",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/19462",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Andressa Santana",
+    "end": "Rua Alceu Amoroso, 470.Edificio Niemeyer. Av. Tancredo Neves. Em frente ao Salvador shopping",
+    "tel": "(71)993368869",
+    "whatsapp": "(71)993368869",
+    "email": "andressasantana897@gmail.com",
+    "valor": "Valor social",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Psicoterapia individual - Adolescentes, Adultos e idosos.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/19593",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Ivonete Barreto",
+    "end": " Rua Ewerton Visco, 290, Edf. Boulevard Side Empresarial, Sala 211, Clinica Gestar Psi.",
+    "tel": "71 98686-4858",
+    "whatsapp": "71 98606-4858",
+    "email": "ivoneteleo@outlook.com",
+    "valor": "Clínica Social ",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/19232",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Adriana Nascimento",
+    "end": "",
+    "tel": "",
+    "whatsapp": "71981837079",
+    "email": "adrianasn@outlook.com.br",
+    "valor": "Valor negociável ",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimentos domiciliar e particular também \nAdolescentes, Adultos e Idosos\n",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "Mata de São João, Dias D'Ávila, Camaçari e Salvador",
+    "crp": "03/17344",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Nepente Multidisciplinare",
+    "end": "Avenida Tancredo Neves, 1222, Catabas Tower, salas 901 e 902, Caminho das Árvores ",
+    "tel": "71- 3043-8050",
+    "whatsapp": "71 - 99710-4370",
+    "email": "contato@espaconepente.com",
+    "valor": "Combinado no primeiro atendimento que é sem custo.",
+    "servicos": [
+      "Terapia individual",
+      "Crianças e adolescentes",
+      "LGBT",
+      "Orientação Profissional",
+      "Terapia Conjugal",
+      "Terapia Familiar",
+      "Terapia de Grupo",
+      "Álcool e outras drogas"
+    ],
+    "descricao_servicos": "Oferecemos diversas modalidades de psicoterapia com psicólogos devidamente habilitados particular e clínica social.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Eduardo Serra",
+    "end": "",
+    "tel": "71 982331995",
+    "whatsapp": "71 982331995",
+    "email": "Eduardohenriqueserra@gmail.com",
+    "valor": "60",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Online",
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Psicólogo com enfoque na Gestalt. Condições especiais para estudante de psicologia e pessoas de baixa renda.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/16004",
+    "crm": "",
+    "ativo": true
+  },
+  {
+    "nome": "Simone Matos",
+    "end": "",
+    "tel": "(71)99243-6919",
+    "whatsapp": "(71)9243-6919",
+    "email": "psi.Simonematos@gmail.com",
+    "valor": "",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Life Coach",
+      "Terapia individual",
+      "Terapia de Grupo",
+      "Orientação Profissional",
+      "LGBT",
+      "Terapia Conjugal"
+    ],
+    "descricao_servicos": "Atendimento social ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/18323",
     "crm": "",
     "ativo": true
   }
