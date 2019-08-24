@@ -1362,5 +1362,24 @@
     "crp": "",
     "crm": "",
     "ativo": true
+  },
+  {
+    "nome": "Evandro Magalhães Leite Junior",
+    "end": "Alameda Florenca 137, Pituba, apt 601",
+    "tel": "+5571982864766",
+    "whatsapp": "+5571982864766",
+    "email": "evandrojr@gmail.com",
+    "valor": "80",
+    "servicos": [
+      "Terapia Conjugal"
+    ],
+    "descricao_servicos": "Tudo legal",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "pituba",
+    "crp": "2222",
+    "crm": "BA",
+    "id": "Evandro-Magalhaes-Leite-Junior-6fd",
+    "ativo": false
   }
 ]
