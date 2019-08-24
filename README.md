@@ -28,7 +28,7 @@ Consultores: **Dr. Rodrigo Mello** e **Karla Prazeres**.
 Estamos buscando patrocínio e parceiros para ajudar na divulgação do aplicativo.
 
 - :globe_with_meridians: Site: http://www.psicohelp.org
-- :camera: Instagram: [@PsichelpApp](https://www.instagram.com/PsichelpApp/)
+- :camera: Instagram: [@PsicoHelpApp](https://www.instagram.com/PsichelpApp/)
 - :love_letter: E-mail: [PsicHelpcontatos@gmail.com](mailto:PsicHelpcontatos@gmail.com)
 
 ## Contato
