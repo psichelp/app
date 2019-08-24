@@ -27,7 +27,7 @@ export class DetailsPageComponent implements OnInit {
     this.estabelecimento = null;
     this.paramsSubscription = this.route.params.subscribe((params: Params) => {
       this.estabelecimento = this.localService.findById(params['local']);
-      console.dir(this.estabelecimento);
+      console.log('estabelecimento', this.estabelecimento);
       this.telegramMessage(this.estabelecimento.nome + " foi acessado(a)").subscribe(data => {
         console.log('Mensagem de acesso enviada', data);
       },
@@ -67,7 +67,6 @@ export class DetailsPageComponent implements OnInit {
       .pipe(map(res => {
         let results = res;
         console.log(res);
-        
         return results;
       }));
   }

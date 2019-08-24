@@ -12,9 +12,8 @@ import * as _ from 'lodash';
   providedIn: 'root'
 })
 export class LocalService {
-  
+
   private fuseInstance;
-  // public estabelicimentoCache: any;
 
   constructor(private http: HttpClient, private localstorage: LocalstorageService) {
   }
@@ -74,9 +73,10 @@ export class LocalService {
   }
 
   findById(id: string): Estabelecimento{
-    return _.filter(this.estabelecimentos(), function(o) { 
-      return o.id === id; 
+    const found = _.filter(this.estabelecimentos(), function(o) {
+      return o.id === id;
    });
+   return found[0];
   }
 
   obterEstabelecimentosPorServico(servicoDesejado: String): Estabelecimento[] {
