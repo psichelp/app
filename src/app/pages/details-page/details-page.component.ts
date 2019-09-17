@@ -23,13 +23,13 @@ export class DetailsPageComponent implements OnInit {
     private whatsapp: WhatsAppService,
     private http: HttpClient) { }
 
-  ngOnInit() {
+   ngOnInit() {
     this.estabelecimento = null;
     this.paramsSubscription = this.route.params.subscribe((params: Params) => {
       this.estabelecimento = this.localService.findById(params['local']);
       console.log('estabelecimento', this.estabelecimento);
-      this.telegramMessage(this.estabelecimento.nome + " foi acessado(a)").subscribe(data => {
-        console.log('Mensagem de acesso enviada', data);
+      this.telegramMessage(this.estabelecimento.nome + " foi acessado(a) " + this.detectarDispositivo()).subscribe(data => {
+        console.log('Mensagem de acesso enviada ' + this.detectarDispositivo(), data);
       },
         error => {
           console.error('Erro ao enviar mensagem', error);
@@ -37,11 +37,19 @@ export class DetailsPageComponent implements OnInit {
     });
   }
 
+  detectarDispositivo() : string{
+    if('cordova' in window){
+      return "pelo aplicativo";
+    }else{
+      return "pelo navegador";
+    }
+  }
+
   onClickLigar() {
     const tel = this.estabelecimento.tel;
     window.open(`tel:${tel}`);
-    this.telegramMessage(this.estabelecimento.nome + " foi ligado").subscribe(data => {
-      console.log('Mensagem de foi feita ligação para prestador enviada', data);
+    this.telegramMessage(this.estabelecimento.nome + " foi ligado " + this.detectarDispositivo()).subscribe(data => {
+      console.log('Foi feita ligação para prestador ' + this.detectarDispositivo(), data);
     },
       error => {
         console.error('Erro ao enviar mensagem', error);
@@ -50,8 +58,8 @@ export class DetailsPageComponent implements OnInit {
 
   onClickWhatsApp() {
     this.whatsapp.message(this.estabelecimento.whatsapp);
-    this.telegramMessage(this.estabelecimento.nome + " foi contactado por WhatsApp").subscribe(data => {
-      console.log('Mensagem que foi feito contato via WhatsApp para prestador enviada', data);
+    this.telegramMessage(this.estabelecimento.nome + " foi contactado por WhatsApp " + this.detectarDispositivo()).subscribe(data => {
+      console.log('Mensagem que foi feito contato via WhatsApp para prestador enviada ' + this.detectarDispositivo(), data);
     },
       error => {
         console.error('Erro ao enviar mensagem', error);
