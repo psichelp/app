@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export APP="PsicHelp"
+export APP="PsicoHelp"
 
 function acp {
     git add -A .
@@ -19,19 +19,19 @@ else
 fi
 
 emulator @`emulator -list-avds | tail` &
-ng build --aot --prod --verbose
 rm -rf cordova/www
 mkdir -p cordova/www
-cp dist/PsicHelp/* cordova/www -r
+ng build --aot --prod --verbose --base-href . --output-path cordova/www/
 echo "Gerando versão de Release para $APP"
 cd cordova
 cordova build android --prod --release
-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore my-release-key.keystore platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk alias_name
+jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -storepass 1maxiche -keystore my-release-key.keystore platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk alias_name
 rm -f $APP.apk
 ~/Android/Sdk/build-tools/26.0.2/zipalign -v 4 platforms/android/app/build/outputs/apk/release/app-release-unsigned.apk $APP.apk
 
 echo "Apague a versão antiga e teste primeiro teste no seu celular e dê enter!"
 read answer
+adb uninstall $APP.apk
 adb install $APP.apk
 echo "Testou e funcinou?!"
 read answer 
