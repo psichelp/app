@@ -2108,25 +2108,5 @@
     "crm": "",
     "ativo": true,
     "id": "Simone-Matos-1cf"
-  },
-  {
-    "nome": "Fernanda",
-    "end": "",
-    "tel": "",
-    "whatsapp": "11963641984",
-    "email": "",
-    "valor": "",
-    "servicos": [
-      "Online",
-      "Online"
-    ],
-    "descricao_servicos": "",
-    "mapa": "",
-    "video": "",
-    "bairros_atendidos": "",
-    "crp": "",
-    "crm": "",
-    "id": "Fernanda-2c1",
-    "ativo": false
   }
 ]
