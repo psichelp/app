@@ -15,7 +15,7 @@ Projeto idealizado e liderado pelas alunas: **Beatriz Rocha** e **Naiara Suyane*
 
 Instrutor: **Evandro Jr**
 
-Desenvolvedores: **Evandro Jr**, **Leonardo Merlin** e **Luis**.
+Desenvolvedores: **Evandro Jr** e **Leonardo Merlin**.
 
 Mídias Sociais: **Beatriz Rocha**, **Evandro Jr** e **Karla Prazeres**.
 
