@@ -2108,25 +2108,5 @@
     "crm": "",
     "ativo": true,
     "id": "Simone-Matos-1cf"
-  },
-  {
-    "nome": "teste",
-    "end": "Alameda Florença, 137",
-    "tel": "+5571982864766",
-    "whatsapp": "",
-    "email": "evandrojr@gmail.com",
-    "valor": "",
-    "servicos": [
-      "Online",
-      "Terapia Familiar"
-    ],
-    "descricao_servicos": "s",
-    "mapa": "",
-    "video": "",
-    "bairros_atendidos": "",
-    "crp": "",
-    "crm": "BA",
-    "id": "teste-60c",
-    "ativo": false
   }
 ]
