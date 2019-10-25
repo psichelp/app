@@ -2108,5 +2108,25 @@
     "crm": "",
     "ativo": true,
     "id": "Simone-Matos-1cf"
+  },
+  {
+    "nome": "Amanda Brandão",
+    "end": "",
+    "tel": "71 991048313",
+    "whatsapp": "71 991048313",
+    "email": "amandavbrandao@gmail.com",
+    "valor": "Negociável",
+    "servicos": [
+      "Terapia individual",
+      "Orientação Profissional"
+    ],
+    "descricao_servicos": "Terapia individual - Crianças, adolescente, adultos e idosos ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/20204",
+    "crm": "",
+    "id": "Amanda-Brandao-293",
+    "ativo": false
   }
 ]
