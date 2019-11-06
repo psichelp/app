@@ -2128,5 +2128,29 @@
     "crm": "",
     "id": "Amanda-Brandao-293",
     "ativo": true
+  },
+  {
+    "nome": "Adriele Santana Santos",
+    "end": "Av Jorge Amado, n 70. Espaço Despertar",
+    "tel": "",
+    "whatsapp": "71991783863",
+    "email": "drika.adv7@gmail.com",
+    "valor": "30 reais ",
+    "servicos": [
+      "Terapia individual",
+      "Terapia Conjugal",
+      "Terapia Familiar",
+      "Crianças e adolescentes",
+      "LGBT",
+      "Álcool e outras drogas"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/ 18409",
+    "crm": "",
+    "id": "Adriele-Santana-Santos-8e9",
+    "ativo": false
   }
 ]
