@@ -2131,11 +2131,11 @@
   },
   {
     "nome": "Adriele Santana Santos",
-    "end": "Av Jorge Amado, n 70. Espaço Despertar",
+    "end": "Av Jorge Amado, n70. Espaço Despertar",
     "tel": "",
     "whatsapp": "71991783863",
     "email": "drika.adv7@gmail.com",
-    "valor": "30 reais ",
+    "valor": "Valor social",
     "servicos": [
       "Terapia individual",
       "Terapia Conjugal",
@@ -2145,10 +2145,10 @@
       "Álcool e outras drogas"
     ],
     "descricao_servicos": "",
-    "mapa": "",
+    "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.0460152290743!2d-38.43125458517798!3d-12.968907390857687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161a4e66c99b27%3A0xb824497406e236e6!2sAv.%20Jorge%20Amado%2C%20Salvador%20-%20BA!5e0!3m2!1spt-BR!2sbr!4v1573380356903!5m2!1spt-BR!2sbr\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\"></iframe>",
     "video": "",
     "bairros_atendidos": "",
-    "crp": "03/ 18409",
+    "crp": "03/18409",
     "crm": "",
     "id": "Adriele-Santana-Santos-8e9",
     "ativo": true
