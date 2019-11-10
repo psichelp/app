@@ -45,7 +45,7 @@ export class SearchPageComponent implements OnInit {
   }
 
   mostrarDetalhes(estabelecimento: any) {
-    this.router.navigate(['/detalhes', {local: SharedService.b64EncodeUnicode(JSON.stringify(estabelecimento))} ]);
+    this.router.navigate(['/detalhes', {local: estabelecimento.id} ]);
   }
 
   onClickWhatsApp(estabelecimento: Estabelecimento) {
