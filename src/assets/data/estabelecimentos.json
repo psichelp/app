@@ -2108,5 +2108,49 @@
     "crm": "",
     "ativo": true,
     "id": "Simone-Matos-1cf"
+  },
+  {
+    "nome": "Amanda Brandão",
+    "end": "",
+    "tel": "71 991048313",
+    "whatsapp": "71 991048313",
+    "email": "amandavbrandao@gmail.com",
+    "valor": "Negociável",
+    "servicos": [
+      "Terapia individual",
+      "Orientação Profissional"
+    ],
+    "descricao_servicos": "Terapia individual - Crianças, adolescente, adultos e idosos ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/20204",
+    "crm": "",
+    "id": "Amanda-Brandao-293",
+    "ativo": true
+  },
+  {
+    "nome": "Adriele Santana Santos",
+    "end": "Av Jorge Amado, n 70. Espaço Despertar",
+    "tel": "",
+    "whatsapp": "71991783863",
+    "email": "drika.adv7@gmail.com",
+    "valor": "30 reais ",
+    "servicos": [
+      "Terapia individual",
+      "Terapia Conjugal",
+      "Terapia Familiar",
+      "Crianças e adolescentes",
+      "LGBT",
+      "Álcool e outras drogas"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/ 18409",
+    "crm": "",
+    "id": "Adriele-Santana-Santos-8e9",
+    "ativo": true
   }
 ]
