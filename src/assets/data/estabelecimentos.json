@@ -2172,5 +2172,25 @@
     "crm": "",
     "id": "Ana-Paula-Alves-669",
     "ativo": false
+  },
+  {
+    "nome": "Alane Silva dos Santos",
+    "end": "Atendimento domiciliar",
+    "tel": "(71) 98515-6585",
+    "whatsapp": "(71) 98515-6585",
+    "email": "psicologaalanesantos@gmail.com",
+    "valor": "A combinar",
+    "servicos": [
+      "Terapia individual",
+      "Terapia Conjugal"
+    ],
+    "descricao_servicos": "Atendimento terapêutico de forma ética, que visa auxiliar na resoluções de conflitos psicológicos e socias, ajudando assim na automia e na organização subjetiva das pessoas, proporcionando autoconhecimento, saúde e qualidade de vida.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/20571",
+    "crm": "",
+    "id": "Alane-Silva-dos-Santos-9a0",
+    "ativo": false
   }
 ]
