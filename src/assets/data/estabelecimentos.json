@@ -2171,7 +2171,7 @@
     "crp": "03/20850",
     "crm": "",
     "id": "Ana-Paula-Alves-669",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Alane Silva dos Santos",
@@ -2191,6 +2191,6 @@
     "crp": "03/20571",
     "crm": "",
     "id": "Alane-Silva-dos-Santos-9a0",
-    "ativo": false
+    "ativo": true
   }
 ]
