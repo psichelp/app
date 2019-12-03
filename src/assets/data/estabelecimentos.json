@@ -2192,5 +2192,25 @@
     "crm": "",
     "id": "Alane-Silva-dos-Santos-9a0",
     "ativo": true
+  },
+  {
+    "nome": "Priscila Freitas",
+    "end": "Centro médico da graça ",
+    "tel": "71992461817",
+    "whatsapp": "71992461817",
+    "email": "psicologapriscilafreitas@hotmail.com",
+    "valor": "110,00 ",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimento individual baseada na terapia cognitiva comportamental. Experiência com crianças com diagnóstico de transtorno do espectro autista. \n",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/15983",
+    "crm": "",
+    "id": "Priscila-Freitas-2f9",
+    "ativo": false
   }
 ]
