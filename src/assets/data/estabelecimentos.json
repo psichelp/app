@@ -2159,7 +2159,7 @@
     "tel": "71 991559242",
     "whatsapp": "71 991559242",
     "email": "anapaula_alves1@outlook.com",
-    "valor": "Á combinar ",
+    "valor": "A combinar ",
     "servicos": [
       "Terapia Familiar",
       "Terapia individual"
@@ -2195,22 +2195,22 @@
   },
   {
     "nome": "Priscila Freitas",
-    "end": "Centro médico da graça ",
+    "end": "Centro médico da Graça",
     "tel": "71992461817",
     "whatsapp": "71992461817",
     "email": "psicologapriscilafreitas@hotmail.com",
-    "valor": "110,00 ",
+    "valor": "A combinar",
     "servicos": [
       "Crianças e adolescentes",
       "Terapia individual"
     ],
-    "descricao_servicos": "Atendimento individual baseada na terapia cognitiva comportamental. Experiência com crianças com diagnóstico de transtorno do espectro autista. \n",
+    "descricao_servicos": "Atendimento individual baseada na terapia cognitiva comportamental. Experiência com crianças com diagnóstico de transtorno do espectro autista.",
     "mapa": "",
     "video": "",
     "bairros_atendidos": "",
     "crp": "03/15983",
     "crm": "",
     "id": "Priscila-Freitas-2f9",
-    "ativo": false
+    "ativo": true
   }
 ]
