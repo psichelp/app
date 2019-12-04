@@ -9,7 +9,7 @@ export class WhatsAppService {
 
   message(number: string) {
     const phone = number.split('/')[0].replace(/\D/g, ''); // only numbers
-    const message = 'Olá, gostaria de conversar sobre uma consulta';
+    const message = 'Olá, gostaria de conversar sobre uma consulta. ';
     let url;
 
     // if (this.platform.is('cordova')) {
