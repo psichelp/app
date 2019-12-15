@@ -116,11 +116,6 @@ export const SERVICO_DESCRICAO = [
     titulo2: 'Musicoterapia',
     leitor: 'Ir para categoria: Psicólogos que atendem por Planos de Saúde'
   },
-  // {
-  //   nome: SERVICO.LIFE_COACH,
-  //   img: 'url(assets/imgs/life-coach.jpg)',
-  //   leitor: 'Ir para categoria: Life Coach'
-  // },
   {
     nome: 'FALE-CONOSCO',
     img: 'url(assets/imgs/faleconosco.jpg)',

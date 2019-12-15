@@ -4,7 +4,8 @@
       <div card (click)="listar(servico)" [ngStyle]="{'background-image': servico.img}">
         <div *ngIf="servico.titulo1" class="card-subtitle">{{servico.titulo1}}</div>
         <div *ngIf="servico.titulo2" class="card-title">{{servico.titulo2}}</div>
-        <button *ngIf="servico.leitor" class="sr-only sr-only-focusable" (click)="listar(servico)">{{servico.leitor}}</button>
+        <button *ngIf="servico.leitor" class="sr-only sr-only-focusable"
+          (click)="listar(servico)">{{servico.leitor}}</button>
       </div>
     </ng-container>
   </div>
