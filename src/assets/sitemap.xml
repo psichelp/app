@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://psichelp.com.br/webapp</loc><priority>0.5</priority></url>
-<url><loc>https://psichelp.com.br/webapp/#/inicio</loc><priority>0.5</priority></url>
-<url><loc>https://psichelp.com.br/webapp/#/buscar</loc><priority>0.5</priority></url>
-<url><loc>https://psichelp.com.br/webapp/#/cadastrar</loc><priority>0.5</priority></url>
-<url><loc>https://psichelp.com.br/webapp/#/listar;servico=Terapia%20individual</loc><priority>0.5</priority></url>
-<url><loc>https://psichelp.com.br/webapp/#/listar;servico=Crian%C3%A7as%20e%20adolescentes</loc><priority>0.5</priority></url>
-<url><loc>https://psichelp.com.br/webapp/#/listar;servico=Medicamentos%20grat%C3%BAitos</loc><priority>0.5</priority></url>
-<url><loc>https://psichelp.com.br/webapp/#/listar;servico=Emerg%C3%AAncia%20Psiqui%C3%A1trica</loc><priority>0.5</priority></url>
-<url><loc>https://psichelp.com.br/webapp/#/listar;servico=Online</loc><priority>0.5</priority></url>
-<url><loc>https://psichelp.com.br/webapp/#/listar;servico=CAPS</loc><priority>0.5</priority></url>
-<url><loc>https://psichelp.com.br/webapp/#/listar;servico=Terapia%20de%20Grupo</loc><priority>0.5</priority></url>
-<url><loc>https://psichelp.com.br/webapp/#/listar;servico=Terapia%20Familiar</loc><priority>0.5</priority></url>
-<url><loc>https://psichelp.com.br/webapp/#/listar;servico=Terapia%20Conjugal</loc><priority>0.5</priority></url>
-<url><loc>https://psichelp.com.br/webapp/#/listar;servico=Orienta%C3%A7%C3%A3o%20Profissional</loc><priority>0.5</priority></url>
-<url><loc>https://psichelp.com.br/webapp/#/listar;servico=LGBT</loc><priority>0.5</priority></url>
-<url><loc>https://psichelp.com.br/webapp/#/listar;servico=Drogas</loc><priority>0.5</priority></url>
-<url><loc>https://psichelp.com.br/webapp/#/listar;servico=Planos%20de%20sa%C3%BAde%20-%20Psicologos</loc><priority>0.5</priority></url>
-<url><loc>https://psichelp.com.br/webapp/#/listar;servico=Musicoterapia</loc><priority>0.5</priority></url>
-<url><loc>https://psichelp.com.br/webapp/#/listar;servico=Life%20Coach</loc><priority>0.5</priority></url>
+<url><loc>https://psicohelp.org/webapp</loc><priority>0.5</priority></url>
+<url><loc>https://psicohelp.org/webapp/#/inicio</loc><priority>0.5</priority></url>
+<url><loc>https://psicohelp.org/webapp/#/buscar</loc><priority>0.5</priority></url>
+<url><loc>https://psicohelp.org/webapp/#/cadastrar</loc><priority>0.5</priority></url>
+<url><loc>https://psicohelp.org/webapp/#/listar;servico=Terapia%20individual</loc><priority>0.5</priority></url>
+<url><loc>https://psicohelp.org/webapp/#/listar;servico=Crian%C3%A7as%20e%20adolescentes</loc><priority>0.5</priority></url>
+<url><loc>https://psicohelp.org/webapp/#/listar;servico=Medicamentos%20grat%C3%BAitos</loc><priority>0.5</priority></url>
+<url><loc>https://psicohelp.org/webapp/#/listar;servico=Emerg%C3%AAncia%20Psiqui%C3%A1trica</loc><priority>0.5</priority></url>
+<url><loc>https://psicohelp.org/webapp/#/listar;servico=Online</loc><priority>0.5</priority></url>
+<url><loc>https://psicohelp.org/webapp/#/listar;servico=CAPS</loc><priority>0.5</priority></url>
+<url><loc>https://psicohelp.org/webapp/#/listar;servico=Terapia%20de%20Grupo</loc><priority>0.5</priority></url>
+<url><loc>https://psicohelp.org/webapp/#/listar;servico=Terapia%20Familiar</loc><priority>0.5</priority></url>
+<url><loc>https://psicohelp.org/webapp/#/listar;servico=Terapia%20Conjugal</loc><priority>0.5</priority></url>
+<url><loc>https://psicohelp.org/webapp/#/listar;servico=Orienta%C3%A7%C3%A3o%20Profissional</loc><priority>0.5</priority></url>
+<url><loc>https://psicohelp.org/webapp/#/listar;servico=LGBT</loc><priority>0.5</priority></url>
+<url><loc>https://psicohelp.org/webapp/#/listar;servico=Drogas</loc><priority>0.5</priority></url>
+<url><loc>https://psicohelp.org/webapp/#/listar;servico=Planos%20de%20sa%C3%BAde%20-%20Psicologos</loc><priority>0.5</priority></url>
+<url><loc>https://psicohelp.org/webapp/#/listar;servico=Musicoterapia</loc><priority>0.5</priority></url>
 </urlset>
 
