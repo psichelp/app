@@ -617,7 +617,7 @@
   },
   {
     "ativo": true,
-    "nome": "Faculdade Ruy Barbosa",
+    "nome": "Faculdade Ruy Barbosa - DEVRY",
     "end": "Rua Theodomiro Batista, 422, Rio Vermelho",
     "tel": "3205-1745",
     "valor": "Gratuito",
@@ -2212,5 +2212,34 @@
     "crm": "",
     "id": "Priscila-Freitas-2f9",
     "ativo": true
+  },
+  {
+    "nome": "Unifacs",
+    "end": "Centro médico da Graça",
+    "tel": "7132718118",
+    "valor": "Gratuito",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimento individual.",
+    "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.559884737254!2d-38.50478888517767!3d-12.999977690837254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71604981e9b547b%3A0xa17236a3b2dfa14f!2sUNIFACS%20-%20Campus%20Federa%C3%A7%C3%A3o%20PA1!5e0!3m2!1spt-BR!2sbr!4v1578477560825!5m2!1spt-BR!2sbr\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\"></iframe>",
+    "crm": "",
+    "id": "Unifacs-3cc",
+    "ativo": true
+  },
+  {
+    "ativo": true,
+    "nome": "UNIME - Lauro de Freitas",
+    "end": "Avenida Luis Tarquínio Pontes, 600, Centro - Lauro de Freitas (BA)",
+    "tel": "71 3378-8310",
+    "valor": "Gratuito",
+    "servicos": [
+      "Terapia individual",
+      "Orientação Profissional",
+      "Crianças e adolescentes"
+    ],
+    "descricao_servicos": "Atendimento psicológico individual(criança, adolescente, adulto e idoso) grupos terapêuticos, orientação para pais, orientação profissional(carreira / coaching, inserção no mercado de trabalho, qualidade de vida no trabalho e saúde mental do/a trabalhador/a)",
+    "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.2602194839!2d-38.3176881500762!3d-12.890981861641801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7163e0f80d0f2c9%3A0x6c60e804b36d0a38!2sFaculdade%20Unime%20Lauro%20de%20Freitas!5e0!3m2!1spt-BR!2sbr!4v1578478024067!5m2!1spt-BR!2sbr\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\"></iframe>",
+    "id": "UNIME-LAURO-2ee"
   }
 ]
