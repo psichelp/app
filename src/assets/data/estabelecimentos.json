@@ -2241,5 +2241,25 @@
     "descricao_servicos": "Atendimento psicológico individual(criança, adolescente, adulto e idoso) grupos terapêuticos, orientação para pais, orientação profissional(carreira / coaching, inserção no mercado de trabalho, qualidade de vida no trabalho e saúde mental do/a trabalhador/a)",
     "mapa": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.2602194839!2d-38.3176881500762!3d-12.890981861641801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7163e0f80d0f2c9%3A0x6c60e804b36d0a38!2sFaculdade%20Unime%20Lauro%20de%20Freitas!5e0!3m2!1spt-BR!2sbr!4v1578478024067!5m2!1spt-BR!2sbr\" width=\"100%\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\"></iframe>",
     "id": "UNIME-LAURO-2ee"
+  },
+  {
+    "nome": "Nathanielly Araújo ",
+    "end": "Edifício Empresarial Niemeyer / R. Alceu Amoroso Lima, 470 - Caminho das Árvores, Salvador - BA,",
+    "tel": "+7199659 9836",
+    "whatsapp": "+7199659 9836",
+    "email": "Nathanielly.a@gmail.com",
+    "valor": "Definido na sessão (O valor é ajustado em conjunto com o cliente)",
+    "servicos": [
+      "Terapia individual",
+      "Crianças e adolescentes"
+    ],
+    "descricao_servicos": "Olá, sou Nathanielly Araújo Pós- graduanda em Terapia Cognitivo Comportamental. Atuo na área clínica, atendendo adolescentes, adultos e idosos na perspectiva da TCC. Ministro palestras e atividades em grupo. Permita-se 🌵🌻",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/19598",
+    "crm": "",
+    "id": "Nathanielly-Araujo-a49",
+    "ativo": false
   }
 ]
