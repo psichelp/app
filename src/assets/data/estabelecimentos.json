@@ -2261,5 +2261,28 @@
     "crm": "",
     "id": "Nathanielly-Araujo-a49",
     "ativo": true
+  },
+  {
+    "nome": "Frederico Augusto Max Vianna Martins",
+    "end": "Av Amaral Peixoto ",
+    "tel": "21985154767",
+    "whatsapp": "21985154767",
+    "email": "fredmaxmartins@gmail.com",
+    "valor": "80 reais ",
+    "servicos": [
+      "Terapia individual",
+      "Terapia Familiar",
+      "Terapia Conjugal",
+      "Online",
+      "Crianças e adolescentes"
+    ],
+    "descricao_servicos": "Psicoterapia ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "05 19 252",
+    "crm": "",
+    "id": "Frederico-Augusto-Max-Vianna-Martins-920",
+    "ativo": false
   }
 ]
