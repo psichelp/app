@@ -2264,7 +2264,7 @@
   },
   {
     "nome": "Frederico Augusto Max Vianna Martins",
-    "end": "Av Amaral Peixoto ",
+    "end": "Av Amaral Peixoto, Niterói, RJ",
     "tel": "21985154767",
     "whatsapp": "21985154767",
     "email": "fredmaxmartins@gmail.com",
@@ -2276,13 +2276,13 @@
       "Online",
       "Crianças e adolescentes"
     ],
-    "descricao_servicos": "Psicoterapia ",
+    "descricao_servicos": "Psicoterapia",
     "mapa": "",
     "video": "",
     "bairros_atendidos": "",
     "crp": "05 19 252",
     "crm": "",
     "id": "Frederico-Augusto-Max-Vianna-Martins-920",
-    "ativo": false
+    "ativo": true
   }
 ]
