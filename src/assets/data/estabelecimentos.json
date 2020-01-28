@@ -2284,5 +2284,25 @@
     "crm": "",
     "id": "Frederico-Augusto-Max-Vianna-Martins-920",
     "ativo": true
+  },
+  {
+    "nome": "Milena Graciele Santana dos Santos",
+    "end": "",
+    "tel": "71999440890",
+    "whatsapp": "71999440890",
+    "email": "psimilenasantana@gmail.com",
+    "valor": "Negociável",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimento Psicoterapêuticos para criança e adolescentes. \n\nAssistência para gestação, parto e pós parto.\n",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/19154",
+    "crm": "",
+    "id": "Milena-Graciele-Santana-dos-Santos-6d0",
+    "ativo": false
   }
 ]
