@@ -2304,5 +2304,27 @@
     "crm": "",
     "id": "Milena-Graciele-Santana-dos-Santos-6d0",
     "ativo": true
+  },
+  {
+    "nome": "Normanda Henrique Vidal",
+    "end": "Rua Flórida, n 211, sala 902, Graça. ",
+    "tel": "071999026754",
+    "whatsapp": "071999026754",
+    "email": "psinormanda@gmail.com",
+    "valor": "A combinar ",
+    "servicos": [
+      "Terapia individual",
+      "LGBT",
+      "Online",
+      "Terapia Conjugal"
+    ],
+    "descricao_servicos": "Sou psicóloga clínica e Forense há cerca de 4 anos. Trabalhei em Curitiba, onde fiz mestrado em Psicologia Forense, tenho prática criativa voltada para a necessidade e demanda do cliente. Trabalho com os mais variado públicos, desde casais (monogâmicos e não monogâmicos), adultos, adolescentes, com especialidade em mulheres vitimadas, público LGBT, entre outros. ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/19954",
+    "crm": "",
+    "id": "Normanda-Henrique-Vidal-c5c",
+    "ativo": false
   }
 ]
