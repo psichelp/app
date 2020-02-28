@@ -2326,24 +2326,5 @@
     "crm": "",
     "id": "Normanda-Henrique-Vidal-c5c",
     "ativo": true
-  },
-  {
-    "nome": "Amanda Brandão",
-    "end": "",
-    "tel": "71 991048313",
-    "whatsapp": "71 991048313",
-    "email": "amandavbrandao@gmail.com",
-    "valor": "Negociável",
-    "servicos": [
-      "Terapia individual"
-    ],
-    "descricao_servicos": "",
-    "mapa": "",
-    "video": "",
-    "bairros_atendidos": "",
-    "crp": "",
-    "crm": "",
-    "id": "Amanda-Brandao-f2e",
-    "ativo": true
   }
 ]
