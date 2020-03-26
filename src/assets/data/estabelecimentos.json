@@ -2326,5 +2326,26 @@
     "crm": "",
     "id": "Normanda-Henrique-Vidal-c5c",
     "ativo": true
+  },
+  {
+    "nome": "Adriana Reis de Souza Munford",
+    "end": "IES Psicologia Integrada - Edifício Mundo Plaza, Caminho das Árvores, Salvador BA",
+    "tel": "71991471195",
+    "whatsapp": "71991471195",
+    "email": "adrianamunford.ies@gmail.com",
+    "valor": "A combinar",
+    "servicos": [
+      "Online",
+      "Terapia individual",
+      "Orientação Profissional"
+    ],
+    "descricao_servicos": "Atendimento psicológico online e presencial para adolescentes e adultos",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/15764",
+    "crm": "",
+    "id": "Adriana-Reis-de-Souza-Munford-69f",
+    "ativo": false
   }
 ]
