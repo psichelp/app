@@ -2347,5 +2347,26 @@
     "crm": "",
     "id": "Adriana-Reis-de-Souza-Munford-69f",
     "ativo": false
+  },
+  {
+    "nome": "IES PSICOLOGIA INTEGRADA",
+    "end": "Edifício Empresarial Mundo Plaza, 11 andar, sala 1111, Avenida Tancredo Neves",
+    "tel": "(71)99147-1195",
+    "whatsapp": "(71)99147-1195",
+    "email": "adrianamunford.ies@gmail.com",
+    "valor": "A combinar",
+    "servicos": [
+      "Online",
+      "Orientação Profissional",
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Oferecemos atendimento psicológico presencial e online para adolescentes e adultos em sessões.\n\nOferecemos orientação profissional, auxiliando o indivíduo a identificar os seus próprios interesses e sonhos para que ele seja capaz de perceber o mundo exterior e as profissões, ocupações e oportunidades com as quais mais se identifica através de testes psicológicos e sessões individuais.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/15764",
+    "crm": "",
+    "id": "IES-PSICOLOGIA-INTEGRADA-8a1",
+    "ativo": false
   }
 ]
