@@ -52,16 +52,19 @@
   <mat-card-actions>
     <button *ngIf="estabelecimento.tel" mat-button (click)="onClickLigar()">
       <mat-icon svgIcon="phone"></mat-icon>
-      LIGAR
+      Ligar
     </button>
     <button *ngIf="estabelecimento.whatsapp" mat-button (click)="onClickWhatsApp()">
       <mat-icon svgIcon="whatsapp" style="color: green"></mat-icon>
-      WhatsApp
+      Contactar pelo WhatsApp
     </button>
+    <br>
+    <br>
+    <div style="text-align: center;">Compartilhe esse profissional ou clínica com quem está precisando!</div>
+    <br>
+    <div class="sharethis-inline-share-buttons"></div>
   </mat-card-actions>
 </mat-card>
-
-<div class="sharethis-inline-share-buttons"></div>
 
 <div iframe-block-center *ngIf="estabelecimento.mapa" [innerHtml]="estabelecimento.mapa | sanitizeHtml">
 </div>
