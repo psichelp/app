@@ -11,22 +11,22 @@ import { LocalService } from 'src/app/services/local/local.service';
   templateUrl: './details-page.component.html',
   styleUrls: ['./details-page.component.css']
 })
-export class DetailsPageComponent implements OnInit {
+export class DetailsPageComponent {
   estabelecimento: any;
   paramsSubscription: Subscription;
   telegramUrl = 'https://api.telegram.org/bot747846139:AAEpVYndvdgt6pQRcNyGex7A283hg3qlk0c/sendMessage?chat_id=569816047&text=';
-
+  urlToBeShared = "";
 
   constructor(
     private localService: LocalService,
     private route: ActivatedRoute,
     private whatsapp: WhatsAppService,
-    private http: HttpClient) { }
+    private http: HttpClient) {
 
-   ngOnInit() {
     this.estabelecimento = null;
     this.paramsSubscription = this.route.params.subscribe((params: Params) => {
       this.estabelecimento = this.localService.findById(params['local']);
+      this.urlToBeShared = `https://psicohelp.org/webapp/#/detalhes;local=${this.estabelecimento.id}`;
       console.log('estabelecimento', this.estabelecimento);
       this.telegramMessage(this.estabelecimento.nome + " foi acessado(a) " + this.detectarDispositivo()).subscribe(data => {
         console.log('Mensagem de acesso enviada ' + this.detectarDispositivo(), data);
@@ -37,10 +37,17 @@ export class DetailsPageComponent implements OnInit {
     });
   }
 
-  detectarDispositivo() : string{
-    if('cordova' in window){
+  // ngOnInit() {
+  // }
+
+  UrlToBeShared(): string {
+    return this.urlToBeShared;
+  }
+
+  detectarDispositivo(): string {
+    if ('cordova' in window) {
       return "pelo aplicativo";
-    }else{
+    } else {
       return "pelo navegador";
     }
   }
@@ -69,7 +76,7 @@ export class DetailsPageComponent implements OnInit {
   telegramMessage(mensagem): Observable<any> {
     console.log(mensagem);
     mensagem = encodeURI(mensagem);
-    
+
     let apiUrl = `${this.telegramUrl}${mensagem}`;
     return this.http.get(apiUrl)
       .pipe(map(res => {

@@ -25,6 +25,7 @@ import { WhatsAppService } from './services/whatsapp/whats-app.service';
 import { LocalService } from './services/local/local.service';
 import { CadastroEntidadeComponent } from './pages/cadastro-entidade/cadastro-entidade.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { SocialShareComponent } from './src/app/components/social-share/social-share.component';
 
 const appRoutes: Routes = [
   { path: 'inicio', component: HomePageComponent },
@@ -43,7 +44,8 @@ const appRoutes: Routes = [
     ListPageComponent,
     DetailsPageComponent,
     SearchPageComponent,
-    CadastroEntidadeComponent
+    CadastroEntidadeComponent,
+    SocialShareComponent
   ],
   imports: [
     BrowserModule,
