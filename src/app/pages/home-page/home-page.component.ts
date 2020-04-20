@@ -23,4 +23,8 @@ export class HomePageComponent implements OnInit {
       this.router.navigate(['/listar', { servico: servico.nome }])
     }
   }
+
+  UrlToBeShared(){
+    return 'https://psicohelp.org/webapp';
+  }
 }
