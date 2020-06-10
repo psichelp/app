@@ -2368,5 +2368,26 @@
     "crm": "",
     "id": "IES-PSICOLOGIA-INTEGRADA-8a1",
     "ativo": true
+  },
+  {
+    "nome": "Soraya Sacramento Santos",
+    "end": "Rua do Uruguai número 88",
+    "tel": "71/98899-1876",
+    "whatsapp": "71/98899-1876",
+    "email": "sorayasacramento1@gmail.com",
+    "valor": "Valores cobrados on-line R$ 40,00 por sessão",
+    "servicos": [
+      "Online",
+      "Terapia individual",
+      "LGBT"
+    ],
+    "descricao_servicos": "Psicoterapia breve, realizando processo psicoterapêutico breve, focalizando nas questões trazidas, acolhendo e escutando ativamente. Preservando o sigilo das informações .",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/20671",
+    "crm": "",
+    "id": "Soraya-Sacramento-Santos-f54",
+    "ativo": false
   }
 ]
