@@ -2348,5 +2348,31 @@
     "crm": "",
     "id": "Soraya-Sacramento-Santos-f54",
     "ativo": true
+  },
+  {
+    "nome": "Rafaela de Oliveira Campos ",
+    "end": "Buraquinho, Vilas - Lauro Freitas / C Árvores, ACM - Salvador",
+    "tel": "71983502713",
+    "whatsapp": "71999018613",
+    "email": "psicologarafaelacampos@gmail.com",
+    "valor": "Valor social negociável ",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Online",
+      "Orientação Profissional",
+      "Terapia Conjugal",
+      "Terapia Familiar",
+      "Terapia de Grupo",
+      "Terapia individual",
+      "Álcool e outras drogas"
+    ],
+    "descricao_servicos": "Psicóloga Clínica, Especializanda em Avaliação Psicológica, estou aqui para te auxiliar a lidar melhor com suas emoções e conjunturas que de alguma forma estão te trazendo sofrimento, seja consigo mesmo ou nos núcleos familiar/ Profissional.\nExperiência consolidada em liderança, grupos e desenvolvimento de Pessoas. Orientação Profissional e Carreira. Vamos juntos ?\n",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/19823",
+    "crm": "",
+    "id": "Rafaela-de-Oliveira-Campos-aa6",
+    "ativo": false
   }
 ]
