@@ -2374,5 +2374,27 @@
     "crm": "",
     "id": "Rafaela-de-Oliveira-Campos-aa6",
     "ativo": false
+  },
+  {
+    "nome": "NAYARA STEFENONI KUSTER",
+    "end": "Avenida Brasil, Maria das Graças, Colatina/ES",
+    "tel": "27999114745",
+    "whatsapp": "27999114745",
+    "email": "sknayara@gmail.com",
+    "valor": "50",
+    "servicos": [
+      "Online",
+      "LGBT",
+      "Orientação Profissional",
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Serviço de psicoterapia individual para adultos em modalidade breve e a distância.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "16/5912",
+    "crm": "",
+    "id": "NAYARA-STEFENONI-KUSTER-15b",
+    "ativo": false
   }
 ]
