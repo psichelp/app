@@ -2396,5 +2396,26 @@
     "crm": "",
     "id": "NAYARA-STEFENONI-KUSTER-15b",
     "ativo": false
+  },
+  {
+    "nome": "Paula Machado ",
+    "end": "",
+    "tel": "",
+    "whatsapp": "(71)99299-9656",
+    "email": "psi.paulamachado@gmail.com",
+    "valor": "50,00",
+    "servicos": [
+      "Online",
+      "Terapia individual",
+      "Álcool e outras drogas"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/18285",
+    "crm": "",
+    "id": "Paula-Machado-646",
+    "ativo": false
   }
 ]
