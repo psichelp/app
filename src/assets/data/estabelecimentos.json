@@ -129,7 +129,7 @@
   {
     "ativo": true,
     "nome": "Daiana Sá Teles",
-    "end": "Edifício Fernandez, Av. 7 de Setembro, 302, 8° andar, Sala 815, Salvador/BA",
+    "end": "Resgate: Espaço Reconexão R. Alcobaça, 85E - Resgate, Salvador - BA, 41152-115, Liberdade: Policlínica da Liberdade, Estr. da Liberdade, 270 - Liberdade, Salvador - BA, 40375-016, Av. 7: Espaço Terapêutico Cristais Avenida 7. Edf Fernandez, 8° andar, sala 815",
     "tel": "(71) 99718-2866",
     "whatsapp": "+5571997182866",
     "valor": "Valor social (valor acessível)",
@@ -138,7 +138,7 @@
       "Crianças e adolescentes",
       "Terapia de Grupo"
     ],
-    "descricao_servicos": "Psicoterapia individual (criança, adolescente, adulto e idoso) & grupos (max. 5 pessoas) de bate-papo sobre temas relevantes no contexto da Psicologia.",
+    "descricao_servicos": "Psicoterapia individual para crianças, adolescentes, adultos e idosos. Nos bairros: Resgate, Liberdade e Av. 7. Particular, clínica social e convênios. Mais informações entrar em contato via WhatsApp.",
     "email": "contatodaianapsicologia@gmail.com",
     "mapa": "<iframe src='https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1943.942745436484!2d-38.515709091933424!3d-12.979175147712732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sEdif%C3%ADcio+Fernandez%2C+Av.+7+de+Setembro%2C+302%2C+8%C2%B0+andar%2C+Sala+815%2C+Salvador%2FBa!5e0!3m2!1spt-BR!2sbr!4v1535587271294' width='100%' height='450' frameborder='0' style='border:0' allowfullscreen></iframe>",
     "id": "Daiana-Sa-Teles-8dd"
@@ -1410,7 +1410,7 @@
     "bairros_atendidos": "Ribeira, Massaranduba, itapagipe",
     "crp": "",
     "crm": "",
-    "ativo": false,
+    "ativo": true,
     "id": "Priscila-Dantas-5de"
   },
   {
@@ -2350,7 +2350,7 @@
     "ativo": true
   },
   {
-    "nome": "Rafaela de Oliveira Campos ",
+    "nome": "Rafaela de Oliveira Campos",
     "end": "Buraquinho, Vilas - Lauro Freitas / C Árvores, ACM - Salvador",
     "tel": "71983502713",
     "whatsapp": "71999018613",
@@ -2373,7 +2373,7 @@
     "crp": "03/19823",
     "crm": "",
     "id": "Rafaela-de-Oliveira-Campos-aa6",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "NAYARA STEFENONI KUSTER",
@@ -2395,7 +2395,7 @@
     "crp": "16/5912",
     "crm": "",
     "id": "NAYARA-STEFENONI-KUSTER-15b",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Paula Machado ",
@@ -2416,6 +2416,6 @@
     "crp": "03/18285",
     "crm": "",
     "id": "Paula-Machado-646",
-    "ativo": false
+    "ativo": true
   }
 ]
