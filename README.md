@@ -1,4 +1,4 @@
-# PsicHelp
+# PsicoHelp
 
 > Site oficial do app: [https://psicohelp.org](https://psicohelp.org)
 
