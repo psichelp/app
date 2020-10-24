@@ -16,9 +16,11 @@
     <div margin-vertical>
       <div padding>
         <h2 text-wrap>{{ estabelecimento?.nome }}</h2>
-        <div text-wrap>{{ estabelecimento?.end }}</div>
+        <ng-container *ngIf="estabelecimento.end">
+          <pre light [innerHtml]="estabelecimento.end | sanitizeHtml">
+          </pre>
+        </ng-container>
         <div text-wrap primary>{{ estabelecimento?.valor }}</div>
-
       </div>
       <div side="right">
         <button mat-raised-button (click)="mostrarDetalhes(estabelecimento)">Ver</button>
