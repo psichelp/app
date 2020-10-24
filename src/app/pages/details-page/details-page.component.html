@@ -3,9 +3,11 @@
     <h2 *ngIf="estabelecimento.nome">
       {{estabelecimento.nome}}
     </h2>
-    <p *ngIf="estabelecimento.end">
-      {{estabelecimento.end}}
-    </p>
+    <ng-container *ngIf="estabelecimento.end">
+      <span primary>Endereço(s):</span>
+      <pre light [innerHtml]="estabelecimento.end | sanitizeHtml">
+      </pre>
+    </ng-container>
     <p *ngIf="estabelecimento.tel">
       <span center-vertical light>
         <mat-icon svgIcon="phone"></mat-icon>

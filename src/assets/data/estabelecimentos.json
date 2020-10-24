@@ -129,7 +129,7 @@
   {
     "ativo": true,
     "nome": "Daiana Sá Teles",
-    "end": "Resgate: Espaço Reconexão R. Alcobaça, 85E - Resgate, Salvador - BA, 41152-115, Liberdade: Policlínica da Liberdade, Estr. da Liberdade, 270 - Liberdade, Salvador - BA, 40375-016, Av. 7: Espaço Terapêutico Cristais Avenida 7. Edf Fernandez, 8° andar, sala 815",
+    "end": "Atua em 3 bairros de Salvador:<ul><li>R. Alcobaça, 85E - Resgate, Salvador - BA, 41152-115.</li><li>Estr. da Liberdade, 270 - Liberdade, Salvador - BA, 40375-016.</li><li>Avenida 7. Edf Fernandez, 8° andar, sala 815.</li>",
     "tel": "(71) 99718-2866",
     "whatsapp": "+5571997182866",
     "valor": "Valor social (valor acessível)",
@@ -2398,18 +2398,18 @@
     "ativo": true
   },
   {
-    "nome": "Paula Machado ",
-    "end": "",
+    "nome": "Paula Machado Cintra",
+    "end": "Vilas do Atlântico - Lauro de Freitas / Ondina - Salvador-BA",
     "tel": "",
     "whatsapp": "(71)99299-9656",
     "email": "psi.paulamachado@gmail.com",
-    "valor": "Valor social",
+    "valor": "Valor negociável.",
     "servicos": [
       "Online",
       "Terapia individual",
       "Álcool e outras drogas"
     ],
-    "descricao_servicos": "",
+    "descricao_servicos": "Atendimentos online e presenciais: adultos e idosos. Serviços: Psicóloga Clínica, Especializanda em Saúde Mental e Atenção Psicossocial, Formação continuada em Psicanálise no Círculo Psicanalítico da Bahia. Experiência em Psicologia Hospitalar e Clínica do Luto e Psicanálise.  Estou para escutar suas ideias, seus sofrimentos, tudo que você esteja inserido, em contextos sociais, profissionais, familiares, relações abrangentes e principalmente, consigo mesmo. Permitindo essa escuta e sendo construído caminhos possíveis.",
     "mapa": "",
     "video": "",
     "bairros_atendidos": "",
