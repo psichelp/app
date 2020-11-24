@@ -2417,5 +2417,26 @@
     "crm": "",
     "id": "Paula-Machado-646",
     "ativo": true
+  },
+  {
+    "nome": "Daiane de Paula ",
+    "end": "Avenida Luis Tarquínio, Vilas do Atlântico, Lauro de Freitas",
+    "tel": "",
+    "whatsapp": "71996152630",
+    "email": "daiane.paula@acalme-se.com.br",
+    "valor": "A combinar",
+    "servicos": [
+      "Online",
+      "Terapia individual",
+      "Álcool e outras drogas"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/12068",
+    "crm": "",
+    "id": "Daiane-de-Paula-6c9",
+    "ativo": false
   }
 ]
