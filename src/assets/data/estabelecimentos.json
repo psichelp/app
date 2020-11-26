@@ -2438,5 +2438,24 @@
     "crm": "",
     "id": "Daiane-de-Paula-6c9",
     "ativo": false
+  },
+  {
+    "nome": "RAIANE LIMA SILVA",
+    "end": "António Nogueira De Oliveira",
+    "tel": "1699257_1155",
+    "whatsapp": "16 99257_1155",
+    "email": "limasilvaraiane@gmail.com",
+    "valor": "90,00",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Sou psicóloga formada pela universidade Estácio, pós graduanda em psicanálise clínica atendimento psicológico online e presencial acolhimento acompanhamento, depressão, ansiedade, Borderline, entre outros transtornos.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "Parque Ribeirão",
+    "crp": "06/164681",
+    "crm": "",
+    "id": "RAIANE-LIMA-SILVA-9fb",
+    "ativo": false
   }
 ]
