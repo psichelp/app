@@ -2437,7 +2437,7 @@
     "crp": "03/12068",
     "crm": "",
     "id": "Daiane-de-Paula-6c9",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "RAIANE LIMA SILVA",
@@ -2447,6 +2447,7 @@
     "email": "limasilvaraiane@gmail.com",
     "valor": "90,00",
     "servicos": [
+      "Online",
       "Terapia individual"
     ],
     "descricao_servicos": "Sou psicóloga formada pela universidade Estácio, pós graduanda em psicanálise clínica atendimento psicológico online e presencial acolhimento acompanhamento, depressão, ansiedade, Borderline, entre outros transtornos.",
@@ -2456,6 +2457,6 @@
     "crp": "06/164681",
     "crm": "",
     "id": "RAIANE-LIMA-SILVA-9fb",
-    "ativo": false
+    "ativo": true
   }
 ]
