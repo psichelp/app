@@ -2477,5 +2477,24 @@
     "crm": "",
     "id": "UPA-de-Roma-42d",
     "ativo": false
+  },
+  {
+    "nome": "UPA 24H Valeria",
+    "end": "Colegio Noemia Rego - R. do Lavrador, sn - Valéria, Salvador - BA, 41300-470",
+    "tel": "(71) 3500-2600 / (71) 3500-2601 / (71) 3500-2602 / (71) 3500-2603",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Emergência Psiquiátrica"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "id": "UPA-24H-Valeria-fb1",
+    "ativo": false
   }
 ]
