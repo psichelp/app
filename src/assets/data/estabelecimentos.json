@@ -2465,7 +2465,6 @@
     "email": "",
     "valor": "",
     "servicos": [
-      "CAPS",
       "Terapia individual",
       "Emergência Psiquiátrica"
     ],
@@ -2476,7 +2475,7 @@
     "crp": "",
     "crm": "",
     "id": "UPA-de-Roma-42d",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "UPA 24H Valeria",
@@ -2486,15 +2485,16 @@
     "email": "",
     "valor": "",
     "servicos": [
+      "Terapia individual",
       "Emergência Psiquiátrica"
     ],
     "descricao_servicos": "",
-    "mapa": "",
+    "mapa": "<iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15558.678154310881!2d-38.4372461!3d-12.8646079!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x59e89d815855d990!2sUPA%2024H%20Valeria!5e0!3m2!1spt-BR!2sbr!4v1608205873571!5m2!1spt-BR!2sbr' width='100%' height='450' frameborder='0' style='border:0;' allowfullscreen=' aria-hidden='false' tabindex='0'></iframe>'",
     "video": "",
     "bairros_atendidos": "",
     "crp": "",
     "crm": "",
     "id": "UPA-24H-Valeria-fb1",
-    "ativo": false
+    "ativo": true
   }
 ]
