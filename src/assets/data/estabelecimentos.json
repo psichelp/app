@@ -2456,5 +2456,26 @@
     "crm": "",
     "id": "RAIANE-LIMA-SILVA-9fb",
     "ativo": true
+  },
+  {
+    "nome": "UPA de Roma",
+    "end": "Rua Barão de Cotegipe, 1153 - Calçada, Salvador - BA, 40444-090",
+    "tel": "(71) 3316-8600",
+    "whatsapp": "",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "CAPS",
+      "Terapia individual",
+      "Emergência Psiquiátrica"
+    ],
+    "descricao_servicos": "A nova UPA tem 4 mil metros quadrados, a maior de Salvador, fica em frente ao Hospital Santo Antônio, e tem 191 profissionais, entre médicos, enfermeiros e técnicos. A novidade é um plantão psiquiátrico que estará à disposição, serviço que ainda não há nas outras UPAs da cidade. O local também terá atendimento domiciliar, com médicos e outros profissionais de saúde dando acompanhamento em casa aos pacientes que receberam alta.\n\nA UPA também tem uma base do Serviço de Atendimento Móvel de Urgência (Samu), espaço onde se equipes poderão descasar, repor as medicações das ambulâncias e fazer a higienização dos veículos.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "id": "UPA-de-Roma-42d",
+    "ativo": false
   }
 ]
