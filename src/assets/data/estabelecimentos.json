@@ -2578,5 +2578,24 @@
     "crm": "",
     "id": "Lilian-Guedes-c02",
     "ativo": false
+  },
+  {
+    "nome": "Larissa Valéria da Cruz Souza ",
+    "end": "Atendimento on-line a combinar a plataforma ",
+    "tel": "71 996798389",
+    "whatsapp": "71 996798389",
+    "email": "larissavaleria11@gmail.com",
+    "valor": "60,00",
+    "servicos": [
+      "Online"
+    ],
+    "descricao_servicos": "Atendimentos Psicológicos online para seguintes demandas depressão, ansiedade, estresse pós traumático, sexualidade, medos e fobias, educação alimentar, autoestima, compulsões, procrastinação, inseguranças, vida familiar, relacionamentos e outros. O processo terapêutico pode viabilizar recursos para lidar com dificuldades emocionais e tornar compreensíveis possíveis mudanças. Autoconhecimento, autoestima, autoconfiança, que a própria pessoa reflita sobre a sua vida.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "Online ",
+    "crp": "CRP 03/21693",
+    "crm": "",
+    "id": "Larissa-Valeria-da-Cruz-Souza-ffb",
+    "ativo": false
   }
 ]
