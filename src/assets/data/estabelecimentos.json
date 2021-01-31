@@ -2496,5 +2496,25 @@
     "crm": "",
     "id": "UPA-24H-Valeria-fb1",
     "ativo": true
+  },
+  {
+    "nome": "Viviane Passos",
+    "end": "",
+    "tel": "71993310165",
+    "whatsapp": "https://api.whatsapp.com/send?phone=557ojpok1993310165&text=Clique+aqui+e+agende+seu+hor%C3%A1rio",
+    "email": "vjpsicologa@gmail.com",
+    "valor": "",
+    "servicos": [
+      "Terapia individual",
+      "Online"
+    ],
+    "descricao_servicos": "Psicóloga desde 2015, especialista em Terapia Cognitivo Comportamental; Pedagoga formada pela UFBA, estudante da vertente Psicologia Preta e de questões de gênero e diversidade.\n\nLevo pessoas com baixa auto estima a se reconhecer enquanto seres únicos e capazes que são.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/14286",
+    "crm": "",
+    "id": "Viviane-Passos-563",
+    "ativo": false
   }
 ]
