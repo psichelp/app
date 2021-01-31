@@ -2557,5 +2557,26 @@
     "crm": "",
     "id": "Patricia-dos-santos-da-Fonseca-215",
     "ativo": false
+  },
+  {
+    "nome": "Lilian Guedes",
+    "end": "",
+    "tel": "71981545681",
+    "whatsapp": "71981545681",
+    "email": "liucrisguedes@gmail.com",
+    "valor": "",
+    "servicos": [
+      "Online",
+      "Crianças e adolescentes",
+      "Planos de saúde - Psicologos"
+    ],
+    "descricao_servicos": "Psicoterapia para crianças e adolescentes. Orientação Familiar/oficinas de educação emocional positiva para crianças e adolescentes\n",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "22458/03",
+    "crm": "",
+    "id": "Lilian-Guedes-c02",
+    "ativo": false
   }
 ]
