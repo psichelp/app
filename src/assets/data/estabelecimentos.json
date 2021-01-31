@@ -2538,5 +2538,24 @@
     "crm": "",
     "id": "Nadjane-Sena-Saraiva-eb8",
     "ativo": false
+  },
+  {
+    "nome": "Patricia dos santos da Fonseca",
+    "end": " Rua Alceu Amoroso Lima 470, Empresarial Niemayer Caminho das Árvores Ao lado do Salvador shopping 4°andar ,Sala 411",
+    "tel": "71991612099",
+    "whatsapp": "71986384622",
+    "email": "Fonseca65@live.com",
+    "valor": "50,00",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Psicoterapia ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/22426",
+    "crm": "",
+    "id": "Patricia-dos-santos-da-Fonseca-215",
+    "ativo": false
   }
 ]
