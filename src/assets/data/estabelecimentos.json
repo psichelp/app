@@ -2645,5 +2645,24 @@
     "crm": "",
     "id": "Gestar-Psi-Clinica-de-Psicologia-863",
     "ativo": false
+  },
+  {
+    "nome": "PATRÍCIA dos santos da Fonseca ",
+    "end": "Rua Alceu Amoroso Lima 470, Empresarial Niemayer Caminho das Árvores Ao lado do Salvador shopping 4°andar Sala 411",
+    "tel": "71986384622",
+    "whatsapp": "71986384622",
+    "email": "Fonseca65@live.com",
+    "valor": "50,00",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Psicoterapia ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/22426",
+    "crm": "",
+    "id": "PATRICIA-dos-santos-da-Fonseca-8f5",
+    "ativo": false
   }
 ]
