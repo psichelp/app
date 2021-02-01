@@ -2687,5 +2687,28 @@
     "crm": "",
     "id": "Danilo-Santos-de-Jesus-f71",
     "ativo": false
+  },
+  {
+    "nome": "Clóvis Couto Barreto Júnior",
+    "end": "Avenida Sete,Edificio Politécnica (Sala 98B) Salvador-Ba. @EspaçoVital, Salvador, Bahia, Brazil, 40411366",
+    "tel": "(71)99211-2845",
+    "whatsapp": "(71)99211-2845",
+    "email": "cloviscpm1@hotmail.com",
+    "valor": "100$",
+    "servicos": [
+      "Terapia individual",
+      "Online",
+      "Planos de saúde - Psicologos",
+      "Terapia Conjugal",
+      "Álcool e outras drogas"
+    ],
+    "descricao_servicos": "A psicologia clínica é a área de atuação da psicologia que lida com a psicoterapia, avaliação, diagnóstico e tratamento das Doenças psicossomáticas. Missão Promover a saúde Mental ao habito da psicoterapia e auxilio psicológico e enfrentamentos emocionais e psicopatologias.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "CRP03/13147",
+    "crm": "",
+    "id": "Clovis-Couto-Barreto-Junior-b9a",
+    "ativo": false
   }
 ]
