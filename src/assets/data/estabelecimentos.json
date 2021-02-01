@@ -2664,5 +2664,28 @@
     "crm": "",
     "id": "PATRICIA-dos-santos-da-Fonseca-8f5",
     "ativo": false
+  },
+  {
+    "nome": "Danilo Santos de Jesus",
+    "end": "",
+    "tel": "71987729816",
+    "whatsapp": "71987729816",
+    "email": "Daniloebenezer@yahoo.com.br",
+    "valor": "60",
+    "servicos": [
+      "Online",
+      "Planos de saúde - Psicologos",
+      "Terapia individual",
+      "Crianças e adolescentes",
+      "LGBT"
+    ],
+    "descricao_servicos": "Psicólogo com experiência em atendimentos ao público infantojuvenil e Adultos.\nEspecislista em Terapia Cognitiva Comportamental e instrutor de Mindfullnes( atençao plena)",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/17883",
+    "crm": "",
+    "id": "Danilo-Santos-de-Jesus-f71",
+    "ativo": false
   }
 ]
