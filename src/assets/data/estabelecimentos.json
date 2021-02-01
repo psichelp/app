@@ -2710,5 +2710,29 @@
     "crm": "",
     "id": "Clovis-Couto-Barreto-Junior-b9a",
     "ativo": false
+  },
+  {
+    "nome": "Danilo santos de Jesus",
+    "end": "On line",
+    "tel": "71987729i16",
+    "whatsapp": "71982729816",
+    "email": "Daniloebenezer@yahoo.com.br",
+    "valor": "Valor a negociar",
+    "servicos": [
+      "Terapia individual",
+      "Online",
+      "Emergência Psiquiátrica",
+      "Crianças e adolescentes",
+      "Terapia individual",
+      "Planos de saúde - Psicologos"
+    ],
+    "descricao_servicos": "Psicólogo clínico\nEspecialista em Terapia Cognitivo Comportamental / Instrutor de Mindfullnes ( atenção plena / meditação)",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "On line",
+    "crp": "03/17883",
+    "crm": "",
+    "id": "Danilo-santos-de-Jesus-f4b",
+    "ativo": false
   }
 ]
