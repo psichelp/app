@@ -2777,5 +2777,26 @@
     "crm": "",
     "id": "Marco-Vinicius-Sadock-1ed",
     "ativo": false
+  },
+  {
+    "nome": "Ana Paula Maciel Santos Neris",
+    "end": "Rua Alceu Amoroso Lima,Avenida Tancredo Neves, 470. ",
+    "tel": "7132384083",
+    "whatsapp": "71986028020",
+    "email": "",
+    "valor": "80,00",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Online",
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Atendimento psicoterapêutico individual na modalidade online, presencial e home Care para crianças, adolescentes e adultos. ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/19556",
+    "crm": "",
+    "id": "Ana-Paula-Maciel-Santos-Neris-145",
+    "ativo": false
   }
 ]
