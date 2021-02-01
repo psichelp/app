@@ -2597,5 +2597,26 @@
     "crm": "",
     "id": "Larissa-Valeria-da-Cruz-Souza-ffb",
     "ativo": false
+  },
+  {
+    "nome": "Rede de Psicanálise Aplicada",
+    "end": "",
+    "tel": "",
+    "whatsapp": "(71)98701-7444",
+    "email": "",
+    "valor": "",
+    "servicos": [
+      "Crianças e adolescentes",
+      "LGBT",
+      "Álcool e outras drogas"
+    ],
+    "descricao_servicos": "A ‘REDE DE PSICANÁLISE APLICADA – BAHIA’ é um projeto do IPB que visa oferecer à comunidade de  Salvador a possibilidade de acesso a um tratamento de orientação psicanalítica. O acesso à Rede é feito por agendamento.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "id": "Rede-de-Psicanalise-Aplicada-786",
+    "ativo": false
   }
 ]
