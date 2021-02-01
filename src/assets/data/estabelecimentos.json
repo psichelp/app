@@ -2756,5 +2756,26 @@
     "crm": "",
     "id": "Fernanda-Silva-Baqueiro-Batista-022",
     "ativo": false
+  },
+  {
+    "nome": "Marco Vinícius Sadock",
+    "end": "Avenida 7 de setembro, Fundação Politécnica, 400, ala B, 9o andar, sala 98",
+    "tel": "71987015802",
+    "whatsapp": "71987015802",
+    "email": "marcosadock@gmail.com",
+    "valor": "Negociável",
+    "servicos": [
+      "Terapia individual",
+      "Online",
+      "Álcool e outras drogas"
+    ],
+    "descricao_servicos": "Consulta psicológica, acompanhamento psicoterapêutico, Hipnose Clínica",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/15593",
+    "crm": "",
+    "id": "Marco-Vinicius-Sadock-1ed",
+    "ativo": false
   }
 ]
