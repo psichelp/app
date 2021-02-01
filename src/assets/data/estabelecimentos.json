@@ -2618,5 +2618,32 @@
     "crm": "",
     "id": "Rede-de-Psicanalise-Aplicada-786",
     "ativo": false
+  },
+  {
+    "nome": "Gestar Psi - Clínica de Psicologia",
+    "end": "Rua Ewerton Visco, n 290, Edf. Boulevard Side Empresarial - Caminho das Árvores - Salvador/BA",
+    "tel": "(71) 3342-6227",
+    "whatsapp": "(71) 99373-3334",
+    "email": "gestarpsi@gmail.com",
+    "valor": "",
+    "servicos": [
+      "Crianças e adolescentes",
+      "LGBT",
+      "Online",
+      "Orientação Profissional",
+      "Planos de saúde - Psicologos",
+      "Terapia Conjugal",
+      "Terapia Familiar",
+      "Terapia individual",
+      "Álcool e outras drogas"
+    ],
+    "descricao_servicos": "Psicoterapia\nAvaliação Psicológica\nPsicodiagnóstico\nOrientação Vocacional\nAcompanhamento a Gestantes\nAvaliação e Acompanhamento psicopedagógico\nTerapia de Casal\nTerapia Familiar\nTerapia Sexual",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "id": "Gestar-Psi-Clinica-de-Psicologia-863",
+    "ativo": false
   }
 ]
