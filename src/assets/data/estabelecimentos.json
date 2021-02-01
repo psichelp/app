@@ -2734,5 +2734,27 @@
     "crm": "",
     "id": "Danilo-santos-de-Jesus-f4b",
     "ativo": false
+  },
+  {
+    "nome": "Fernanda Silva Baqueiro Batista",
+    "end": "Rua Alceu Amoroso Lima, 276, sala 608, Caminho das Árvores, Salvador, Bahia",
+    "tel": "(71) 999618527",
+    "whatsapp": "(71)999618527",
+    "email": "fernandabaqueiro@gmail.com",
+    "valor": "A combinar",
+    "servicos": [
+      "Planos de saúde - Psicologos",
+      "Online",
+      "Terapia individual",
+      "Crianças e adolescentes"
+    ],
+    "descricao_servicos": "Psicanálise, orientação aos pais",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/5258",
+    "crm": "",
+    "id": "Fernanda-Silva-Baqueiro-Batista-022",
+    "ativo": false
   }
 ]
