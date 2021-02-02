@@ -132,7 +132,7 @@
     "end": "Atua em 3 bairros de Salvador:<ul><li>R. Alcobaça, 85E - Resgate, Salvador - BA, 41152-115.</li><li>Estr. da Liberdade, 270 - Liberdade, Salvador - BA, 40375-016.</li><li>Avenida 7. Edf Fernandez, 8° andar, sala 815.</li>",
     "tel": "(71) 99718-2866",
     "whatsapp": "+5571997182866",
-    "valor": "Valor à combinar",
+    "valor": "Valor a combinar",
     "servicos": [
       "Terapia individual",
       "Crianças e adolescentes",
@@ -1817,7 +1817,7 @@
     "tel": "71 992769050",
     "whatsapp": "74 991216327",
     "email": "juliana_lopes15@hotmail.com",
-    "valor": "À combinar, baixo custo. Aceito cartão de crédito e débito.",
+    "valor": "A combinar, baixo custo. Aceito cartão de crédito e débito.",
     "servicos": [
       "Crianças e adolescentes",
       "Terapia individual"
@@ -2515,7 +2515,7 @@
     "crp": "03/14286",
     "crm": "",
     "id": "Viviane-Passos-563",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Nadjane Sena Saraiva ",
@@ -2537,26 +2537,7 @@
     "crp": "03/16691",
     "crm": "",
     "id": "Nadjane-Sena-Saraiva-eb8",
-    "ativo": false
-  },
-  {
-    "nome": "Patricia dos santos da Fonseca",
-    "end": " Rua Alceu Amoroso Lima 470, Empresarial Niemayer Caminho das Árvores Ao lado do Salvador shopping 4°andar ,Sala 411",
-    "tel": "71991612099",
-    "whatsapp": "71986384622",
-    "email": "Fonseca65@live.com",
-    "valor": "50,00",
-    "servicos": [
-      "Terapia individual"
-    ],
-    "descricao_servicos": "Psicoterapia ",
-    "mapa": "",
-    "video": "",
-    "bairros_atendidos": "",
-    "crp": "03/22426",
-    "crm": "",
-    "id": "Patricia-dos-santos-da-Fonseca-215",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Lilian Guedes",
@@ -2577,7 +2558,7 @@
     "crp": "22458/03",
     "crm": "",
     "id": "Lilian-Guedes-c02",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Larissa Valéria da Cruz Souza ",
@@ -2596,7 +2577,7 @@
     "crp": "CRP 03/21693",
     "crm": "",
     "id": "Larissa-Valeria-da-Cruz-Souza-ffb",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Rede de Psicanálise Aplicada",
@@ -2617,7 +2598,7 @@
     "crp": "",
     "crm": "",
     "id": "Rede-de-Psicanalise-Aplicada-786",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Gestar Psi - Clínica de Psicologia",
@@ -2644,15 +2625,15 @@
     "crp": "",
     "crm": "",
     "id": "Gestar-Psi-Clinica-de-Psicologia-863",
-    "ativo": false
+    "ativo": true
   },
   {
-    "nome": "PATRÍCIA dos santos da Fonseca ",
+    "nome": "Patrícia dos Santos da Fonseca ",
     "end": "Rua Alceu Amoroso Lima 470, Empresarial Niemayer Caminho das Árvores Ao lado do Salvador shopping 4°andar Sala 411",
     "tel": "71986384622",
     "whatsapp": "71986384622",
     "email": "Fonseca65@live.com",
-    "valor": "50,00",
+    "valor": "Social",
     "servicos": [
       "Terapia individual"
     ],
@@ -2663,30 +2644,7 @@
     "crp": "03/22426",
     "crm": "",
     "id": "PATRICIA-dos-santos-da-Fonseca-8f5",
-    "ativo": false
-  },
-  {
-    "nome": "Danilo Santos de Jesus",
-    "end": "",
-    "tel": "71987729816",
-    "whatsapp": "71987729816",
-    "email": "Daniloebenezer@yahoo.com.br",
-    "valor": "60",
-    "servicos": [
-      "Online",
-      "Planos de saúde - Psicologos",
-      "Terapia individual",
-      "Crianças e adolescentes",
-      "LGBT"
-    ],
-    "descricao_servicos": "Psicólogo com experiência em atendimentos ao público infantojuvenil e Adultos.\nEspecislista em Terapia Cognitiva Comportamental e instrutor de Mindfullnes( atençao plena)",
-    "mapa": "",
-    "video": "",
-    "bairros_atendidos": "",
-    "crp": "03/17883",
-    "crm": "",
-    "id": "Danilo-Santos-de-Jesus-f71",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Clóvis Couto Barreto Júnior",
@@ -2694,7 +2652,7 @@
     "tel": "(71)99211-2845",
     "whatsapp": "(71)99211-2845",
     "email": "cloviscpm1@hotmail.com",
-    "valor": "100$",
+    "valor": "A combinar",
     "servicos": [
       "Terapia individual",
       "Online",
@@ -2709,10 +2667,10 @@
     "crp": "CRP03/13147",
     "crm": "",
     "id": "Clovis-Couto-Barreto-Junior-b9a",
-    "ativo": false
+    "ativo": true
   },
   {
-    "nome": "Danilo santos de Jesus",
+    "nome": "Danilo Santos de Jesus",
     "end": "On line",
     "tel": "71987729i16",
     "whatsapp": "71982729816",
@@ -2733,7 +2691,7 @@
     "crp": "03/17883",
     "crm": "",
     "id": "Danilo-santos-de-Jesus-f4b",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Fernanda Silva Baqueiro Batista",
@@ -2755,7 +2713,7 @@
     "crp": "03/5258",
     "crm": "",
     "id": "Fernanda-Silva-Baqueiro-Batista-022",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Marco Vinícius Sadock",
@@ -2776,7 +2734,7 @@
     "crp": "03/15593",
     "crm": "",
     "id": "Marco-Vinicius-Sadock-1ed",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Ana Paula Maciel Santos Neris",
@@ -2784,7 +2742,7 @@
     "tel": "7132384083",
     "whatsapp": "71986028020",
     "email": "",
-    "valor": "80,00",
+    "valor": "A combinar",
     "servicos": [
       "Crianças e adolescentes",
       "Online",
@@ -2797,7 +2755,7 @@
     "crp": "03/19556",
     "crm": "",
     "id": "Ana-Paula-Maciel-Santos-Neris-145",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Thamires silva ",
@@ -2805,7 +2763,7 @@
     "tel": "71992564427",
     "whatsapp": "71992564427",
     "email": "Thamires.psi01@gmail.com",
-    "valor": "70,00",
+    "valor": "Valo social",
     "servicos": [
       "Terapia individual",
       "Crianças e adolescentes",
@@ -2820,6 +2778,6 @@
     "crp": "03/17618",
     "crm": "",
     "id": "Thamires-silva-c2f",
-    "ativo": false
+    "ativo": true
   }
 ]
