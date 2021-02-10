@@ -2779,5 +2779,24 @@
     "crm": "",
     "id": "Thamires-silva-c2f",
     "ativo": true
+  },
+  {
+    "nome": "Sofia Luque Funes ",
+    "end": "",
+    "tel": "24981307951",
+    "whatsapp": "24981307951",
+    "email": "luquefunessofia@gmail.com",
+    "valor": "70 reais ",
+    "servicos": [
+      "Online"
+    ],
+    "descricao_servicos": "Psicanalista. Atendimento online. Bilíngue (espanhol, português)",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "05/59020",
+    "crm": "",
+    "id": "Sofia-Luque-Funes-4be",
+    "ativo": false
   }
 ]
