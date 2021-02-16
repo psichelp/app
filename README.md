@@ -35,7 +35,6 @@ Estamos buscando patrocínio e parceiros para ajudar na divulgação do aplicati
 
 :phone: Telefones para contato:
 
-- Beatriz Rocha: +55 (71) 983001071
 - Evandro Jr.: +55 (71) 982864766
 
 ## Referências
@@ -45,3 +44,8 @@ Fontes de dados:
 1.  Territorialização e Serviços de Saúde Mental em Salvador - 2018;
 2.  GUIA DE REFERÊNCIA - LOCAIS DE ATENDIMENTO EM SAÚDE MENTAL DE SALVADOR E ADJACÊNCIAS - 2016;
 3.  Clínicas voluntárias parceiras;
+
+
+## Validação de cadastros:
+
+https://e-psi.cfp.org.br/cadastro-simplificado/psicologasCadastradas
