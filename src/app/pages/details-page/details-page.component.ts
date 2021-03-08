@@ -14,7 +14,7 @@ import { LocalService } from 'src/app/services/local/local.service';
 export class DetailsPageComponent {
   estabelecimento: any;
   paramsSubscription: Subscription;
-  telegramUrl = 'https://api.telegram.org/bot747846139:AAEpVYndvdgt6pQRcNyGex7A283hg3qlk0c/sendMessage?chat_id=569816047&text=';
+  telegramUrl = 'https://api.telegram.org/bot747846139:AAES926AKuygvC5QYC8-AuqQdJIUsBWdTlE/sendMessage?chat_id=569816047&text=';
   urlToBeShared = "";
 
   constructor(
