@@ -45,4 +45,8 @@ else
     exit
 fi
 
-bundle exec fastlane deploy --verbose
+export JAVA_HOME=~/bin/jdk1.8
+export PATH=$JAVA_HOME/bin:$PATH
+JAVA_HOME=/home/j/bin/jdk1.8 bundle exec fastlane deploy --verbose
+
+# bundle exec fastlane deploy --verbose
