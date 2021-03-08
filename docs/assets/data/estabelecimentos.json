@@ -2798,25 +2798,5 @@
     "crm": "",
     "id": "Sofia-Luque-Funes-4be",
     "ativo": true
-  },
-  {
-    "nome": "Adriana de Almeida Soares",
-    "end": "",
-    "tel": "(21)976788324",
-    "whatsapp": "(21)976788324",
-    "email": "",
-    "valor": "60",
-    "servicos": [
-      "Online",
-      "Terapia individual"
-    ],
-    "descricao_servicos": "",
-    "mapa": "",
-    "video": "",
-    "bairros_atendidos": "Online",
-    "crp": "05/61513",
-    "crm": "",
-    "id": "Adriana-de-Almeida-Soares-55e",
-    "ativo": true
   }
 ]
