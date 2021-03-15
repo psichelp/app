@@ -2818,5 +2818,24 @@
     "crm": "",
     "id": "Adriana-de-Almeida-Soares-55e",
     "ativo": true
+  },
+  {
+    "nome": "Viviane Passos",
+    "end": "Rua Everton Visco, 290. Edf. Boulevard Side Empresarial 6° andar (Clínica Spazio Gestar)",
+    "tel": "71993310165",
+    "whatsapp": "71993310165",
+    "email": "vivianejpsicologa@gmail.com",
+    "valor": "PLANOS: Bradesco, Unimed Nacional, Nordeste, Amex, Medservice, VidaClass Saúde, GH Saúde, Pró Social, Plano Assiste, TRT 5...",
+    "servicos": [
+      "Planos de saúde - Psicologos"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/14286",
+    "crm": "",
+    "id": "Viviane-Passos-0c7",
+    "ativo": false
   }
 ]
