@@ -2837,5 +2837,26 @@
     "crm": "",
     "id": "Viviane-Passos-0c7",
     "ativo": false
+  },
+  {
+    "nome": "Evandro Magalhães Leite Júnior",
+    "end": "Alameda Florença, 137",
+    "tel": "+5571982864766",
+    "whatsapp": "71982864766",
+    "email": "evandrojr@gmail.com",
+    "valor": "70",
+    "servicos": [
+      "Musicoterapia",
+      "Planos de saúde - Psicologos",
+      "Medicamentos gratúitos"
+    ],
+    "descricao_servicos": "aaa a sa saf fdfd  fdsfas",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "2321312",
+    "id": "Evandro-Magalhaes-Leite-Junior-73e",
+    "ativo": false
   }
 ]
