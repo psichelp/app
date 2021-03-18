@@ -2498,26 +2498,6 @@
     "ativo": true
   },
   {
-    "nome": "Viviane Passos",
-    "end": "",
-    "tel": "71993310165",
-    "whatsapp": "71993310165",
-    "email": "vjpsicologa@gmail.com",
-    "valor": "",
-    "servicos": [
-      "Terapia individual",
-      "Online"
-    ],
-    "descricao_servicos": "Psicóloga desde 2015, especialista em Terapia Cognitivo Comportamental; Pedagoga formada pela UFBA, estudante da vertente Psicologia Preta e de questões de gênero e diversidade.\n\nLevo pessoas com baixa auto estima a se reconhecer enquanto seres únicos e capazes que são.",
-    "mapa": "",
-    "video": "",
-    "bairros_atendidos": "",
-    "crp": "03/14286",
-    "crm": "",
-    "id": "Viviane-Passos-563",
-    "ativo": true
-  },
-  {
     "nome": "Nadjane Sena Saraiva",
     "end": "",
     "tel": "71 99199-9572 ",
@@ -2825,9 +2805,10 @@
     "tel": "71993310165",
     "whatsapp": "71993310165",
     "email": "vivianejpsicologa@gmail.com",
-    "valor": "PLANOS: Bradesco, Unimed Nacional, Nordeste, Amex, Medservice, VidaClass Saúde, GH Saúde, Pró Social, Plano Assiste, TRT 5...",
+    "valor": "PLANOS: Bradesco, Unimed Nacional, Nordeste, Amex, Medservice, VidaClass Saúde, GH Saúde, Pró Social, Plano Assiste, TRT 5 e outros.",
     "servicos": [
-      "Planos de saúde - Psicologos"
+      "Planos de saúde - Psicologos",
+      "Online"
     ],
     "descricao_servicos": "",
     "mapa": "",
