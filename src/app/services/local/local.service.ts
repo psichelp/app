@@ -81,7 +81,7 @@ export class LocalService {
 
   obterEstabelecimentosPorServico(servicoDesejado: String): Estabelecimento[] {
     servicoDesejado = servicoDesejado.toLowerCase();
-    return this.estabelecimentos().sort(this.compare).filter(estabelecimento => {
+    return this.estabelecimentos().filter(estabelecimento => {
       return estabelecimento.servicos.some(servico => {
         return servicoDesejado === servico.toLocaleLowerCase();
       });
