@@ -2818,5 +2818,24 @@
     "crm": "",
     "id": "Viviane-Passos-0c7",
     "ativo": true
+  },
+  {
+    "nome": "Mariana Lino da Silva",
+    "end": "",
+    "tel": "11 990236763",
+    "whatsapp": "11 990236763",
+    "email": "marianalino65@gmail.com",
+    "valor": "50,00",
+    "servicos": [
+      "Online"
+    ],
+    "descricao_servicos": "Atendimento psicológico on-line de adolescentes, adultos e idosos. ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "06/161707",
+    "crm": "",
+    "id": "Mariana-Lino-da-Silva-0ae",
+    "ativo": false
   }
 ]
