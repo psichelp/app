@@ -2837,5 +2837,26 @@
     "crm": "",
     "id": "Mariana-Lino-da-Silva-0ae",
     "ativo": false
+  },
+  {
+    "nome": "Paula Machado Cintra Email ",
+    "end": "",
+    "tel": "",
+    "whatsapp": "(71) 99299-9656",
+    "email": "psi.paulamachado@gmail.com",
+    "valor": "60.00",
+    "servicos": [
+      "Online",
+      "Álcool e outras drogas",
+      "Terapia individual"
+    ],
+    "descricao_servicos": "",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/18285",
+    "crm": "",
+    "id": "Paula-Machado-Cintra-Email-ff3",
+    "ativo": false
   }
 ]
