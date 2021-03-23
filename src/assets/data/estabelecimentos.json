@@ -2858,5 +2858,27 @@
     "crm": "",
     "id": "Paula-Machado-Cintra-Email-ff3",
     "ativo": false
+  },
+  {
+    "nome": "Paula Machado Cintra ",
+    "end": "psi.paulamachado@gmail.com ",
+    "tel": "",
+    "whatsapp": "(71)99299-9656",
+    "email": "psi.paulamachado@gmail.com",
+    "valor": "A combinar",
+    "servicos": [
+      "Online",
+      "Terapia individual",
+      "Álcool e outras drogas",
+      "Planos de saúde - Psicologos"
+    ],
+    "descricao_servicos": "Atendimentos ",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "id": "Paula-Machado-Cintra-19d",
+    "ativo": false
   }
 ]
