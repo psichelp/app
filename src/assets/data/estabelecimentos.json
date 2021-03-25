@@ -2785,7 +2785,7 @@
     "tel": "(21)976788324",
     "whatsapp": "(21)976788324",
     "email": "",
-    "valor": "60",
+    "valor": "Social",
     "servicos": [
       "Online",
       "Terapia individual"
@@ -2825,7 +2825,7 @@
     "tel": "11 990236763",
     "whatsapp": "11 990236763",
     "email": "marianalino65@gmail.com",
-    "valor": "50,00",
+    "valor": "Social",
     "servicos": [
       "Online"
     ],
@@ -2836,31 +2836,10 @@
     "crp": "06/161707",
     "crm": "",
     "id": "Mariana-Lino-da-Silva-0ae",
-    "ativo": false
+    "ativo": true
   },
   {
-    "nome": "Paula Machado Cintra Email ",
-    "end": "",
-    "tel": "",
-    "whatsapp": "(71) 99299-9656",
-    "email": "psi.paulamachado@gmail.com",
-    "valor": "60.00",
-    "servicos": [
-      "Online",
-      "Álcool e outras drogas",
-      "Terapia individual"
-    ],
-    "descricao_servicos": "",
-    "mapa": "",
-    "video": "",
-    "bairros_atendidos": "",
-    "crp": "03/18285",
-    "crm": "",
-    "id": "Paula-Machado-Cintra-Email-ff3",
-    "ativo": false
-  },
-  {
-    "nome": "Paula Machado Cintra ",
+    "nome": "Paula Machado Cintra",
     "end": "psi.paulamachado@gmail.com ",
     "tel": "",
     "whatsapp": "(71)99299-9656",
@@ -2876,9 +2855,9 @@
     "mapa": "",
     "video": "",
     "bairros_atendidos": "",
-    "crp": "",
+    "crp": "03/18285",
     "crm": "",
     "id": "Paula-Machado-Cintra-19d",
-    "ativo": false
+    "ativo": true
   }
 ]
