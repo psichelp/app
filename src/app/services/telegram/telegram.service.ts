@@ -12,7 +12,15 @@ export class TelegramService {
 
   telegramUrl = 'https://api.telegram.org/bot747846139:AAES926AKuygvC5QYC8-AuqQdJIUsBWdTlE/sendMessage?chat_id=569816047&text=';
 
-  send(mensagem): Observable<any> {
+  send(message: string){
+    this.prepareSend(message).subscribe(data => {
+  },
+    error => {
+      console.error('Erro ao enviar mensagem', error);
+    });
+  }
+
+  prepareSend(mensagem: string): Observable<any> {
     console.log(mensagem);
     mensagem = encodeURI(mensagem);
 
