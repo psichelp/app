@@ -2866,7 +2866,7 @@
     "tel": "(34) 99999-0689",
     "whatsapp": "(34) 99999-0689",
     "email": "psicologapatricialanne@gmail.com",
-    "valor": "60,00 reais",
+    "valor": "Social",
     "servicos": [
       "Online"
     ],
@@ -2877,6 +2877,6 @@
     "crp": "04/47444",
     "crm": "",
     "id": "Patricia-Lanne-Goncalves-e-Silva-9b7",
-    "ativo": false
+    "ativo": true
   }
 ]
