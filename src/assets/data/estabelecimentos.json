@@ -2897,5 +2897,24 @@
     "crm": "",
     "id": "Dianine-de-Oliveira-Farias-d8b",
     "ativo": false
+  },
+  {
+    "nome": "Dianine de Oliveira Farias",
+    "end": "Rua da amizade- Parque Satélite- N° 31",
+    "tel": "",
+    "whatsapp": "71 83223396",
+    "email": "dianine.farias@gmail.com",
+    "valor": "20,00",
+    "servicos": [
+      "LGBT"
+    ],
+    "descricao_servicos": "Se conhecer melhor",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "id": "Dianine-de-Oliveira-Farias-6b0",
+    "ativo": false
   }
 ]
