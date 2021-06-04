@@ -2916,5 +2916,30 @@
     "crm": "",
     "id": "Dianine-de-Oliveira-Farias-6b0",
     "ativo": false
+  },
+  {
+    "nome": "Thamires Silva",
+    "end": "Salvador-Ba,Lauro de Freitas-Ba ,Camaçari-Ba",
+    "tel": "71992564427",
+    "whatsapp": "71992564427",
+    "email": "Thamires.psi01@gmail.com",
+    "valor": "Valor social. Plano de saúde: Bradesco, Mediservice, Nordeste, Unimed, Amex, plan-assite, Pró- Social,Promedica, GH Saúde, TRT 5 ,Vida Class,Blue Med, Atitude Saúde,Medvida. Atendimento online e presencial ,",
+    "servicos": [
+      "Crianças e adolescentes",
+      "Online",
+      "Planos de saúde - Psicologos",
+      "Terapia Conjugal",
+      "Terapia individual",
+      "Orientação Profissional",
+      "Terapia de Grupo"
+    ],
+    "descricao_servicos": "Psicóloga Clínica \nAcompanhamento psicológico com crianças e adolescentes, adultos e idoso. Atendo na abordagem TCC ( terapia cognitiva comportamental).  Depressão, ansiedade, fobias,TOD, Autismo. Atendimento online.",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/17618",
+    "crm": "",
+    "id": "Thamires-Silva-6ff",
+    "ativo": false
   }
 ]
