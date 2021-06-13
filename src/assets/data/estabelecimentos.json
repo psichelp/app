@@ -2922,5 +2922,24 @@
     "crm": "",
     "id": "Thamires-Silva-6ff",
     "ativo": true
+  },
+  {
+    "nome": "Patrícia dos santos da Fonseca",
+    "end": "",
+    "tel": "",
+    "whatsapp": "71986384622",
+    "email": "fonseca65@live.com",
+    "valor": "A combinar",
+    "servicos": [
+      "Terapia individual"
+    ],
+    "descricao_servicos": "Acompanhamento psicológico",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "03/22426",
+    "crm": "",
+    "id": "Patricia-dos-santos-da-Fonseca-c5e",
+    "ativo": false
   }
 ]
