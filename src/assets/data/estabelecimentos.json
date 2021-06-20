@@ -2941,5 +2941,27 @@
     "crm": "",
     "id": "Patricia-dos-santos-da-Fonseca-c5e",
     "ativo": false
+  },
+  {
+    "nome": "Leandro Candido",
+    "end": "",
+    "tel": "41997372026",
+    "whatsapp": "41997372026",
+    "email": "leandrocandido.psi@gmail.com",
+    "valor": "40,00",
+    "servicos": [
+      "Terapia individual",
+      "Online",
+      "LGBT",
+      "Terapia Conjugal"
+    ],
+    "descricao_servicos": "Psicoterapeuta , atendimento psicoterápico",
+    "mapa": "",
+    "video": "",
+    "bairros_atendidos": "",
+    "crp": "",
+    "crm": "",
+    "id": "Leandro-Candido-d01",
+    "ativo": false
   }
 ]
