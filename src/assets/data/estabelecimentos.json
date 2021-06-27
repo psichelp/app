@@ -2940,7 +2940,7 @@
     "crp": "03/22426",
     "crm": "",
     "id": "Patricia-dos-santos-da-Fonseca-c5e",
-    "ativo": false
+    "ativo": true
   },
   {
     "nome": "Leandro Candido",
@@ -2962,6 +2962,6 @@
     "crp": "",
     "crm": "",
     "id": "Leandro-Candido-d01",
-    "ativo": false
+    "ativo": true
   }
 ]
