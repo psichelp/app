@@ -2963,24 +2963,5 @@
     "crm": "",
     "id": "Leandro-Candido-d01",
     "ativo": true
-  },
-  {
-    "nome": "<script>alert('teste')</scritp>",
-    "end": "<script>alert('teste')</scritp>",
-    "tel": "<script>alert('teste')</scritp>",
-    "whatsapp": "<script>alert('teste')</scritp>",
-    "email": "email@admin.com",
-    "valor": "<script>alert('teste')</scritp>",
-    "servicos": [
-      "CAPS"
-    ],
-    "descricao_servicos": "<script>alert('teste')</scritp>",
-    "mapa": "",
-    "video": "",
-    "bairros_atendidos": "<script>alert('teste')</scritp>",
-    "crp": "<script>alert('teste')</scritp>",
-    "crm": "<script>alert('teste')</scritp>",
-    "id": "lessscriptgreateralerttestelessscritpgreater-14f",
-    "ativo": false
   }
 ]
